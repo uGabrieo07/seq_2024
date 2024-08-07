@@ -112,6 +112,39 @@ build exemplo02.exe: C_EXECUTABLE_LINKER__exemplo02_Debug CMakeFiles/exemplo02.d
   TARGET_IMPLIB = libexemplo02.dll.a
   TARGET_PDB = exemplo02.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target condicionais
+
+
+#############################################
+# Order-only phony target for condicionais
+
+build cmake_object_order_depends_target_condicionais: phony || CMakeFiles/condicionais.dir
+
+build CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj: C_COMPILER__condicionais_unscanned_Debug C$:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/condicionais_exemplo.c || cmake_object_order_depends_target_condicionais
+  DEP_FILE = CMakeFiles\condicionais.dir\condicionais_exemplo.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\condicionais.dir
+  OBJECT_FILE_DIR = CMakeFiles\condicionais.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target condicionais
+
+
+#############################################
+# Link the executable condicionais.exe
+
+build condicionais.exe: C_EXECUTABLE_LINKER__condicionais_Debug CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\condicionais.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = condicionais.exe
+  TARGET_IMPLIB = libcondicionais.dll.a
+  TARGET_PDB = condicionais.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -138,6 +171,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build condicionais: phony condicionais.exe
+
 build exemplo01: phony exemplo01.exe
 
 build exemplo02: phony exemplo02.exe
@@ -150,7 +185,7 @@ build exemplo02: phony exemplo02.exe
 #############################################
 # Folder: C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug
 
-build all: phony exemplo01.exe exemplo02.exe
+build all: phony exemplo01.exe exemplo02.exe condicionais.exe
 
 # =============================================================================
 # Built-in targets

@@ -1,4 +1,5 @@
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/exemplo01.dir
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/exemplo02.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/condicionais.dir
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/rebuild_cache.dir
