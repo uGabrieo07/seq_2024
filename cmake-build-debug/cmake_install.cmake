@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024
+# Install script for directory: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Miniicurso de Introdução a C/seq_2024
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Miniicurso de Introdução a C/seq_2024/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

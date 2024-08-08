@@ -9,4 +9,8 @@ add_executable(exemplo01
 
 add_executable(exemplo02
         exemplo02.c)
-add_executable(condicionais condicionais_exemplo.c)
+add_executable(condicionais condicionais_exemplo.c
+        operador_atribuicao.c)
+
+add_executable(operador_atribuicao
+        operador_atribuicao.c)
