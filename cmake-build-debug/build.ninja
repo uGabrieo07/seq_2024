@@ -146,37 +146,37 @@ build condicionais.exe: C_EXECUTABLE_LINKER__condicionais_Debug CMakeFiles/condi
   TARGET_PDB = condicionais.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target scanfPrintf
+# Object build statements for EXECUTABLE target scanf_printf
 
 
 #############################################
-# Order-only phony target for scanfPrintf
+# Order-only phony target for scanf_printf
 
-build cmake_object_order_depends_target_scanfPrintf: phony || CMakeFiles/scanfPrintf.dir
+build cmake_object_order_depends_target_scanf_printf: phony || CMakeFiles/scanf_printf.dir
 
-build CMakeFiles/scanfPrintf.dir/scanfPrintf.c.obj: C_COMPILER__scanfPrintf_unscanned_Debug C$:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/scanfPrintf.c || cmake_object_order_depends_target_scanfPrintf
-  DEP_FILE = CMakeFiles\scanfPrintf.dir\scanfPrintf.c.obj.d
+build CMakeFiles/scanf_printf.dir/scanf_printf.c.obj: C_COMPILER__scanf_printf_unscanned_Debug C$:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/scanf_printf.c || cmake_object_order_depends_target_scanf_printf
+  DEP_FILE = CMakeFiles\scanf_printf.dir\scanf_printf.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\scanfPrintf.dir
-  OBJECT_FILE_DIR = CMakeFiles\scanfPrintf.dir
+  OBJECT_DIR = CMakeFiles\scanf_printf.dir
+  OBJECT_FILE_DIR = CMakeFiles\scanf_printf.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target scanfPrintf
+# Link build statements for EXECUTABLE target scanf_printf
 
 
 #############################################
-# Link the executable scanfPrintf.exe
+# Link the executable scanf_printf.exe
 
-build scanfPrintf.exe: C_EXECUTABLE_LINKER__scanfPrintf_Debug CMakeFiles/scanfPrintf.dir/scanfPrintf.c.obj
+build scanf_printf.exe: C_EXECUTABLE_LINKER__scanf_printf_Debug CMakeFiles/scanf_printf.dir/scanf_printf.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\scanfPrintf.dir
+  OBJECT_DIR = CMakeFiles\scanf_printf.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = scanfPrintf.exe
-  TARGET_IMPLIB = libscanfPrintf.dll.a
-  TARGET_PDB = scanfPrintf.exe.dbg
+  TARGET_FILE = scanf_printf.exe
+  TARGET_IMPLIB = libscanf_printf.dll.a
+  TARGET_PDB = scanf_printf.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target exemplo02
@@ -244,6 +244,39 @@ build operador_atribuicao.exe: C_EXECUTABLE_LINKER__operador_atribuicao_Debug CM
   TARGET_IMPLIB = liboperador_atribuicao.dll.a
   TARGET_PDB = operador_atribuicao.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target arg_linha_comando
+
+
+#############################################
+# Order-only phony target for arg_linha_comando
+
+build cmake_object_order_depends_target_arg_linha_comando: phony || CMakeFiles/arg_linha_comando.dir
+
+build CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.obj: C_COMPILER__arg_linha_comando_unscanned_Debug C$:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/argumentos_linha_comando.c || cmake_object_order_depends_target_arg_linha_comando
+  DEP_FILE = CMakeFiles\arg_linha_comando.dir\argumentos_linha_comando.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\arg_linha_comando.dir
+  OBJECT_FILE_DIR = CMakeFiles\arg_linha_comando.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arg_linha_comando
+
+
+#############################################
+# Link the executable arg_linha_comando.exe
+
+build arg_linha_comando.exe: C_EXECUTABLE_LINKER__arg_linha_comando_Debug CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\arg_linha_comando.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = arg_linha_comando.exe
+  TARGET_IMPLIB = libarg_linha_comando.dll.a
+  TARGET_PDB = arg_linha_comando.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -270,6 +303,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build arg_linha_comando: phony arg_linha_comando.exe
+
 build condicionais: phony condicionais.exe
 
 build exemplo01: phony exemplo01.exe
@@ -278,7 +313,7 @@ build exemplo02: phony exemplo02.exe
 
 build operador_atribuicao: phony operador_atribuicao.exe
 
-build scanfPrintf: phony scanfPrintf.exe
+build scanf_printf: phony scanf_printf.exe
 
 build tipos_variaveis: phony tipos_variaveis.exe
 
@@ -290,7 +325,7 @@ build tipos_variaveis: phony tipos_variaveis.exe
 #############################################
 # Folder: C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug
 
-build all: phony exemplo01.exe tipos_variaveis.exe condicionais.exe scanfPrintf.exe exemplo02.exe operador_atribuicao.exe
+build all: phony exemplo01.exe tipos_variaveis.exe condicionais.exe scanf_printf.exe exemplo02.exe operador_atribuicao.exe arg_linha_comando.exe
 
 # =============================================================================
 # Built-in targets

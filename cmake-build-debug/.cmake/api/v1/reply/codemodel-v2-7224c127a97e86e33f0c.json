@@ -20,7 +20,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -40,12 +41,20 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arg_linha_comando::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arg_linha_comando-Debug-8c27fc5f4f647e37a9fa.json",
+					"name" : "arg_linha_comando",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "condicionais::@6890427a1f51a3e7e1df",
@@ -76,9 +85,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "scanfPrintf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-scanfPrintf-Debug-fb6255745471784654d0.json",
-					"name" : "scanfPrintf",
+					"id" : "scanf_printf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scanf_printf-Debug-ad52688b1a699bb2fbf1.json",
+					"name" : "scanf_printf",
 					"projectIndex" : 0
 				},
 				{

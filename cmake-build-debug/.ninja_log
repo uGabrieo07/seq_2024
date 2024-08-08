@@ -1,13 +1,19 @@
 # ninja log v6
 3	82	7448561448387863	CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.obj	52bba9a0071cb8e1
-11	250	7448572286839411	build.ninja	aaa5e010beaa789e
+11	250	7448582042295688	build.ninja	aaa5e010beaa789e
 124	203	7447700979271112	seq_2024.exe	b7623731516687b4
 3	74	7447708316035639	CMakeFiles/exemplo02.dir/exemplo02.c.obj	9b7d517f7bdf114f
 75	149	7447708316760784	exemplo02.exe	1f0a652751b0154b
-16	70	7448563049747339	CMakeFiles/scanfPrintf.dir/scanfPrintf.c.obj	4a805fb9a20247d1
+5	60	7448572379301191	CMakeFiles/scanfPrintf.dir/scanfPrintf.c.obj	4a805fb9a20247d1
 20	96	7448561187338077	CMakeFiles/condicionais.dir/condicionais.c.obj	47aeb0a77ca53a5b
 98	207	7448561188113574	condicionais.exe	d27855b523ee68e4
 83	177	7448561449192694	tipos_variaveis.exe	78dfe94c6d388095
-71	138	7448563050304961	scanfPrintf.exe	1d198bdba14c3416
-5	60	7448572379301191	CMakeFiles/scanfPrintf.dir/scanfPrintf.c.obj	4a805fb9a20247d1
 60	137	7448572379857710	scanfPrintf.exe	1d198bdba14c3416
+1	65	7448572818508639	CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj	5ca9fcc9a5fb2699
+65	137	7448572819150001	operador_atribuicao.exe	3a56aa14c329efcd
+2	60	7448573930799319	CMakeFiles/scanf_printf.dir/scanf_printf.c.obj	1d616307ebb76268
+61	140	7448573931393921	scanf_printf.exe	e15b71ba232c6026
+2	68	7448582303838595	CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.obj	31a13cbf3939a2a5
+68	154	7448582304496011	arg_linha_comando.exe	71180027d7504d46
+17	73	7448582792497328	CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.obj	31a13cbf3939a2a5
+73	145	7448582793059966	arg_linha_comando.exe	71180027d7504d46
