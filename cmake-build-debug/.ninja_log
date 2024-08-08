@@ -1,15 +1,13 @@
 # ninja log v6
-25	113	7447700978281506	CMakeFiles/seq_2024.dir/exemplo01.c.obj	9ece22948a12ea7a
-1	279	7447714759740927	build.ninja	aaa5e010beaa789e
-31	123	7447700978342213	CMakeFiles/seq_2024.dir/exemplo01_test.c.obj	5dcf87de986f9cf0
+3	82	7448561448387863	CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.obj	52bba9a0071cb8e1
+11	250	7448572286839411	build.ninja	aaa5e010beaa789e
 124	203	7447700979271112	seq_2024.exe	b7623731516687b4
 3	74	7447708316035639	CMakeFiles/exemplo02.dir/exemplo02.c.obj	9b7d517f7bdf114f
 75	149	7447708316760784	exemplo02.exe	1f0a652751b0154b
-1	59	7447722913827136	CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj	b4f0f5ffb2bd4d19
-60	146	7447722914407147	condicionais.exe	8787a2eac8c12a4b
-3	58	7447723206396336	CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj	b4f0f5ffb2bd4d19
-58	128	7447723206979741	condicionais.exe	8787a2eac8c12a4b
-9	252	7447863743820152	CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj	b4f0f5ffb2bd4d19
-253	423	7447863746309724	condicionais.exe	8787a2eac8c12a4b
-3	59	7447864471916986	CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj	b4f0f5ffb2bd4d19
-59	132	7447864472506382	condicionais.exe	8787a2eac8c12a4b
+16	70	7448563049747339	CMakeFiles/scanfPrintf.dir/scanfPrintf.c.obj	4a805fb9a20247d1
+20	96	7448561187338077	CMakeFiles/condicionais.dir/condicionais.c.obj	47aeb0a77ca53a5b
+98	207	7448561188113574	condicionais.exe	d27855b523ee68e4
+83	177	7448561449192694	tipos_variaveis.exe	78dfe94c6d388095
+71	138	7448563050304961	scanfPrintf.exe	1d198bdba14c3416
+5	60	7448572379301191	CMakeFiles/scanfPrintf.dir/scanfPrintf.c.obj	4a805fb9a20247d1
+60	137	7448572379857710	scanfPrintf.exe	1d198bdba14c3416

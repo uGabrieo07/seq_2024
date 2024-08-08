@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "seq_2024",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "condicionais::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-condicionais-Debug-433bfe0bf5944c784151.json",
+					"name" : "condicionais",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exemplo01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exemplo01-Debug-791c1238c3ecb81fda2d.json",
+					"name" : "exemplo01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exemplo02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exemplo02-Debug-c3f671a435c7dd696c76.json",
+					"name" : "exemplo02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "operador_atribuicao::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-operador_atribuicao-Debug-437095c66fb7cb71fced.json",
+					"name" : "operador_atribuicao",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scanfPrintf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scanfPrintf-Debug-fb6255745471784654d0.json",
+					"name" : "scanfPrintf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tipos_variaveis::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tipos_variaveis-Debug-79b07f76f67b6bbaf255.json",
+					"name" : "tipos_variaveis",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug",
+		"source" : "C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
