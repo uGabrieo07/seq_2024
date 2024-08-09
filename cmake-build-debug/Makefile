@@ -129,17 +129,17 @@ exemplo01/fast:
 .PHONY : exemplo01/fast
 
 #=============================================================================
-# Target rules for targets named exemplo02
+# Target rules for targets named tipos_variaveis
 
 # Build rule for target.
-exemplo02: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exemplo02
-.PHONY : exemplo02
+tipos_variaveis: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tipos_variaveis
+.PHONY : tipos_variaveis
 
 # fast build rule for target.
-exemplo02/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo02.dir\build.make CMakeFiles/exemplo02.dir/build
-.PHONY : exemplo02/fast
+tipos_variaveis/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/build
+.PHONY : tipos_variaveis/fast
 
 #=============================================================================
 # Target rules for targets named condicionais
@@ -155,6 +155,32 @@ condicionais/fast:
 .PHONY : condicionais/fast
 
 #=============================================================================
+# Target rules for targets named scanf_printf
+
+# Build rule for target.
+scanf_printf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 scanf_printf
+.PHONY : scanf_printf
+
+# fast build rule for target.
+scanf_printf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scanf_printf.dir\build.make CMakeFiles/scanf_printf.dir/build
+.PHONY : scanf_printf/fast
+
+#=============================================================================
+# Target rules for targets named exemplo02
+
+# Build rule for target.
+exemplo02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exemplo02
+.PHONY : exemplo02
+
+# fast build rule for target.
+exemplo02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo02.dir\build.make CMakeFiles/exemplo02.dir/build
+.PHONY : exemplo02/fast
+
+#=============================================================================
 # Target rules for targets named operador_atribuicao
 
 # Build rule for target.
@@ -167,29 +193,66 @@ operador_atribuicao/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/build
 .PHONY : operador_atribuicao/fast
 
-condicionais_exemplo.obj: condicionais_exemplo.c.obj
-.PHONY : condicionais_exemplo.obj
+#=============================================================================
+# Target rules for targets named arg_linha_comando
+
+# Build rule for target.
+arg_linha_comando: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 arg_linha_comando
+.PHONY : arg_linha_comando
+
+# fast build rule for target.
+arg_linha_comando/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/build
+.PHONY : arg_linha_comando/fast
+
+argumentos_linha_comando.obj: argumentos_linha_comando.c.obj
+.PHONY : argumentos_linha_comando.obj
 
 # target to build an object file
-condicionais_exemplo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj
-.PHONY : condicionais_exemplo.c.obj
+argumentos_linha_comando.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.obj
+.PHONY : argumentos_linha_comando.c.obj
 
-condicionais_exemplo.i: condicionais_exemplo.c.i
-.PHONY : condicionais_exemplo.i
+argumentos_linha_comando.i: argumentos_linha_comando.c.i
+.PHONY : argumentos_linha_comando.i
 
 # target to preprocess a source file
-condicionais_exemplo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/condicionais_exemplo.c.i
-.PHONY : condicionais_exemplo.c.i
+argumentos_linha_comando.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.i
+.PHONY : argumentos_linha_comando.c.i
 
-condicionais_exemplo.s: condicionais_exemplo.c.s
-.PHONY : condicionais_exemplo.s
+argumentos_linha_comando.s: argumentos_linha_comando.c.s
+.PHONY : argumentos_linha_comando.s
 
 # target to generate assembly for a file
-condicionais_exemplo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/condicionais_exemplo.c.s
-.PHONY : condicionais_exemplo.c.s
+argumentos_linha_comando.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.s
+.PHONY : argumentos_linha_comando.c.s
+
+condicionais.obj: condicionais.c.obj
+.PHONY : condicionais.obj
+
+# target to build an object file
+condicionais.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/condicionais.c.obj
+.PHONY : condicionais.c.obj
+
+condicionais.i: condicionais.c.i
+.PHONY : condicionais.i
+
+# target to preprocess a source file
+condicionais.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/condicionais.c.i
+.PHONY : condicionais.c.i
+
+condicionais.s: condicionais.c.s
+.PHONY : condicionais.s
+
+# target to generate assembly for a file
+condicionais.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/condicionais.c.s
+.PHONY : condicionais.c.s
 
 exemplo01.obj: exemplo01.c.obj
 .PHONY : exemplo01.obj
@@ -268,7 +331,6 @@ operador_atribuicao.obj: operador_atribuicao.c.obj
 
 # target to build an object file
 operador_atribuicao.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/operador_atribuicao.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj
 .PHONY : operador_atribuicao.c.obj
 
@@ -277,7 +339,6 @@ operador_atribuicao.i: operador_atribuicao.c.i
 
 # target to preprocess a source file
 operador_atribuicao.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/operador_atribuicao.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.i
 .PHONY : operador_atribuicao.c.i
 
@@ -286,9 +347,56 @@ operador_atribuicao.s: operador_atribuicao.c.s
 
 # target to generate assembly for a file
 operador_atribuicao.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/operador_atribuicao.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.s
 .PHONY : operador_atribuicao.c.s
+
+scanf_printf.obj: scanf_printf.c.obj
+.PHONY : scanf_printf.obj
+
+# target to build an object file
+scanf_printf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scanf_printf.dir\build.make CMakeFiles/scanf_printf.dir/scanf_printf.c.obj
+.PHONY : scanf_printf.c.obj
+
+scanf_printf.i: scanf_printf.c.i
+.PHONY : scanf_printf.i
+
+# target to preprocess a source file
+scanf_printf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scanf_printf.dir\build.make CMakeFiles/scanf_printf.dir/scanf_printf.c.i
+.PHONY : scanf_printf.c.i
+
+scanf_printf.s: scanf_printf.c.s
+.PHONY : scanf_printf.s
+
+# target to generate assembly for a file
+scanf_printf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scanf_printf.dir\build.make CMakeFiles/scanf_printf.dir/scanf_printf.c.s
+.PHONY : scanf_printf.c.s
+
+tipos_variaveis.obj: tipos_variaveis.c.obj
+.PHONY : tipos_variaveis.obj
+
+# target to build an object file
+tipos_variaveis.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.obj
+.PHONY : tipos_variaveis.c.obj
+
+tipos_variaveis.i: tipos_variaveis.c.i
+.PHONY : tipos_variaveis.i
+
+# target to preprocess a source file
+tipos_variaveis.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.i
+.PHONY : tipos_variaveis.c.i
+
+tipos_variaveis.s: tipos_variaveis.c.s
+.PHONY : tipos_variaveis.s
+
+# target to generate assembly for a file
+tipos_variaveis.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.s
+.PHONY : tipos_variaveis.c.s
 
 # Help Target
 help:
@@ -298,13 +406,19 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... arg_linha_comando
 	@echo ... condicionais
 	@echo ... exemplo01
 	@echo ... exemplo02
 	@echo ... operador_atribuicao
-	@echo ... condicionais_exemplo.obj
-	@echo ... condicionais_exemplo.i
-	@echo ... condicionais_exemplo.s
+	@echo ... scanf_printf
+	@echo ... tipos_variaveis
+	@echo ... argumentos_linha_comando.obj
+	@echo ... argumentos_linha_comando.i
+	@echo ... argumentos_linha_comando.s
+	@echo ... condicionais.obj
+	@echo ... condicionais.i
+	@echo ... condicionais.s
 	@echo ... exemplo01.obj
 	@echo ... exemplo01.i
 	@echo ... exemplo01.s
@@ -317,6 +431,12 @@ help:
 	@echo ... operador_atribuicao.obj
 	@echo ... operador_atribuicao.i
 	@echo ... operador_atribuicao.s
+	@echo ... scanf_printf.obj
+	@echo ... scanf_printf.i
+	@echo ... scanf_printf.s
+	@echo ... tipos_variaveis.obj
+	@echo ... tipos_variaveis.i
+	@echo ... tipos_variaveis.s
 .PHONY : help
 
 
