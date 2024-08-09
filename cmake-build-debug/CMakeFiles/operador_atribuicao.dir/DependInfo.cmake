@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Miniicurso de Introdução a C/seq_2024/operador_atribuicao.c" "CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj" "gcc" "CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj.d"
+  "C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/operador_atribuicao.c" "CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj" "gcc" "CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

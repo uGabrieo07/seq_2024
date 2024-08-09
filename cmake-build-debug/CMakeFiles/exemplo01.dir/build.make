@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024"
+CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/exemplo01.dir/depend.make
@@ -69,32 +69,32 @@ include CMakeFiles/exemplo01.dir/progress.make
 include CMakeFiles/exemplo01.dir/flags.make
 
 CMakeFiles/exemplo01.dir/exemplo01.c.obj: CMakeFiles/exemplo01.dir/flags.make
-CMakeFiles/exemplo01.dir/exemplo01.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Miniicurso\ de\ Introdução\ a\ C/seq_2024/exemplo01.c
+CMakeFiles/exemplo01.dir/exemplo01.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso\ de\ Introdução\ a\ C/seq_2024/exemplo01.c
 CMakeFiles/exemplo01.dir/exemplo01.c.obj: CMakeFiles/exemplo01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/exemplo01.dir/exemplo01.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/exemplo01.dir/exemplo01.c.obj -MF CMakeFiles\exemplo01.dir\exemplo01.c.obj.d -o CMakeFiles\exemplo01.dir\exemplo01.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\exemplo01.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/exemplo01.dir/exemplo01.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/exemplo01.dir/exemplo01.c.obj -MF CMakeFiles\exemplo01.dir\exemplo01.c.obj.d -o CMakeFiles\exemplo01.dir\exemplo01.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\exemplo01.c"
 
 CMakeFiles/exemplo01.dir/exemplo01.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/exemplo01.dir/exemplo01.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\exemplo01.c" > CMakeFiles\exemplo01.dir\exemplo01.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\exemplo01.c" > CMakeFiles\exemplo01.dir\exemplo01.c.i
 
 CMakeFiles/exemplo01.dir/exemplo01.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/exemplo01.dir/exemplo01.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\exemplo01.c" -o CMakeFiles\exemplo01.dir\exemplo01.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\exemplo01.c" -o CMakeFiles\exemplo01.dir\exemplo01.c.s
 
 CMakeFiles/exemplo01.dir/exemplo01_test.c.obj: CMakeFiles/exemplo01.dir/flags.make
-CMakeFiles/exemplo01.dir/exemplo01_test.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Miniicurso\ de\ Introdução\ a\ C/seq_2024/exemplo01_test.c
+CMakeFiles/exemplo01.dir/exemplo01_test.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso\ de\ Introdução\ a\ C/seq_2024/exemplo01_test.c
 CMakeFiles/exemplo01.dir/exemplo01_test.c.obj: CMakeFiles/exemplo01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/exemplo01.dir/exemplo01_test.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/exemplo01.dir/exemplo01_test.c.obj -MF CMakeFiles\exemplo01.dir\exemplo01_test.c.obj.d -o CMakeFiles\exemplo01.dir\exemplo01_test.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\exemplo01_test.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/exemplo01.dir/exemplo01_test.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/exemplo01.dir/exemplo01_test.c.obj -MF CMakeFiles\exemplo01.dir\exemplo01_test.c.obj.d -o CMakeFiles\exemplo01.dir\exemplo01_test.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\exemplo01_test.c"
 
 CMakeFiles/exemplo01.dir/exemplo01_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/exemplo01.dir/exemplo01_test.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\exemplo01_test.c" > CMakeFiles\exemplo01.dir\exemplo01_test.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\exemplo01_test.c" > CMakeFiles\exemplo01.dir\exemplo01_test.c.i
 
 CMakeFiles/exemplo01.dir/exemplo01_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/exemplo01.dir/exemplo01_test.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\exemplo01_test.c" -o CMakeFiles\exemplo01.dir\exemplo01_test.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\exemplo01_test.c" -o CMakeFiles\exemplo01.dir\exemplo01_test.c.s
 
 # Object files for target exemplo01
 exemplo01_OBJECTS = \
@@ -110,7 +110,7 @@ exemplo01.exe: CMakeFiles/exemplo01.dir/build.make
 exemplo01.exe: CMakeFiles/exemplo01.dir/linkLibs.rsp
 exemplo01.exe: CMakeFiles/exemplo01.dir/objects1.rsp
 exemplo01.exe: CMakeFiles/exemplo01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable exemplo01.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable exemplo01.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\exemplo01.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +122,6 @@ CMakeFiles/exemplo01.dir/clean:
 .PHONY : CMakeFiles/exemplo01.dir/clean
 
 CMakeFiles/exemplo01.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles\exemplo01.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles\exemplo01.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/exemplo01.dir/depend
 

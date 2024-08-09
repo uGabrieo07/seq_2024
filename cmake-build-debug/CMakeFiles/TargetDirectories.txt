@@ -1,6 +1,6 @@
-C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Miniicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/exemplo01.dir
-C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Miniicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/exemplo02.dir
-C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Miniicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/condicionais.dir
-C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Miniicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/operador_atribuicao.dir
-C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Miniicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Miniicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/exemplo01.dir
+C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/exemplo02.dir
+C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/condicionais.dir
+C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/operador_atribuicao.dir
+C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/rebuild_cache.dir

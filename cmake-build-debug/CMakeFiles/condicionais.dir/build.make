@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024"
+CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/condicionais.dir/depend.make
@@ -69,32 +69,32 @@ include CMakeFiles/condicionais.dir/progress.make
 include CMakeFiles/condicionais.dir/flags.make
 
 CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj: CMakeFiles/condicionais.dir/flags.make
-CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Miniicurso\ de\ Introdução\ a\ C/seq_2024/condicionais_exemplo.c
+CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso\ de\ Introdução\ a\ C/seq_2024/condicionais_exemplo.c
 CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj: CMakeFiles/condicionais.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj -MF CMakeFiles\condicionais.dir\condicionais_exemplo.c.obj.d -o CMakeFiles\condicionais.dir\condicionais_exemplo.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\condicionais_exemplo.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj -MF CMakeFiles\condicionais.dir\condicionais_exemplo.c.obj.d -o CMakeFiles\condicionais.dir\condicionais_exemplo.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\condicionais_exemplo.c"
 
 CMakeFiles/condicionais.dir/condicionais_exemplo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/condicionais.dir/condicionais_exemplo.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\condicionais_exemplo.c" > CMakeFiles\condicionais.dir\condicionais_exemplo.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\condicionais_exemplo.c" > CMakeFiles\condicionais.dir\condicionais_exemplo.c.i
 
 CMakeFiles/condicionais.dir/condicionais_exemplo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/condicionais.dir/condicionais_exemplo.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\condicionais_exemplo.c" -o CMakeFiles\condicionais.dir\condicionais_exemplo.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\condicionais_exemplo.c" -o CMakeFiles\condicionais.dir\condicionais_exemplo.c.s
 
 CMakeFiles/condicionais.dir/operador_atribuicao.c.obj: CMakeFiles/condicionais.dir/flags.make
-CMakeFiles/condicionais.dir/operador_atribuicao.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Miniicurso\ de\ Introdução\ a\ C/seq_2024/operador_atribuicao.c
+CMakeFiles/condicionais.dir/operador_atribuicao.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso\ de\ Introdução\ a\ C/seq_2024/operador_atribuicao.c
 CMakeFiles/condicionais.dir/operador_atribuicao.c.obj: CMakeFiles/condicionais.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/condicionais.dir/operador_atribuicao.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/condicionais.dir/operador_atribuicao.c.obj -MF CMakeFiles\condicionais.dir\operador_atribuicao.c.obj.d -o CMakeFiles\condicionais.dir\operador_atribuicao.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\operador_atribuicao.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/condicionais.dir/operador_atribuicao.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/condicionais.dir/operador_atribuicao.c.obj -MF CMakeFiles\condicionais.dir\operador_atribuicao.c.obj.d -o CMakeFiles\condicionais.dir\operador_atribuicao.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\operador_atribuicao.c"
 
 CMakeFiles/condicionais.dir/operador_atribuicao.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/condicionais.dir/operador_atribuicao.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\operador_atribuicao.c" > CMakeFiles\condicionais.dir\operador_atribuicao.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\operador_atribuicao.c" > CMakeFiles\condicionais.dir\operador_atribuicao.c.i
 
 CMakeFiles/condicionais.dir/operador_atribuicao.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/condicionais.dir/operador_atribuicao.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\operador_atribuicao.c" -o CMakeFiles\condicionais.dir\operador_atribuicao.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\operador_atribuicao.c" -o CMakeFiles\condicionais.dir\operador_atribuicao.c.s
 
 # Object files for target condicionais
 condicionais_OBJECTS = \
@@ -110,7 +110,7 @@ condicionais.exe: CMakeFiles/condicionais.dir/build.make
 condicionais.exe: CMakeFiles/condicionais.dir/linkLibs.rsp
 condicionais.exe: CMakeFiles/condicionais.dir/objects1.rsp
 condicionais.exe: CMakeFiles/condicionais.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable condicionais.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable condicionais.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\condicionais.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +122,6 @@ CMakeFiles/condicionais.dir/clean:
 .PHONY : CMakeFiles/condicionais.dir/clean
 
 CMakeFiles/condicionais.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Miniicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles\condicionais.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles\condicionais.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/condicionais.dir/depend
 
