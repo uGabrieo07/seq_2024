@@ -101,7 +101,7 @@ main ()
  numeroReal /= 0.678;
  printf ("%f\n", numeroReal);
 
- printf ("\nForma Reduzida do Operador de Resto de Divisao --> %d %= %d: ", numeroInteiro, 45);
+ printf ("\nForma Reduzida do Operador de Resto de Divisao --> %d %c= %d: ", numeroInteiro, '%', 45);
  numeroInteiro %= 45;
  printf ("%d\n", numeroInteiro);
 
