@@ -80,6 +80,105 @@ build exemplo01.exe: C_EXECUTABLE_LINKER__exemplo01_Debug CMakeFiles/exemplo01.d
   TARGET_PDB = exemplo01.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target tipos_variaveis
+
+
+#############################################
+# Order-only phony target for tipos_variaveis
+
+build cmake_object_order_depends_target_tipos_variaveis: phony || CMakeFiles/tipos_variaveis.dir
+
+build CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.obj: C_COMPILER__tipos_variaveis_unscanned_Debug C$:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/tipos_variaveis.c || cmake_object_order_depends_target_tipos_variaveis
+  DEP_FILE = CMakeFiles\tipos_variaveis.dir\tipos_variaveis.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tipos_variaveis.dir
+  OBJECT_FILE_DIR = CMakeFiles\tipos_variaveis.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tipos_variaveis
+
+
+#############################################
+# Link the executable tipos_variaveis.exe
+
+build tipos_variaveis.exe: C_EXECUTABLE_LINKER__tipos_variaveis_Debug CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\tipos_variaveis.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = tipos_variaveis.exe
+  TARGET_IMPLIB = libtipos_variaveis.dll.a
+  TARGET_PDB = tipos_variaveis.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target condicionais
+
+
+#############################################
+# Order-only phony target for condicionais
+
+build cmake_object_order_depends_target_condicionais: phony || CMakeFiles/condicionais.dir
+
+build CMakeFiles/condicionais.dir/condicionais.c.obj: C_COMPILER__condicionais_unscanned_Debug C$:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/condicionais.c || cmake_object_order_depends_target_condicionais
+  DEP_FILE = CMakeFiles\condicionais.dir\condicionais.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\condicionais.dir
+  OBJECT_FILE_DIR = CMakeFiles\condicionais.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target condicionais
+
+
+#############################################
+# Link the executable condicionais.exe
+
+build condicionais.exe: C_EXECUTABLE_LINKER__condicionais_Debug CMakeFiles/condicionais.dir/condicionais.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\condicionais.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = condicionais.exe
+  TARGET_IMPLIB = libcondicionais.dll.a
+  TARGET_PDB = condicionais.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scanf_printf
+
+
+#############################################
+# Order-only phony target for scanf_printf
+
+build cmake_object_order_depends_target_scanf_printf: phony || CMakeFiles/scanf_printf.dir
+
+build CMakeFiles/scanf_printf.dir/scanf_printf.c.obj: C_COMPILER__scanf_printf_unscanned_Debug C$:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/scanf_printf.c || cmake_object_order_depends_target_scanf_printf
+  DEP_FILE = CMakeFiles\scanf_printf.dir\scanf_printf.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\scanf_printf.dir
+  OBJECT_FILE_DIR = CMakeFiles\scanf_printf.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scanf_printf
+
+
+#############################################
+# Link the executable scanf_printf.exe
+
+build scanf_printf.exe: C_EXECUTABLE_LINKER__scanf_printf_Debug CMakeFiles/scanf_printf.dir/scanf_printf.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\scanf_printf.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = scanf_printf.exe
+  TARGET_IMPLIB = libscanf_printf.dll.a
+  TARGET_PDB = scanf_printf.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target exemplo02
 
 
@@ -113,37 +212,70 @@ build exemplo02.exe: C_EXECUTABLE_LINKER__exemplo02_Debug CMakeFiles/exemplo02.d
   TARGET_PDB = exemplo02.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target condicionais
+# Object build statements for EXECUTABLE target operador_atribuicao
 
 
 #############################################
-# Order-only phony target for condicionais
+# Order-only phony target for operador_atribuicao
 
-build cmake_object_order_depends_target_condicionais: phony || CMakeFiles/condicionais.dir
+build cmake_object_order_depends_target_operador_atribuicao: phony || CMakeFiles/operador_atribuicao.dir
 
-build CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj: C_COMPILER__condicionais_unscanned_Debug C$:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/condicionais_exemplo.c || cmake_object_order_depends_target_condicionais
-  DEP_FILE = CMakeFiles\condicionais.dir\condicionais_exemplo.c.obj.d
+build CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj: C_COMPILER__operador_atribuicao_unscanned_Debug C$:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/operador_atribuicao.c || cmake_object_order_depends_target_operador_atribuicao
+  DEP_FILE = CMakeFiles\operador_atribuicao.dir\operador_atribuicao.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\condicionais.dir
-  OBJECT_FILE_DIR = CMakeFiles\condicionais.dir
+  OBJECT_DIR = CMakeFiles\operador_atribuicao.dir
+  OBJECT_FILE_DIR = CMakeFiles\operador_atribuicao.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target condicionais
+# Link build statements for EXECUTABLE target operador_atribuicao
 
 
 #############################################
-# Link the executable condicionais.exe
+# Link the executable operador_atribuicao.exe
 
-build condicionais.exe: C_EXECUTABLE_LINKER__condicionais_Debug CMakeFiles/condicionais.dir/condicionais_exemplo.c.obj
+build operador_atribuicao.exe: C_EXECUTABLE_LINKER__operador_atribuicao_Debug CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\condicionais.dir
+  OBJECT_DIR = CMakeFiles\operador_atribuicao.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = condicionais.exe
-  TARGET_IMPLIB = libcondicionais.dll.a
-  TARGET_PDB = condicionais.exe.dbg
+  TARGET_FILE = operador_atribuicao.exe
+  TARGET_IMPLIB = liboperador_atribuicao.dll.a
+  TARGET_PDB = operador_atribuicao.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target arg_linha_comando
+
+
+#############################################
+# Order-only phony target for arg_linha_comando
+
+build cmake_object_order_depends_target_arg_linha_comando: phony || CMakeFiles/arg_linha_comando.dir
+
+build CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.obj: C_COMPILER__arg_linha_comando_unscanned_Debug C$:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/argumentos_linha_comando.c || cmake_object_order_depends_target_arg_linha_comando
+  DEP_FILE = CMakeFiles\arg_linha_comando.dir\argumentos_linha_comando.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\arg_linha_comando.dir
+  OBJECT_FILE_DIR = CMakeFiles\arg_linha_comando.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arg_linha_comando
+
+
+#############################################
+# Link the executable arg_linha_comando.exe
+
+build arg_linha_comando.exe: C_EXECUTABLE_LINKER__arg_linha_comando_Debug CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\arg_linha_comando.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = arg_linha_comando.exe
+  TARGET_IMPLIB = libarg_linha_comando.dll.a
+  TARGET_PDB = arg_linha_comando.exe.dbg
 
 
 #############################################
@@ -171,11 +303,19 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build arg_linha_comando: phony arg_linha_comando.exe
+
 build condicionais: phony condicionais.exe
 
 build exemplo01: phony exemplo01.exe
 
 build exemplo02: phony exemplo02.exe
+
+build operador_atribuicao: phony operador_atribuicao.exe
+
+build scanf_printf: phony scanf_printf.exe
+
+build tipos_variaveis: phony tipos_variaveis.exe
 
 # =============================================================================
 # Folder targets.
@@ -185,7 +325,7 @@ build exemplo02: phony exemplo02.exe
 #############################################
 # Folder: C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug
 
-build all: phony exemplo01.exe exemplo02.exe condicionais.exe
+build all: phony exemplo01.exe tipos_variaveis.exe condicionais.exe scanf_printf.exe exemplo02.exe operador_atribuicao.exe arg_linha_comando.exe
 
 # =============================================================================
 # Built-in targets
