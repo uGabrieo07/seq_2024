@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/scanf_printf.c" "CMakeFiles/scanf_printf.dir/scanf_printf.c.obj" "gcc" "CMakeFiles/scanf_printf.dir/scanf_printf.c.obj.d"
+  "C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/exemplo02.c" "CMakeFiles/exemplo02.dir/exemplo02.c.obj" "gcc" "CMakeFiles/exemplo02.dir/exemplo02.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

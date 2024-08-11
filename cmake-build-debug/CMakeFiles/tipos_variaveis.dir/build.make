@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024"
+CMAKE_SOURCE_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tipos_variaveis.dir/depend.make
@@ -69,18 +69,18 @@ include CMakeFiles/tipos_variaveis.dir/progress.make
 include CMakeFiles/tipos_variaveis.dir/flags.make
 
 CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.obj: CMakeFiles/tipos_variaveis.dir/flags.make
-CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso\ de\ Introdução\ a\ C/seq_2024/tipos_variaveis.c
+CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.obj: C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/tipos_variaveis.c
 CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.obj: CMakeFiles/tipos_variaveis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.obj -MF CMakeFiles\tipos_variaveis.dir\tipos_variaveis.c.obj.d -o CMakeFiles\tipos_variaveis.dir\tipos_variaveis.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\tipos_variaveis.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.obj -MF CMakeFiles\tipos_variaveis.dir\tipos_variaveis.c.obj.d -o CMakeFiles\tipos_variaveis.dir\tipos_variaveis.c.obj -c C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\tipos_variaveis.c
 
 CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\tipos_variaveis.c" > CMakeFiles\tipos_variaveis.dir\tipos_variaveis.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\tipos_variaveis.c > CMakeFiles\tipos_variaveis.dir\tipos_variaveis.c.i
 
 CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\tipos_variaveis.c" -o CMakeFiles\tipos_variaveis.dir\tipos_variaveis.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\tipos_variaveis.c -o CMakeFiles\tipos_variaveis.dir\tipos_variaveis.c.s
 
 # Object files for target tipos_variaveis
 tipos_variaveis_OBJECTS = \
@@ -94,7 +94,7 @@ tipos_variaveis.exe: CMakeFiles/tipos_variaveis.dir/build.make
 tipos_variaveis.exe: CMakeFiles/tipos_variaveis.dir/linkLibs.rsp
 tipos_variaveis.exe: CMakeFiles/tipos_variaveis.dir/objects1.rsp
 tipos_variaveis.exe: CMakeFiles/tipos_variaveis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable tipos_variaveis.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable tipos_variaveis.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\tipos_variaveis.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +106,6 @@ CMakeFiles/tipos_variaveis.dir/clean:
 .PHONY : CMakeFiles/tipos_variaveis.dir/clean
 
 CMakeFiles/tipos_variaveis.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles\tipos_variaveis.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles\tipos_variaveis.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/tipos_variaveis.dir/depend
 
