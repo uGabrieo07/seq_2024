@@ -26,3 +26,11 @@ add_executable(operador_atribuicao
 add_executable(arg_linha_comando
         argumentos_linha_comando.c)
 
+add_executable(funcoes
+        funcoes.c)
+
+add_executable(arg_referencia
+        arg_referencia.c)
+
+add_executable(recursao
+        recursao.c)

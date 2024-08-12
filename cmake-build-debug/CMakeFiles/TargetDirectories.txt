@@ -1,9 +1,12 @@
-C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/exemplo01.dir
-C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/tipos_variaveis.dir
-C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/condicionais.dir
-C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/scanf_printf.dir
-C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/exemplo02.dir
-C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/operador_atribuicao.dir
-C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/arg_linha_comando.dir
-C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/exemplo01.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/tipos_variaveis.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/condicionais.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/scanf_printf.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/exemplo02.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/operador_atribuicao.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/arg_linha_comando.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/funcoes.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/arg_referencia.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/recursao.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/rebuild_cache.dir

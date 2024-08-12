@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024"
+CMAKE_SOURCE_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -205,6 +205,69 @@ arg_linha_comando: cmake_check_build_system
 arg_linha_comando/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/build
 .PHONY : arg_linha_comando/fast
+
+#=============================================================================
+# Target rules for targets named funcoes
+
+# Build rule for target.
+funcoes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 funcoes
+.PHONY : funcoes
+
+# fast build rule for target.
+funcoes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\funcoes.dir\build.make CMakeFiles/funcoes.dir/build
+.PHONY : funcoes/fast
+
+#=============================================================================
+# Target rules for targets named arg_referencia
+
+# Build rule for target.
+arg_referencia: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 arg_referencia
+.PHONY : arg_referencia
+
+# fast build rule for target.
+arg_referencia/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_referencia.dir\build.make CMakeFiles/arg_referencia.dir/build
+.PHONY : arg_referencia/fast
+
+#=============================================================================
+# Target rules for targets named recursao
+
+# Build rule for target.
+recursao: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 recursao
+.PHONY : recursao
+
+# fast build rule for target.
+recursao/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\recursao.dir\build.make CMakeFiles/recursao.dir/build
+.PHONY : recursao/fast
+
+arg_referencia.obj: arg_referencia.c.obj
+.PHONY : arg_referencia.obj
+
+# target to build an object file
+arg_referencia.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_referencia.dir\build.make CMakeFiles/arg_referencia.dir/arg_referencia.c.obj
+.PHONY : arg_referencia.c.obj
+
+arg_referencia.i: arg_referencia.c.i
+.PHONY : arg_referencia.i
+
+# target to preprocess a source file
+arg_referencia.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_referencia.dir\build.make CMakeFiles/arg_referencia.dir/arg_referencia.c.i
+.PHONY : arg_referencia.c.i
+
+arg_referencia.s: arg_referencia.c.s
+.PHONY : arg_referencia.s
+
+# target to generate assembly for a file
+arg_referencia.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_referencia.dir\build.make CMakeFiles/arg_referencia.dir/arg_referencia.c.s
+.PHONY : arg_referencia.c.s
 
 argumentos_linha_comando.obj: argumentos_linha_comando.c.obj
 .PHONY : argumentos_linha_comando.obj
@@ -326,6 +389,30 @@ exemplo02.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo02.dir\build.make CMakeFiles/exemplo02.dir/exemplo02.c.s
 .PHONY : exemplo02.c.s
 
+funcoes.obj: funcoes.c.obj
+.PHONY : funcoes.obj
+
+# target to build an object file
+funcoes.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\funcoes.dir\build.make CMakeFiles/funcoes.dir/funcoes.c.obj
+.PHONY : funcoes.c.obj
+
+funcoes.i: funcoes.c.i
+.PHONY : funcoes.i
+
+# target to preprocess a source file
+funcoes.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\funcoes.dir\build.make CMakeFiles/funcoes.dir/funcoes.c.i
+.PHONY : funcoes.c.i
+
+funcoes.s: funcoes.c.s
+.PHONY : funcoes.s
+
+# target to generate assembly for a file
+funcoes.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\funcoes.dir\build.make CMakeFiles/funcoes.dir/funcoes.c.s
+.PHONY : funcoes.c.s
+
 operador_atribuicao.obj: operador_atribuicao.c.obj
 .PHONY : operador_atribuicao.obj
 
@@ -349,6 +436,30 @@ operador_atribuicao.s: operador_atribuicao.c.s
 operador_atribuicao.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.s
 .PHONY : operador_atribuicao.c.s
+
+recursao.obj: recursao.c.obj
+.PHONY : recursao.obj
+
+# target to build an object file
+recursao.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\recursao.dir\build.make CMakeFiles/recursao.dir/recursao.c.obj
+.PHONY : recursao.c.obj
+
+recursao.i: recursao.c.i
+.PHONY : recursao.i
+
+# target to preprocess a source file
+recursao.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\recursao.dir\build.make CMakeFiles/recursao.dir/recursao.c.i
+.PHONY : recursao.c.i
+
+recursao.s: recursao.c.s
+.PHONY : recursao.s
+
+# target to generate assembly for a file
+recursao.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\recursao.dir\build.make CMakeFiles/recursao.dir/recursao.c.s
+.PHONY : recursao.c.s
 
 scanf_printf.obj: scanf_printf.c.obj
 .PHONY : scanf_printf.obj
@@ -407,12 +518,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... arg_linha_comando
+	@echo ... arg_referencia
 	@echo ... condicionais
 	@echo ... exemplo01
 	@echo ... exemplo02
+	@echo ... funcoes
 	@echo ... operador_atribuicao
+	@echo ... recursao
 	@echo ... scanf_printf
 	@echo ... tipos_variaveis
+	@echo ... arg_referencia.obj
+	@echo ... arg_referencia.i
+	@echo ... arg_referencia.s
 	@echo ... argumentos_linha_comando.obj
 	@echo ... argumentos_linha_comando.i
 	@echo ... argumentos_linha_comando.s
@@ -428,9 +545,15 @@ help:
 	@echo ... exemplo02.obj
 	@echo ... exemplo02.i
 	@echo ... exemplo02.s
+	@echo ... funcoes.obj
+	@echo ... funcoes.i
+	@echo ... funcoes.s
 	@echo ... operador_atribuicao.obj
 	@echo ... operador_atribuicao.i
 	@echo ... operador_atribuicao.s
+	@echo ... recursao.obj
+	@echo ... recursao.i
+	@echo ... recursao.s
 	@echo ... scanf_printf.obj
 	@echo ... scanf_printf.i
 	@echo ... scanf_printf.s
