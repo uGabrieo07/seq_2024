@@ -55,4 +55,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/operador_atribuicao.dir/DependInfo.cmake"
   "CMakeFiles/arg_linha_comando.dir/DependInfo.cmake"
   "CMakeFiles/funcoes.dir/DependInfo.cmake"
+  "CMakeFiles/arg_referencia.dir/DependInfo.cmake"
+  "CMakeFiles/recursao.dir/DependInfo.cmake"
   )

@@ -6,5 +6,7 @@ C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/operador_atribuicao.dir
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/arg_linha_comando.dir
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/funcoes.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/arg_referencia.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/recursao.dir
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/rebuild_cache.dir
