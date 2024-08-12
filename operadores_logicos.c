@@ -22,7 +22,7 @@ main ()
     /*Declaração de variáveis do tipo inteiro.*/
     int numero, numeroInserido;
 
-    /*Atribui à variável "numero" com o valor 10.*/
+    /*Atribui à variável "numero" com o valor 0.*/
     numero = 0;
 
     printf ("\n\t\t-----OPERADORES LOGICOS-----\n\n");

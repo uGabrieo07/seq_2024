@@ -19,35 +19,38 @@
 int
 main ()
 {
-    /*Declaração de variáveis do tipo inteiro.*/
-    int numero, numeroInserido;
-
-    /*Atribui à variável "numero" com o valor 10.*/
-    numero = 0;
-
-    printf ("\n\t\t-----OPERADORES BIT A BIT-----\n\n");
-
-    /*Pede um número ao usuário.*/
-    printf ("Insira um numero:");
-    scanf ("%d", &numeroInserido);
-
+ printf ("\n\t\t-----OPERADORES BIT A BIT-----\n");
  /*
- * Tabela de funcionalidade dos operadores lógicos.
- * * TABELA DA VERDADE - AND     TABELA DA VERDADE - OR     TABELA DA VERDADE - XOR     TABELA DA VERDADE - NOT
+ *                                   Tabelas Verdade dos Operadores Lógicos
+ * * TABELA VERDADE - AND        TABELA VERDADE - OR        TABELA VERDADE - XOR       TABELA VERDADE - NOT
  *   0        0        0         0        0        0        0        0        0             0        1
  *   0        1        0         0        1        1        0        1        1             1        0
  *   1        0        0         1        0        1        1        0        1
  *   1        1        1         1        1        1        1        1        0
  */
 
+ /*                                       Regra do Complemento de Dois
+  *             Exemplo:
+  *                                     Como representar -237 em binário?
+  *                  Primeiro, devemos pegar o número positivo 237 e transformá-lo em binário.
+  *                                              237 = 11101101
+  *                  Em seguida, usamos o operador NOT Bit a Bit (~) em cada um dos seus bits.
+  *                                          11101101 --> 00010010
+  *                  Por fim, somamos o valor em binário encontrado com 1 binário (00000001).
+  *                                                 00010010
+  *                                               + 00000001
+  *                                                 --------
+  *                                   Resultado --> 00010011 = -237.
+  */
 
-    /*Caso a condição da função "printf" for verdadeira, será impresso o número 1.
-     *Caso contrário, será impresso o número 0.*/
-    printf ("\n%d\n", !(numeroInserido && numero));
-    printf ("\n%d\n", !(numeroInserido || numero));
-    printf ("\n%d\n", !numeroInserido || (numeroInserido && !numero));
-    printf ("\n%d\n", (numeroInserido && ((numero || !numeroInserido) && (numero || numeroInserido && !numero))) || (numeroInserido && !numero));
+ /*Exemplos de cada operador.*/
+ printf ("\nAND (&) --> %d & %d = %d\n", 84, 175, 84 & 175); /*84 = 01010100; 175 = 10101111; 84 & 175 = 00000100 = 4.*/
+ printf ("\nOR (|) --> %d | %d = %d\n", 82, 139, 82 | 139); /*82 = 01010010; 139 = 10001011; 82 | 139 = 11011011 = 219.*/
+ printf ("\nXOR (^) --> %d ^ %d = %d\n", 210, 217, 210 ^ 217); /*210 = 11010010; 217 = 11011001; 210 ^ 217 = 00001011 = 11.*/
+ printf ("\nNOT(~) --> ~%d = %d\n", 236, ~236); /*236 = 11101100; ~236 = 00010011 = -237.*/
+ printf ("\nDESLOCAMENTO PARA ESQUERDA (<<) --> %d << %d = %d\n", 19, 3, 19 << 3); /*19 = 00010011; 19 << 3 = 10011000 = 152.*/
+ printf ("\nDESLOCAMENTO PARA DIREITA (>>) --> %d >> %d = %d\n", 19, 3, 19 >> 3); /*19 = 00010011; 19 >> 3 = 00000010 = 2.*/
 
-    /*Retorna que a função foi executada sem erros.*/
-    return SUCESSO;
+ /*Retorna que a função foi executada sem erros.*/
+ return SUCESSO;
 }
