@@ -72,6 +72,11 @@ all: CMakeFiles/arg_linha_comando.dir/all
 all: CMakeFiles/funcoes.dir/all
 all: CMakeFiles/arg_referencia.dir/all
 all: CMakeFiles/recursao.dir/all
+all: CMakeFiles/exponencial.dir/all
+all: CMakeFiles/erro_memoria.dir/all
+all: CMakeFiles/manipulacao_arrays.dir/all
+all: CMakeFiles/strings.dir/all
+all: CMakeFiles/manipulacao_strings.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -89,6 +94,11 @@ clean: CMakeFiles/arg_linha_comando.dir/clean
 clean: CMakeFiles/funcoes.dir/clean
 clean: CMakeFiles/arg_referencia.dir/clean
 clean: CMakeFiles/recursao.dir/clean
+clean: CMakeFiles/exponencial.dir/clean
+clean: CMakeFiles/erro_memoria.dir/clean
+clean: CMakeFiles/manipulacao_arrays.dir/clean
+clean: CMakeFiles/strings.dir/clean
+clean: CMakeFiles/manipulacao_strings.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -98,7 +108,7 @@ clean: CMakeFiles/recursao.dir/clean
 CMakeFiles/exemplo01.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo01.dir\build.make CMakeFiles/exemplo01.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo01.dir\build.make CMakeFiles/exemplo01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=7,8,9 "Built target exemplo01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=9,10,11 "Built target exemplo01"
 .PHONY : CMakeFiles/exemplo01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -124,7 +134,7 @@ CMakeFiles/exemplo01.dir/clean:
 CMakeFiles/tipos_variaveis.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=20,21 "Built target tipos_variaveis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target tipos_variaveis"
 .PHONY : CMakeFiles/tipos_variaveis.dir/all
 
 # Build rule for subdir invocation for target.
@@ -176,7 +186,7 @@ CMakeFiles/condicionais.dir/clean:
 CMakeFiles/scanf_printf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\scanf_printf.dir\build.make CMakeFiles/scanf_printf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\scanf_printf.dir\build.make CMakeFiles/scanf_printf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=18,19 "Built target scanf_printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target scanf_printf"
 .PHONY : CMakeFiles/scanf_printf.dir/all
 
 # Build rule for subdir invocation for target.
@@ -202,7 +212,7 @@ CMakeFiles/scanf_printf.dir/clean:
 CMakeFiles/exemplo02.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo02.dir\build.make CMakeFiles/exemplo02.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo02.dir\build.make CMakeFiles/exemplo02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target exemplo02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target exemplo02"
 .PHONY : CMakeFiles/exemplo02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -228,7 +238,7 @@ CMakeFiles/exemplo02.dir/clean:
 CMakeFiles/operador_atribuicao.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target operador_atribuicao"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target operador_atribuicao"
 .PHONY : CMakeFiles/operador_atribuicao.dir/all
 
 # Build rule for subdir invocation for target.
@@ -280,7 +290,7 @@ CMakeFiles/arg_linha_comando.dir/clean:
 CMakeFiles/funcoes.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\funcoes.dir\build.make CMakeFiles/funcoes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\funcoes.dir\build.make CMakeFiles/funcoes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target funcoes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target funcoes"
 .PHONY : CMakeFiles/funcoes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -332,7 +342,7 @@ CMakeFiles/arg_referencia.dir/clean:
 CMakeFiles/recursao.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\recursao.dir\build.make CMakeFiles/recursao.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\recursao.dir\build.make CMakeFiles/recursao.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target recursao"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target recursao"
 .PHONY : CMakeFiles/recursao.dir/all
 
 # Build rule for subdir invocation for target.
@@ -350,6 +360,136 @@ recursao: CMakeFiles/recursao.dir/rule
 CMakeFiles/recursao.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\recursao.dir\build.make CMakeFiles/recursao.dir/clean
 .PHONY : CMakeFiles/recursao.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exponencial.dir
+
+# All Build rule for target.
+CMakeFiles/exponencial.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=14,15,16 "Built target exponencial"
+.PHONY : CMakeFiles/exponencial.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exponencial.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/exponencial.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/exponencial.dir/rule
+
+# Convenience name for target.
+exponencial: CMakeFiles/exponencial.dir/rule
+.PHONY : exponencial
+
+# clean rule for target.
+CMakeFiles/exponencial.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/clean
+.PHONY : CMakeFiles/exponencial.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/erro_memoria.dir
+
+# All Build rule for target.
+CMakeFiles/erro_memoria.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\erro_memoria.dir\build.make CMakeFiles/erro_memoria.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\erro_memoria.dir\build.make CMakeFiles/erro_memoria.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target erro_memoria"
+.PHONY : CMakeFiles/erro_memoria.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/erro_memoria.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/erro_memoria.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/erro_memoria.dir/rule
+
+# Convenience name for target.
+erro_memoria: CMakeFiles/erro_memoria.dir/rule
+.PHONY : erro_memoria
+
+# clean rule for target.
+CMakeFiles/erro_memoria.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\erro_memoria.dir\build.make CMakeFiles/erro_memoria.dir/clean
+.PHONY : CMakeFiles/erro_memoria.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/manipulacao_arrays.dir
+
+# All Build rule for target.
+CMakeFiles/manipulacao_arrays.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_arrays.dir\build.make CMakeFiles/manipulacao_arrays.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_arrays.dir\build.make CMakeFiles/manipulacao_arrays.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target manipulacao_arrays"
+.PHONY : CMakeFiles/manipulacao_arrays.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/manipulacao_arrays.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/manipulacao_arrays.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/manipulacao_arrays.dir/rule
+
+# Convenience name for target.
+manipulacao_arrays: CMakeFiles/manipulacao_arrays.dir/rule
+.PHONY : manipulacao_arrays
+
+# clean rule for target.
+CMakeFiles/manipulacao_arrays.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_arrays.dir\build.make CMakeFiles/manipulacao_arrays.dir/clean
+.PHONY : CMakeFiles/manipulacao_arrays.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/strings.dir
+
+# All Build rule for target.
+CMakeFiles/strings.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target strings"
+.PHONY : CMakeFiles/strings.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/strings.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/strings.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/strings.dir/rule
+
+# Convenience name for target.
+strings: CMakeFiles/strings.dir/rule
+.PHONY : strings
+
+# clean rule for target.
+CMakeFiles/strings.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/clean
+.PHONY : CMakeFiles/strings.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/manipulacao_strings.dir
+
+# All Build rule for target.
+CMakeFiles/manipulacao_strings.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target manipulacao_strings"
+.PHONY : CMakeFiles/manipulacao_strings.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/manipulacao_strings.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/manipulacao_strings.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/manipulacao_strings.dir/rule
+
+# Convenience name for target.
+manipulacao_strings: CMakeFiles/manipulacao_strings.dir/rule
+.PHONY : manipulacao_strings
+
+# clean rule for target.
+CMakeFiles/manipulacao_strings.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/clean
+.PHONY : CMakeFiles/manipulacao_strings.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

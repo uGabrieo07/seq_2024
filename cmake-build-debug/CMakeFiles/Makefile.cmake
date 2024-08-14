@@ -57,4 +57,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/funcoes.dir/DependInfo.cmake"
   "CMakeFiles/arg_referencia.dir/DependInfo.cmake"
   "CMakeFiles/recursao.dir/DependInfo.cmake"
+  "CMakeFiles/exponencial.dir/DependInfo.cmake"
+  "CMakeFiles/erro_memoria.dir/DependInfo.cmake"
+  "CMakeFiles/manipulacao_arrays.dir/DependInfo.cmake"
+  "CMakeFiles/strings.dir/DependInfo.cmake"
+  "CMakeFiles/manipulacao_strings.dir/DependInfo.cmake"
   )

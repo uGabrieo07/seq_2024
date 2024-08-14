@@ -34,3 +34,19 @@ add_executable(arg_referencia
 
 add_executable(recursao
         recursao.c)
+
+add_executable(exponencial
+        exponencial_implementacao.c
+        exponencial_teste.c)
+
+add_executable(erro_memoria
+        erro_memoria.c)
+
+add_executable(manipulacao_arrays
+        manipulacao_arrays.c)
+
+add_executable(strings
+        strings.c)
+
+add_executable(manipulacao_strings
+        manipulacao_strings.c)
