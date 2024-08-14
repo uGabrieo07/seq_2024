@@ -8,12 +8,6 @@ CMake Deprecation Warning:
   use the cmake-file-api(7) to view CMake-generated project build trees.
 
 
--- The C compiler identification is GNU 13.1.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.1.5/bin/mingw/bin/gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Configuring done (1.9s)
--- Generating done (0.1s)
+-- Configuring done (0.5s)
+-- Generating done (0.4s)
 -- Build files have been written to: C:/Users/Marcelo/OneDrive/Documentos/João/UFRJ/for_code/mini_curso_introducao_a_c/seq_2024/cmake-build-debug-mingw

@@ -24,7 +24,12 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
 					]
 				}
 			],
@@ -48,7 +53,12 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
 					]
 				}
 			],
@@ -77,6 +87,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "erro_memoria::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erro_memoria-Debug-5d19e2fa370fd6d97bee.json",
+					"name" : "erro_memoria",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "exemplo01::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-exemplo01-Debug-791c1238c3ecb81fda2d.json",
 					"name" : "exemplo01",
@@ -91,9 +108,30 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "exponencial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exponencial-Debug-b2b782037dcb6ae6dab7.json",
+					"name" : "exponencial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "funcoes::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-funcoes-Debug-948afb5bd35603d5fc17.json",
 					"name" : "funcoes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulacao_arrays::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulacao_arrays-Debug-33a252862cf7683198d1.json",
+					"name" : "manipulacao_arrays",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulacao_strings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulacao_strings-Debug-5ae423149b4251cacaa3.json",
+					"name" : "manipulacao_strings",
 					"projectIndex" : 0
 				},
 				{
@@ -115,6 +153,13 @@
 					"id" : "scanf_printf::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-scanf_printf-Debug-ad52688b1a699bb2fbf1.json",
 					"name" : "scanf_printf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strings-Debug-c4f4e379586792db02fd.json",
+					"name" : "strings",
 					"projectIndex" : 0
 				},
 				{
