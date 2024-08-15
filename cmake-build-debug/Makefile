@@ -310,6 +310,19 @@ manipulacao_strings/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/build
 .PHONY : manipulacao_strings/fast
 
+#=============================================================================
+# Target rules for targets named aritmetica_ponteiros
+
+# Build rule for target.
+aritmetica_ponteiros: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 aritmetica_ponteiros
+.PHONY : aritmetica_ponteiros
+
+# fast build rule for target.
+aritmetica_ponteiros/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/build
+.PHONY : aritmetica_ponteiros/fast
+
 arg_referencia.obj: arg_referencia.c.obj
 .PHONY : arg_referencia.obj
 
@@ -357,6 +370,30 @@ argumentos_linha_comando.s: argumentos_linha_comando.c.s
 argumentos_linha_comando.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.s
 .PHONY : argumentos_linha_comando.c.s
+
+aritmetica_ponteiros.obj: aritmetica_ponteiros.c.obj
+.PHONY : aritmetica_ponteiros.obj
+
+# target to build an object file
+aritmetica_ponteiros.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.obj
+.PHONY : aritmetica_ponteiros.c.obj
+
+aritmetica_ponteiros.i: aritmetica_ponteiros.c.i
+.PHONY : aritmetica_ponteiros.i
+
+# target to preprocess a source file
+aritmetica_ponteiros.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.i
+.PHONY : aritmetica_ponteiros.c.i
+
+aritmetica_ponteiros.s: aritmetica_ponteiros.c.s
+.PHONY : aritmetica_ponteiros.s
+
+# target to generate assembly for a file
+aritmetica_ponteiros.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.s
+.PHONY : aritmetica_ponteiros.c.s
 
 condicionais.obj: condicionais.c.obj
 .PHONY : condicionais.obj
@@ -728,6 +765,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... arg_linha_comando
 	@echo ... arg_referencia
+	@echo ... aritmetica_ponteiros
 	@echo ... condicionais
 	@echo ... erro_memoria
 	@echo ... exemplo01
@@ -747,6 +785,9 @@ help:
 	@echo ... argumentos_linha_comando.obj
 	@echo ... argumentos_linha_comando.i
 	@echo ... argumentos_linha_comando.s
+	@echo ... aritmetica_ponteiros.obj
+	@echo ... aritmetica_ponteiros.i
+	@echo ... aritmetica_ponteiros.s
 	@echo ... condicionais.obj
 	@echo ... condicionais.i
 	@echo ... condicionais.s

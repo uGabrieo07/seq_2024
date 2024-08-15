@@ -29,7 +29,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					]
 				}
 			],
@@ -58,7 +59,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					]
 				}
 			],
@@ -76,6 +78,13 @@
 					"id" : "arg_referencia::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-arg_referencia-Debug-009de5ab89a5767ed07d.json",
 					"name" : "arg_referencia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aritmetica_ponteiros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aritmetica_ponteiros-Debug-cadfa2acbb7bd25a37ac.json",
+					"name" : "aritmetica_ponteiros",
 					"projectIndex" : 0
 				},
 				{
