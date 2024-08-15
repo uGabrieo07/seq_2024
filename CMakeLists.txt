@@ -56,3 +56,6 @@ add_executable(aritmetica_ponteiros
 
 add_executable(comparacao_ponteiros
         comparacao_ponteiros.c)
+
+add_executable(structs
+        structs.c)

@@ -336,6 +336,19 @@ comparacao_ponteiros/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/build
 .PHONY : comparacao_ponteiros/fast
 
+#=============================================================================
+# Target rules for targets named structs
+
+# Build rule for target.
+structs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 structs
+.PHONY : structs
+
+# fast build rule for target.
+structs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/build
+.PHONY : structs/fast
+
 arg_referencia.obj: arg_referencia.c.obj
 .PHONY : arg_referencia.obj
 
@@ -768,6 +781,30 @@ strings.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/strings.c.s
 .PHONY : strings.c.s
 
+structs.obj: structs.c.obj
+.PHONY : structs.obj
+
+# target to build an object file
+structs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/structs.c.obj
+.PHONY : structs.c.obj
+
+structs.i: structs.c.i
+.PHONY : structs.i
+
+# target to preprocess a source file
+structs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/structs.c.i
+.PHONY : structs.c.i
+
+structs.s: structs.c.s
+.PHONY : structs.s
+
+# target to generate assembly for a file
+structs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/structs.c.s
+.PHONY : structs.c.s
+
 tipos_variaveis.obj: tipos_variaveis.c.obj
 .PHONY : tipos_variaveis.obj
 
@@ -816,6 +853,7 @@ help:
 	@echo ... recursao
 	@echo ... scanf_printf
 	@echo ... strings
+	@echo ... structs
 	@echo ... tipos_variaveis
 	@echo ... arg_referencia.obj
 	@echo ... arg_referencia.i
@@ -871,6 +909,9 @@ help:
 	@echo ... strings.obj
 	@echo ... strings.i
 	@echo ... strings.s
+	@echo ... structs.obj
+	@echo ... structs.i
+	@echo ... structs.s
 	@echo ... tipos_variaveis.obj
 	@echo ... tipos_variaveis.i
 	@echo ... tipos_variaveis.s

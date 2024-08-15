@@ -8,13 +8,13 @@
 #include "cores.h"
 #include "exponencial_cabecalho.h"
 
-#define NUMERO_ARGUMENTOS_VALIDO																	3
-#define SUCESSO																										0
-#define NUMERO_ARGUMENTOS_INVALIDO																1
-#define ARGUMENTO_INVALIDO_NA_BASE																2
-#define ARGUMENTO_INVALIDO_NO_EXPOENTE														3
-#define BASE_INVALIDA																							4
-#define TAMANHO_MAXIMO_ARGUMENTO_EXCEDIDO													5	
+#define NUMERO_ARGUMENTOS_VALIDO											3
+#define SUCESSO																0
+#define NUMERO_ARGUMENTOS_INVALIDO											1
+#define ARGUMENTO_INVALIDO_NA_BASE											2
+#define ARGUMENTO_INVALIDO_NO_EXPOENTE										3
+#define BASE_INVALIDA														4
+#define TAMANHO_MAXIMO_ARGUMENTO_EXCEDIDO									5
 #define END_OF_STRING																						'\0'
 
 int

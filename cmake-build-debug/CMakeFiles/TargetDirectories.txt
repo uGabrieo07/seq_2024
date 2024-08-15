@@ -15,5 +15,6 @@ C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/manipulacao_strings.dir
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/aritmetica_ponteiros.dir
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/comparacao_ponteiros.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/structs.dir
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/rebuild_cache.dir
