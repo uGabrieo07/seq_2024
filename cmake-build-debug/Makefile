@@ -323,6 +323,19 @@ aritmetica_ponteiros/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/build
 .PHONY : aritmetica_ponteiros/fast
 
+#=============================================================================
+# Target rules for targets named comparacao_ponteiros
+
+# Build rule for target.
+comparacao_ponteiros: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 comparacao_ponteiros
+.PHONY : comparacao_ponteiros
+
+# fast build rule for target.
+comparacao_ponteiros/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/build
+.PHONY : comparacao_ponteiros/fast
+
 arg_referencia.obj: arg_referencia.c.obj
 .PHONY : arg_referencia.obj
 
@@ -394,6 +407,30 @@ aritmetica_ponteiros.s: aritmetica_ponteiros.c.s
 aritmetica_ponteiros.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.s
 .PHONY : aritmetica_ponteiros.c.s
+
+comparacao_ponteiros.obj: comparacao_ponteiros.c.obj
+.PHONY : comparacao_ponteiros.obj
+
+# target to build an object file
+comparacao_ponteiros.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/comparacao_ponteiros.c.obj
+.PHONY : comparacao_ponteiros.c.obj
+
+comparacao_ponteiros.i: comparacao_ponteiros.c.i
+.PHONY : comparacao_ponteiros.i
+
+# target to preprocess a source file
+comparacao_ponteiros.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/comparacao_ponteiros.c.i
+.PHONY : comparacao_ponteiros.c.i
+
+comparacao_ponteiros.s: comparacao_ponteiros.c.s
+.PHONY : comparacao_ponteiros.s
+
+# target to generate assembly for a file
+comparacao_ponteiros.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/comparacao_ponteiros.c.s
+.PHONY : comparacao_ponteiros.c.s
 
 condicionais.obj: condicionais.c.obj
 .PHONY : condicionais.obj
@@ -766,6 +803,7 @@ help:
 	@echo ... arg_linha_comando
 	@echo ... arg_referencia
 	@echo ... aritmetica_ponteiros
+	@echo ... comparacao_ponteiros
 	@echo ... condicionais
 	@echo ... erro_memoria
 	@echo ... exemplo01
@@ -788,6 +826,9 @@ help:
 	@echo ... aritmetica_ponteiros.obj
 	@echo ... aritmetica_ponteiros.i
 	@echo ... aritmetica_ponteiros.s
+	@echo ... comparacao_ponteiros.obj
+	@echo ... comparacao_ponteiros.i
+	@echo ... comparacao_ponteiros.s
 	@echo ... condicionais.obj
 	@echo ... condicionais.i
 	@echo ... condicionais.s

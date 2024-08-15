@@ -63,4 +63,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/strings.dir/DependInfo.cmake"
   "CMakeFiles/manipulacao_strings.dir/DependInfo.cmake"
   "CMakeFiles/aritmetica_ponteiros.dir/DependInfo.cmake"
+  "CMakeFiles/comparacao_ponteiros.dir/DependInfo.cmake"
   )

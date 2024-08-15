@@ -53,3 +53,6 @@ add_executable(manipulacao_strings
 
 add_executable(aritmetica_ponteiros
         aritmetica_ponteiros.c)
+
+add_executable(comparacao_ponteiros
+        comparacao_ponteiros.c)

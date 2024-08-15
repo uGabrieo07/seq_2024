@@ -30,7 +30,8 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16
 					]
 				}
 			],
@@ -60,7 +61,8 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16
 					]
 				}
 			],
@@ -85,6 +87,13 @@
 					"id" : "aritmetica_ponteiros::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-aritmetica_ponteiros-Debug-cadfa2acbb7bd25a37ac.json",
 					"name" : "aritmetica_ponteiros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "comparacao_ponteiros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-comparacao_ponteiros-Debug-452485470c64e813c4aa.json",
+					"name" : "comparacao_ponteiros",
 					"projectIndex" : 0
 				},
 				{
