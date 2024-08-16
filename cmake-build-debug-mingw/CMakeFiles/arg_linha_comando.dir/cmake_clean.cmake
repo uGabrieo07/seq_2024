@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.obj"
   "CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.obj.d"
+  "CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.obj"
+  "CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.obj.d"
   "arg_linha_comando.exe"
   "arg_linha_comando.exe.manifest"
   "arg_linha_comando.pdb"

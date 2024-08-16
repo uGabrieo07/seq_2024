@@ -24,7 +24,8 @@ add_executable(operador_atribuicao
         operador_atribuicao.c)
 
 add_executable(arg_linha_comando
-        argumentos_linha_comando.c)
+        argumentos_linha_comando.c
+        operadores_ponteiros.c)
 
 add_executable(funcoes
         funcoes.c)

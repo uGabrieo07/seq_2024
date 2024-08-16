@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "exponencial.exe"
+			"path" : "manipulacao_strings.exe"
 		},
 		{
-			"path" : "exponencial.pdb"
+			"path" : "manipulacao_strings.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 38,
+				"line" : 52,
 				"parent" : 0
 			}
 		]
@@ -52,12 +52,11 @@
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
-	"id" : "exponencial::@6890427a1f51a3e7e1df",
+	"id" : "manipulacao_strings::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,8 +76,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "exponencial",
-	"nameOnDisk" : "exponencial.exe",
+	"name" : "manipulacao_strings",
+	"nameOnDisk" : "manipulacao_strings.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -90,8 +89,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
@@ -100,13 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "exponencial_implementacao.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "exponencial_teste.c",
+			"path" : "manipulacao_strings.c",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "funcoes.exe"
+			"path" : "exponencial.exe"
 		},
 		{
-			"path" : "funcoes.pdb"
+			"path" : "exponencial.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 29,
+				"line" : 39,
 				"parent" : 0
 			}
 		]
@@ -52,11 +52,12 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
-	"id" : "funcoes::@6890427a1f51a3e7e1df",
+	"id" : "exponencial::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +77,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "funcoes",
-	"nameOnDisk" : "funcoes.exe",
+	"name" : "exponencial",
+	"nameOnDisk" : "exponencial.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -89,7 +90,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -98,7 +100,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "funcoes.c",
+			"path" : "exponencial_implementacao.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "exponencial_teste.c",
 			"sourceGroupIndex" : 0
 		}
 	],

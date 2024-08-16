@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Marcelo/OneDrive/Documentos/João/UFRJ/for_code/mini_curso_introducao_a_c/seq_2024/argumentos_linha_comando.c" "CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.obj" "gcc" "CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.obj.d"
+  "C:/Users/Marcelo/OneDrive/Documentos/João/UFRJ/for_code/mini_curso_introducao_a_c/seq_2024/operadores_ponteiros.c" "CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.obj" "gcc" "CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

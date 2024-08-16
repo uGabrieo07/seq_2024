@@ -29,7 +29,10 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15,
+						16,
+						17
 					]
 				}
 			],
@@ -58,7 +61,10 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15,
+						16,
+						17
 					]
 				}
 			],
@@ -67,15 +73,29 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "arg_linha_comando::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-arg_linha_comando-Debug-8c27fc5f4f647e37a9fa.json",
+					"jsonFile" : "target-arg_linha_comando-Debug-2f9bbd9b594dd2d2daa1.json",
 					"name" : "arg_linha_comando",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "arg_referencia::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-arg_referencia-Debug-009de5ab89a5767ed07d.json",
+					"jsonFile" : "target-arg_referencia-Debug-e220fec0f4841457e973.json",
 					"name" : "arg_referencia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aritmetica_ponteiros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aritmetica_ponteiros-Debug-0c2aaa4db60f6bb8a161.json",
+					"name" : "aritmetica_ponteiros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "comparacao_ponteiros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-comparacao_ponteiros-Debug-b69c6630d855b1b55e85.json",
+					"name" : "comparacao_ponteiros",
 					"projectIndex" : 0
 				},
 				{
@@ -88,7 +108,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "erro_memoria::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-erro_memoria-Debug-5d19e2fa370fd6d97bee.json",
+					"jsonFile" : "target-erro_memoria-Debug-b6e9449a3da8cdebb722.json",
 					"name" : "erro_memoria",
 					"projectIndex" : 0
 				},
@@ -109,28 +129,28 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "exponencial::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-exponencial-Debug-b2b782037dcb6ae6dab7.json",
+					"jsonFile" : "target-exponencial-Debug-734581a85b117afeeb3e.json",
 					"name" : "exponencial",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "funcoes::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-funcoes-Debug-948afb5bd35603d5fc17.json",
+					"jsonFile" : "target-funcoes-Debug-86f23ed74078565e863b.json",
 					"name" : "funcoes",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "manipulacao_arrays::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-manipulacao_arrays-Debug-33a252862cf7683198d1.json",
+					"jsonFile" : "target-manipulacao_arrays-Debug-9de09a3a7b130421c9be.json",
 					"name" : "manipulacao_arrays",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "manipulacao_strings::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-manipulacao_strings-Debug-5ae423149b4251cacaa3.json",
+					"jsonFile" : "target-manipulacao_strings-Debug-f6496d8c15d7b64689b8.json",
 					"name" : "manipulacao_strings",
 					"projectIndex" : 0
 				},
@@ -144,7 +164,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "recursao::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-recursao-Debug-eb3fd54dee94d7659c3c.json",
+					"jsonFile" : "target-recursao-Debug-e11259ce18aa8b0c2d9c.json",
 					"name" : "recursao",
 					"projectIndex" : 0
 				},
@@ -158,8 +178,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "strings::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-strings-Debug-c4f4e379586792db02fd.json",
+					"jsonFile" : "target-strings-Debug-59959f372a43f250bcd6.json",
 					"name" : "strings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "structs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-structs-Debug-93971d50fe4b9d054ef8.json",
+					"name" : "structs",
 					"projectIndex" : 0
 				},
 				{

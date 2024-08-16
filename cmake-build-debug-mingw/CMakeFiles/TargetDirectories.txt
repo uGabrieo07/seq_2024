@@ -13,5 +13,8 @@ C:/Users/Marcelo/OneDrive/Documentos/João/UFRJ/for_code/mini_curso_introducao_a
 C:/Users/Marcelo/OneDrive/Documentos/João/UFRJ/for_code/mini_curso_introducao_a_c/seq_2024/cmake-build-debug-mingw/CMakeFiles/manipulacao_arrays.dir
 C:/Users/Marcelo/OneDrive/Documentos/João/UFRJ/for_code/mini_curso_introducao_a_c/seq_2024/cmake-build-debug-mingw/CMakeFiles/strings.dir
 C:/Users/Marcelo/OneDrive/Documentos/João/UFRJ/for_code/mini_curso_introducao_a_c/seq_2024/cmake-build-debug-mingw/CMakeFiles/manipulacao_strings.dir
+C:/Users/Marcelo/OneDrive/Documentos/João/UFRJ/for_code/mini_curso_introducao_a_c/seq_2024/cmake-build-debug-mingw/CMakeFiles/aritmetica_ponteiros.dir
+C:/Users/Marcelo/OneDrive/Documentos/João/UFRJ/for_code/mini_curso_introducao_a_c/seq_2024/cmake-build-debug-mingw/CMakeFiles/comparacao_ponteiros.dir
+C:/Users/Marcelo/OneDrive/Documentos/João/UFRJ/for_code/mini_curso_introducao_a_c/seq_2024/cmake-build-debug-mingw/CMakeFiles/structs.dir
 C:/Users/Marcelo/OneDrive/Documentos/João/UFRJ/for_code/mini_curso_introducao_a_c/seq_2024/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
 C:/Users/Marcelo/OneDrive/Documentos/João/UFRJ/for_code/mini_curso_introducao_a_c/seq_2024/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "manipulacao_arrays.exe"
+			"path" : "comparacao_ponteiros.exe"
 		},
 		{
-			"path" : "manipulacao_arrays.pdb"
+			"path" : "comparacao_ponteiros.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 45,
+				"line" : 58,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "manipulacao_arrays::@6890427a1f51a3e7e1df",
+	"id" : "comparacao_ponteiros::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "manipulacao_arrays",
-	"nameOnDisk" : "manipulacao_arrays.exe",
+	"name" : "comparacao_ponteiros",
+	"nameOnDisk" : "comparacao_ponteiros.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "manipulacao_arrays.c",
+			"path" : "comparacao_ponteiros.c",
 			"sourceGroupIndex" : 0
 		}
 	],

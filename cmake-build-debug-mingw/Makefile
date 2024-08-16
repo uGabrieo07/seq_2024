@@ -310,6 +310,45 @@ manipulacao_strings/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/build
 .PHONY : manipulacao_strings/fast
 
+#=============================================================================
+# Target rules for targets named aritmetica_ponteiros
+
+# Build rule for target.
+aritmetica_ponteiros: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 aritmetica_ponteiros
+.PHONY : aritmetica_ponteiros
+
+# fast build rule for target.
+aritmetica_ponteiros/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/build
+.PHONY : aritmetica_ponteiros/fast
+
+#=============================================================================
+# Target rules for targets named comparacao_ponteiros
+
+# Build rule for target.
+comparacao_ponteiros: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 comparacao_ponteiros
+.PHONY : comparacao_ponteiros
+
+# fast build rule for target.
+comparacao_ponteiros/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/build
+.PHONY : comparacao_ponteiros/fast
+
+#=============================================================================
+# Target rules for targets named structs
+
+# Build rule for target.
+structs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 structs
+.PHONY : structs
+
+# fast build rule for target.
+structs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/build
+.PHONY : structs/fast
+
 arg_referencia.obj: arg_referencia.c.obj
 .PHONY : arg_referencia.obj
 
@@ -357,6 +396,54 @@ argumentos_linha_comando.s: argumentos_linha_comando.c.s
 argumentos_linha_comando.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.s
 .PHONY : argumentos_linha_comando.c.s
+
+aritmetica_ponteiros.obj: aritmetica_ponteiros.c.obj
+.PHONY : aritmetica_ponteiros.obj
+
+# target to build an object file
+aritmetica_ponteiros.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.obj
+.PHONY : aritmetica_ponteiros.c.obj
+
+aritmetica_ponteiros.i: aritmetica_ponteiros.c.i
+.PHONY : aritmetica_ponteiros.i
+
+# target to preprocess a source file
+aritmetica_ponteiros.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.i
+.PHONY : aritmetica_ponteiros.c.i
+
+aritmetica_ponteiros.s: aritmetica_ponteiros.c.s
+.PHONY : aritmetica_ponteiros.s
+
+# target to generate assembly for a file
+aritmetica_ponteiros.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.s
+.PHONY : aritmetica_ponteiros.c.s
+
+comparacao_ponteiros.obj: comparacao_ponteiros.c.obj
+.PHONY : comparacao_ponteiros.obj
+
+# target to build an object file
+comparacao_ponteiros.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/comparacao_ponteiros.c.obj
+.PHONY : comparacao_ponteiros.c.obj
+
+comparacao_ponteiros.i: comparacao_ponteiros.c.i
+.PHONY : comparacao_ponteiros.i
+
+# target to preprocess a source file
+comparacao_ponteiros.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/comparacao_ponteiros.c.i
+.PHONY : comparacao_ponteiros.c.i
+
+comparacao_ponteiros.s: comparacao_ponteiros.c.s
+.PHONY : comparacao_ponteiros.s
+
+# target to generate assembly for a file
+comparacao_ponteiros.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/comparacao_ponteiros.c.s
+.PHONY : comparacao_ponteiros.c.s
 
 condicionais.obj: condicionais.c.obj
 .PHONY : condicionais.obj
@@ -622,6 +709,30 @@ operador_atribuicao.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.s
 .PHONY : operador_atribuicao.c.s
 
+operadores_ponteiros.obj: operadores_ponteiros.c.obj
+.PHONY : operadores_ponteiros.obj
+
+# target to build an object file
+operadores_ponteiros.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.obj
+.PHONY : operadores_ponteiros.c.obj
+
+operadores_ponteiros.i: operadores_ponteiros.c.i
+.PHONY : operadores_ponteiros.i
+
+# target to preprocess a source file
+operadores_ponteiros.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.i
+.PHONY : operadores_ponteiros.c.i
+
+operadores_ponteiros.s: operadores_ponteiros.c.s
+.PHONY : operadores_ponteiros.s
+
+# target to generate assembly for a file
+operadores_ponteiros.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.s
+.PHONY : operadores_ponteiros.c.s
+
 recursao.obj: recursao.c.obj
 .PHONY : recursao.obj
 
@@ -694,6 +805,30 @@ strings.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/strings.c.s
 .PHONY : strings.c.s
 
+structs.obj: structs.c.obj
+.PHONY : structs.obj
+
+# target to build an object file
+structs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/structs.c.obj
+.PHONY : structs.c.obj
+
+structs.i: structs.c.i
+.PHONY : structs.i
+
+# target to preprocess a source file
+structs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/structs.c.i
+.PHONY : structs.c.i
+
+structs.s: structs.c.s
+.PHONY : structs.s
+
+# target to generate assembly for a file
+structs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/structs.c.s
+.PHONY : structs.c.s
+
 tipos_variaveis.obj: tipos_variaveis.c.obj
 .PHONY : tipos_variaveis.obj
 
@@ -728,6 +863,8 @@ help:
 	@echo ... rebuild_cache
 	@echo ... arg_linha_comando
 	@echo ... arg_referencia
+	@echo ... aritmetica_ponteiros
+	@echo ... comparacao_ponteiros
 	@echo ... condicionais
 	@echo ... erro_memoria
 	@echo ... exemplo01
@@ -740,6 +877,7 @@ help:
 	@echo ... recursao
 	@echo ... scanf_printf
 	@echo ... strings
+	@echo ... structs
 	@echo ... tipos_variaveis
 	@echo ... arg_referencia.obj
 	@echo ... arg_referencia.i
@@ -747,6 +885,12 @@ help:
 	@echo ... argumentos_linha_comando.obj
 	@echo ... argumentos_linha_comando.i
 	@echo ... argumentos_linha_comando.s
+	@echo ... aritmetica_ponteiros.obj
+	@echo ... aritmetica_ponteiros.i
+	@echo ... aritmetica_ponteiros.s
+	@echo ... comparacao_ponteiros.obj
+	@echo ... comparacao_ponteiros.i
+	@echo ... comparacao_ponteiros.s
 	@echo ... condicionais.obj
 	@echo ... condicionais.i
 	@echo ... condicionais.s
@@ -780,6 +924,9 @@ help:
 	@echo ... operador_atribuicao.obj
 	@echo ... operador_atribuicao.i
 	@echo ... operador_atribuicao.s
+	@echo ... operadores_ponteiros.obj
+	@echo ... operadores_ponteiros.i
+	@echo ... operadores_ponteiros.s
 	@echo ... recursao.obj
 	@echo ... recursao.i
 	@echo ... recursao.s
@@ -789,6 +936,9 @@ help:
 	@echo ... strings.obj
 	@echo ... strings.i
 	@echo ... strings.s
+	@echo ... structs.obj
+	@echo ... structs.i
+	@echo ... structs.s
 	@echo ... tipos_variaveis.obj
 	@echo ... tipos_variaveis.i
 	@echo ... tipos_variaveis.s
