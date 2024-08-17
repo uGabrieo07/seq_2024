@@ -60,3 +60,13 @@ add_executable(comparacao_ponteiros
 
 add_executable(structs
         structs.c)
+
+add_executable(arquivos_txt_leitura
+        arquivos_txt_leitura.c)
+
+add_executable(arquivos_txt_escrita
+        arquivos_txt_escrita.c)
+
+add_executable(arquivos_binarios
+        arquivos_binarios.c)
+

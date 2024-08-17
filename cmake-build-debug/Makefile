@@ -349,6 +349,45 @@ structs/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/build
 .PHONY : structs/fast
 
+#=============================================================================
+# Target rules for targets named arquivos_txt_leitura
+
+# Build rule for target.
+arquivos_txt_leitura: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 arquivos_txt_leitura
+.PHONY : arquivos_txt_leitura
+
+# fast build rule for target.
+arquivos_txt_leitura/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_leitura.dir\build.make CMakeFiles/arquivos_txt_leitura.dir/build
+.PHONY : arquivos_txt_leitura/fast
+
+#=============================================================================
+# Target rules for targets named arquivos_txt_escrita
+
+# Build rule for target.
+arquivos_txt_escrita: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 arquivos_txt_escrita
+.PHONY : arquivos_txt_escrita
+
+# fast build rule for target.
+arquivos_txt_escrita/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_escrita.dir\build.make CMakeFiles/arquivos_txt_escrita.dir/build
+.PHONY : arquivos_txt_escrita/fast
+
+#=============================================================================
+# Target rules for targets named arquivos_binarios
+
+# Build rule for target.
+arquivos_binarios: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 arquivos_binarios
+.PHONY : arquivos_binarios
+
+# fast build rule for target.
+arquivos_binarios/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/build
+.PHONY : arquivos_binarios/fast
+
 arg_referencia.obj: arg_referencia.c.obj
 .PHONY : arg_referencia.obj
 
@@ -420,6 +459,78 @@ aritmetica_ponteiros.s: aritmetica_ponteiros.c.s
 aritmetica_ponteiros.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.s
 .PHONY : aritmetica_ponteiros.c.s
+
+arquivos_binarios.obj: arquivos_binarios.c.obj
+.PHONY : arquivos_binarios.obj
+
+# target to build an object file
+arquivos_binarios.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/arquivos_binarios.c.obj
+.PHONY : arquivos_binarios.c.obj
+
+arquivos_binarios.i: arquivos_binarios.c.i
+.PHONY : arquivos_binarios.i
+
+# target to preprocess a source file
+arquivos_binarios.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/arquivos_binarios.c.i
+.PHONY : arquivos_binarios.c.i
+
+arquivos_binarios.s: arquivos_binarios.c.s
+.PHONY : arquivos_binarios.s
+
+# target to generate assembly for a file
+arquivos_binarios.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/arquivos_binarios.c.s
+.PHONY : arquivos_binarios.c.s
+
+arquivos_txt_escrita.obj: arquivos_txt_escrita.c.obj
+.PHONY : arquivos_txt_escrita.obj
+
+# target to build an object file
+arquivos_txt_escrita.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_escrita.dir\build.make CMakeFiles/arquivos_txt_escrita.dir/arquivos_txt_escrita.c.obj
+.PHONY : arquivos_txt_escrita.c.obj
+
+arquivos_txt_escrita.i: arquivos_txt_escrita.c.i
+.PHONY : arquivos_txt_escrita.i
+
+# target to preprocess a source file
+arquivos_txt_escrita.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_escrita.dir\build.make CMakeFiles/arquivos_txt_escrita.dir/arquivos_txt_escrita.c.i
+.PHONY : arquivos_txt_escrita.c.i
+
+arquivos_txt_escrita.s: arquivos_txt_escrita.c.s
+.PHONY : arquivos_txt_escrita.s
+
+# target to generate assembly for a file
+arquivos_txt_escrita.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_escrita.dir\build.make CMakeFiles/arquivos_txt_escrita.dir/arquivos_txt_escrita.c.s
+.PHONY : arquivos_txt_escrita.c.s
+
+arquivos_txt_leitura.obj: arquivos_txt_leitura.c.obj
+.PHONY : arquivos_txt_leitura.obj
+
+# target to build an object file
+arquivos_txt_leitura.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_leitura.dir\build.make CMakeFiles/arquivos_txt_leitura.dir/arquivos_txt_leitura.c.obj
+.PHONY : arquivos_txt_leitura.c.obj
+
+arquivos_txt_leitura.i: arquivos_txt_leitura.c.i
+.PHONY : arquivos_txt_leitura.i
+
+# target to preprocess a source file
+arquivos_txt_leitura.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_leitura.dir\build.make CMakeFiles/arquivos_txt_leitura.dir/arquivos_txt_leitura.c.i
+.PHONY : arquivos_txt_leitura.c.i
+
+arquivos_txt_leitura.s: arquivos_txt_leitura.c.s
+.PHONY : arquivos_txt_leitura.s
+
+# target to generate assembly for a file
+arquivos_txt_leitura.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_leitura.dir\build.make CMakeFiles/arquivos_txt_leitura.dir/arquivos_txt_leitura.c.s
+.PHONY : arquivos_txt_leitura.c.s
 
 comparacao_ponteiros.obj: comparacao_ponteiros.c.obj
 .PHONY : comparacao_ponteiros.obj
@@ -709,6 +820,30 @@ operador_atribuicao.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.s
 .PHONY : operador_atribuicao.c.s
 
+operadores_ponteiros.obj: operadores_ponteiros.c.obj
+.PHONY : operadores_ponteiros.obj
+
+# target to build an object file
+operadores_ponteiros.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.obj
+.PHONY : operadores_ponteiros.c.obj
+
+operadores_ponteiros.i: operadores_ponteiros.c.i
+.PHONY : operadores_ponteiros.i
+
+# target to preprocess a source file
+operadores_ponteiros.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.i
+.PHONY : operadores_ponteiros.c.i
+
+operadores_ponteiros.s: operadores_ponteiros.c.s
+.PHONY : operadores_ponteiros.s
+
+# target to generate assembly for a file
+operadores_ponteiros.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.s
+.PHONY : operadores_ponteiros.c.s
+
 recursao.obj: recursao.c.obj
 .PHONY : recursao.obj
 
@@ -840,6 +975,9 @@ help:
 	@echo ... arg_linha_comando
 	@echo ... arg_referencia
 	@echo ... aritmetica_ponteiros
+	@echo ... arquivos_binarios
+	@echo ... arquivos_txt_escrita
+	@echo ... arquivos_txt_leitura
 	@echo ... comparacao_ponteiros
 	@echo ... condicionais
 	@echo ... erro_memoria
@@ -864,6 +1002,15 @@ help:
 	@echo ... aritmetica_ponteiros.obj
 	@echo ... aritmetica_ponteiros.i
 	@echo ... aritmetica_ponteiros.s
+	@echo ... arquivos_binarios.obj
+	@echo ... arquivos_binarios.i
+	@echo ... arquivos_binarios.s
+	@echo ... arquivos_txt_escrita.obj
+	@echo ... arquivos_txt_escrita.i
+	@echo ... arquivos_txt_escrita.s
+	@echo ... arquivos_txt_leitura.obj
+	@echo ... arquivos_txt_leitura.i
+	@echo ... arquivos_txt_leitura.s
 	@echo ... comparacao_ponteiros.obj
 	@echo ... comparacao_ponteiros.i
 	@echo ... comparacao_ponteiros.s
@@ -900,6 +1047,9 @@ help:
 	@echo ... operador_atribuicao.obj
 	@echo ... operador_atribuicao.i
 	@echo ... operador_atribuicao.s
+	@echo ... operadores_ponteiros.obj
+	@echo ... operadores_ponteiros.i
+	@echo ... operadores_ponteiros.s
 	@echo ... recursao.obj
 	@echo ... recursao.i
 	@echo ... recursao.s

@@ -65,4 +65,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/aritmetica_ponteiros.dir/DependInfo.cmake"
   "CMakeFiles/comparacao_ponteiros.dir/DependInfo.cmake"
   "CMakeFiles/structs.dir/DependInfo.cmake"
+  "CMakeFiles/arquivos_txt_leitura.dir/DependInfo.cmake"
+  "CMakeFiles/arquivos_txt_escrita.dir/DependInfo.cmake"
+  "CMakeFiles/arquivos_binarios.dir/DependInfo.cmake"
   )

@@ -737,6 +737,126 @@
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="arquivos_txt_leitura">
+				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/arquivos_txt_leitura.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_txt_leitura"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arquivos_txt_leitura/fast">
+				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/arquivos_txt_leitura.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_txt_leitura/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arquivos_txt_escrita">
+				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/arquivos_txt_escrita.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_txt_escrita"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arquivos_txt_escrita/fast">
+				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/arquivos_txt_escrita.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_txt_escrita/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arquivos_binarios">
+				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/arquivos_binarios.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_binarios"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arquivos_binarios/fast">
+				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/arquivos_binarios.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_binarios/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
 				<Option type="4"/>
@@ -766,6 +886,15 @@
 		</Unit>
 		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/aritmetica_ponteiros.c">
 			<Option target="aritmetica_ponteiros"/>
+		</Unit>
+		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/arquivos_binarios.c">
+			<Option target="arquivos_binarios"/>
+		</Unit>
+		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/arquivos_txt_escrita.c">
+			<Option target="arquivos_txt_escrita"/>
+		</Unit>
+		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/arquivos_txt_leitura.c">
+			<Option target="arquivos_txt_leitura"/>
 		</Unit>
 		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/comparacao_ponteiros.c">
 			<Option target="comparacao_ponteiros"/>
@@ -805,6 +934,9 @@
 		</Unit>
 		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/operador_atribuicao.c">
 			<Option target="operador_atribuicao"/>
+		</Unit>
+		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/operadores_ponteiros.c">
+			<Option target="arg_linha_comando"/>
 		</Unit>
 		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/recursao.c">
 			<Option target="recursao"/>
