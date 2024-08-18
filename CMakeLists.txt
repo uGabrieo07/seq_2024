@@ -24,7 +24,8 @@ add_executable(operador_atribuicao
         operador_atribuicao.c)
 
 add_executable(arg_linha_comando
-        argumentos_linha_comando.c)
+        argumentos_linha_comando.c
+        operadores_ponteiros.c)
 
 add_executable(funcoes
         funcoes.c)
@@ -34,3 +35,38 @@ add_executable(arg_referencia
 
 add_executable(recursao
         recursao.c)
+
+add_executable(exponencial
+        exponencial_implementacao.c
+        exponencial_teste.c)
+
+add_executable(erro_memoria
+        erro_memoria.c)
+
+add_executable(manipulacao_arrays
+        manipulacao_arrays.c)
+
+add_executable(strings
+        strings.c)
+
+add_executable(manipulacao_strings
+        manipulacao_strings.c)
+
+add_executable(aritmetica_ponteiros
+        aritmetica_ponteiros.c)
+
+add_executable(comparacao_ponteiros
+        comparacao_ponteiros.c)
+
+add_executable(structs
+        structs.c)
+
+add_executable(arquivos_txt_leitura
+        arquivos_txt_leitura.c)
+
+add_executable(arquivos_txt_escrita
+        arquivos_txt_escrita.c)
+
+add_executable(arquivos_binarios
+        arquivos_binarios.c)
+

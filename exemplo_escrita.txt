@@ -1,0 +1,4 @@
+Esta é uma linha escrita com fputs.
+A
+Número inteiro: 123
+Número de ponto flutuante: 456.78

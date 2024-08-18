@@ -1,0 +1,218 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "seq_2024",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arg_linha_comando::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arg_linha_comando-Debug-2f9bbd9b594dd2d2daa1.json",
+					"name" : "arg_linha_comando",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arg_referencia::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arg_referencia-Debug-e220fec0f4841457e973.json",
+					"name" : "arg_referencia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aritmetica_ponteiros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aritmetica_ponteiros-Debug-0c2aaa4db60f6bb8a161.json",
+					"name" : "aritmetica_ponteiros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "comparacao_ponteiros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-comparacao_ponteiros-Debug-b69c6630d855b1b55e85.json",
+					"name" : "comparacao_ponteiros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "condicionais::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-condicionais-Debug-433bfe0bf5944c784151.json",
+					"name" : "condicionais",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erro_memoria::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erro_memoria-Debug-b6e9449a3da8cdebb722.json",
+					"name" : "erro_memoria",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exemplo01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exemplo01-Debug-791c1238c3ecb81fda2d.json",
+					"name" : "exemplo01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exemplo02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exemplo02-Debug-c3f671a435c7dd696c76.json",
+					"name" : "exemplo02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exponencial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exponencial-Debug-734581a85b117afeeb3e.json",
+					"name" : "exponencial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "funcoes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-funcoes-Debug-86f23ed74078565e863b.json",
+					"name" : "funcoes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulacao_arrays::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulacao_arrays-Debug-9de09a3a7b130421c9be.json",
+					"name" : "manipulacao_arrays",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulacao_strings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulacao_strings-Debug-f6496d8c15d7b64689b8.json",
+					"name" : "manipulacao_strings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "operador_atribuicao::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-operador_atribuicao-Debug-437095c66fb7cb71fced.json",
+					"name" : "operador_atribuicao",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recursao::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recursao-Debug-e11259ce18aa8b0c2d9c.json",
+					"name" : "recursao",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scanf_printf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scanf_printf-Debug-ad52688b1a699bb2fbf1.json",
+					"name" : "scanf_printf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strings-Debug-59959f372a43f250bcd6.json",
+					"name" : "strings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "structs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-structs-Debug-93971d50fe4b9d054ef8.json",
+					"name" : "structs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tipos_variaveis::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tipos_variaveis-Debug-79b07f76f67b6bbaf255.json",
+					"name" : "tipos_variaveis",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-cd4a1f3066879bdd8448.json
+		"build" : "C:/Users/Pichau/Documents/Jo\u00e3o/UFRJ/for_code/SEQ/Minicurso de Introdu\u00e7\u00e3o a C/seq_2024/cmake-build-debug",
+		"source" : "C:/Users/Pichau/Documents/Jo\u00e3o/UFRJ/for_code/SEQ/Minicurso de Introdu\u00e7\u00e3o a C/seq_2024"
+========
+		"build" : "C:/Users/Marcelo/OneDrive/Documentos/Jo\u00e3o/UFRJ/for_code/mini_curso_introducao_a_c/seq_2024/cmake-build-debug-mingw",
+		"source" : "C:/Users/Marcelo/OneDrive/Documentos/Jo\u00e3o/UFRJ/for_code/mini_curso_introducao_a_c/seq_2024"
+>>>>>>>> f68f79b44d27317c6a67f59410a031d29c9fb005:cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-cb40e4946dbfc0fc648d.json
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

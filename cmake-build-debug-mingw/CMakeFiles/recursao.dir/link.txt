@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.1.5\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\recursao.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.5\bin\mingw\bin\ar.exe qc CMakeFiles\recursao.dir/objects.a @CMakeFiles\recursao.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.5\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\recursao.dir/objects.a -Wl,--no-whole-archive -o recursao.exe -Wl,--out-implib,librecursao.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\recursao.dir\linkLibs.rsp

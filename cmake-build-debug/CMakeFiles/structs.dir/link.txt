@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\structs.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\structs.dir/objects.a @CMakeFiles\structs.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\structs.dir/objects.a -Wl,--no-whole-archive -o structs.exe -Wl,--out-implib,libstructs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\structs.dir\linkLibs.rsp

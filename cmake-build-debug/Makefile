@@ -245,6 +245,149 @@ recursao/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\recursao.dir\build.make CMakeFiles/recursao.dir/build
 .PHONY : recursao/fast
 
+#=============================================================================
+# Target rules for targets named exponencial
+
+# Build rule for target.
+exponencial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exponencial
+.PHONY : exponencial
+
+# fast build rule for target.
+exponencial/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/build
+.PHONY : exponencial/fast
+
+#=============================================================================
+# Target rules for targets named erro_memoria
+
+# Build rule for target.
+erro_memoria: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 erro_memoria
+.PHONY : erro_memoria
+
+# fast build rule for target.
+erro_memoria/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\erro_memoria.dir\build.make CMakeFiles/erro_memoria.dir/build
+.PHONY : erro_memoria/fast
+
+#=============================================================================
+# Target rules for targets named manipulacao_arrays
+
+# Build rule for target.
+manipulacao_arrays: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 manipulacao_arrays
+.PHONY : manipulacao_arrays
+
+# fast build rule for target.
+manipulacao_arrays/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_arrays.dir\build.make CMakeFiles/manipulacao_arrays.dir/build
+.PHONY : manipulacao_arrays/fast
+
+#=============================================================================
+# Target rules for targets named strings
+
+# Build rule for target.
+strings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 strings
+.PHONY : strings
+
+# fast build rule for target.
+strings/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/build
+.PHONY : strings/fast
+
+#=============================================================================
+# Target rules for targets named manipulacao_strings
+
+# Build rule for target.
+manipulacao_strings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 manipulacao_strings
+.PHONY : manipulacao_strings
+
+# fast build rule for target.
+manipulacao_strings/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/build
+.PHONY : manipulacao_strings/fast
+
+#=============================================================================
+# Target rules for targets named aritmetica_ponteiros
+
+# Build rule for target.
+aritmetica_ponteiros: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 aritmetica_ponteiros
+.PHONY : aritmetica_ponteiros
+
+# fast build rule for target.
+aritmetica_ponteiros/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/build
+.PHONY : aritmetica_ponteiros/fast
+
+#=============================================================================
+# Target rules for targets named comparacao_ponteiros
+
+# Build rule for target.
+comparacao_ponteiros: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 comparacao_ponteiros
+.PHONY : comparacao_ponteiros
+
+# fast build rule for target.
+comparacao_ponteiros/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/build
+.PHONY : comparacao_ponteiros/fast
+
+#=============================================================================
+# Target rules for targets named structs
+
+# Build rule for target.
+structs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 structs
+.PHONY : structs
+
+# fast build rule for target.
+structs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/build
+.PHONY : structs/fast
+
+#=============================================================================
+# Target rules for targets named arquivos_txt_leitura
+
+# Build rule for target.
+arquivos_txt_leitura: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 arquivos_txt_leitura
+.PHONY : arquivos_txt_leitura
+
+# fast build rule for target.
+arquivos_txt_leitura/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_leitura.dir\build.make CMakeFiles/arquivos_txt_leitura.dir/build
+.PHONY : arquivos_txt_leitura/fast
+
+#=============================================================================
+# Target rules for targets named arquivos_txt_escrita
+
+# Build rule for target.
+arquivos_txt_escrita: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 arquivos_txt_escrita
+.PHONY : arquivos_txt_escrita
+
+# fast build rule for target.
+arquivos_txt_escrita/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_escrita.dir\build.make CMakeFiles/arquivos_txt_escrita.dir/build
+.PHONY : arquivos_txt_escrita/fast
+
+#=============================================================================
+# Target rules for targets named arquivos_binarios
+
+# Build rule for target.
+arquivos_binarios: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 arquivos_binarios
+.PHONY : arquivos_binarios
+
+# fast build rule for target.
+arquivos_binarios/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/build
+.PHONY : arquivos_binarios/fast
+
 arg_referencia.obj: arg_referencia.c.obj
 .PHONY : arg_referencia.obj
 
@@ -293,6 +436,126 @@ argumentos_linha_comando.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.s
 .PHONY : argumentos_linha_comando.c.s
 
+aritmetica_ponteiros.obj: aritmetica_ponteiros.c.obj
+.PHONY : aritmetica_ponteiros.obj
+
+# target to build an object file
+aritmetica_ponteiros.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.obj
+.PHONY : aritmetica_ponteiros.c.obj
+
+aritmetica_ponteiros.i: aritmetica_ponteiros.c.i
+.PHONY : aritmetica_ponteiros.i
+
+# target to preprocess a source file
+aritmetica_ponteiros.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.i
+.PHONY : aritmetica_ponteiros.c.i
+
+aritmetica_ponteiros.s: aritmetica_ponteiros.c.s
+.PHONY : aritmetica_ponteiros.s
+
+# target to generate assembly for a file
+aritmetica_ponteiros.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.s
+.PHONY : aritmetica_ponteiros.c.s
+
+arquivos_binarios.obj: arquivos_binarios.c.obj
+.PHONY : arquivos_binarios.obj
+
+# target to build an object file
+arquivos_binarios.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/arquivos_binarios.c.obj
+.PHONY : arquivos_binarios.c.obj
+
+arquivos_binarios.i: arquivos_binarios.c.i
+.PHONY : arquivos_binarios.i
+
+# target to preprocess a source file
+arquivos_binarios.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/arquivos_binarios.c.i
+.PHONY : arquivos_binarios.c.i
+
+arquivos_binarios.s: arquivos_binarios.c.s
+.PHONY : arquivos_binarios.s
+
+# target to generate assembly for a file
+arquivos_binarios.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/arquivos_binarios.c.s
+.PHONY : arquivos_binarios.c.s
+
+arquivos_txt_escrita.obj: arquivos_txt_escrita.c.obj
+.PHONY : arquivos_txt_escrita.obj
+
+# target to build an object file
+arquivos_txt_escrita.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_escrita.dir\build.make CMakeFiles/arquivos_txt_escrita.dir/arquivos_txt_escrita.c.obj
+.PHONY : arquivos_txt_escrita.c.obj
+
+arquivos_txt_escrita.i: arquivos_txt_escrita.c.i
+.PHONY : arquivos_txt_escrita.i
+
+# target to preprocess a source file
+arquivos_txt_escrita.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_escrita.dir\build.make CMakeFiles/arquivos_txt_escrita.dir/arquivos_txt_escrita.c.i
+.PHONY : arquivos_txt_escrita.c.i
+
+arquivos_txt_escrita.s: arquivos_txt_escrita.c.s
+.PHONY : arquivos_txt_escrita.s
+
+# target to generate assembly for a file
+arquivos_txt_escrita.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_escrita.dir\build.make CMakeFiles/arquivos_txt_escrita.dir/arquivos_txt_escrita.c.s
+.PHONY : arquivos_txt_escrita.c.s
+
+arquivos_txt_leitura.obj: arquivos_txt_leitura.c.obj
+.PHONY : arquivos_txt_leitura.obj
+
+# target to build an object file
+arquivos_txt_leitura.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_leitura.dir\build.make CMakeFiles/arquivos_txt_leitura.dir/arquivos_txt_leitura.c.obj
+.PHONY : arquivos_txt_leitura.c.obj
+
+arquivos_txt_leitura.i: arquivos_txt_leitura.c.i
+.PHONY : arquivos_txt_leitura.i
+
+# target to preprocess a source file
+arquivos_txt_leitura.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_leitura.dir\build.make CMakeFiles/arquivos_txt_leitura.dir/arquivos_txt_leitura.c.i
+.PHONY : arquivos_txt_leitura.c.i
+
+arquivos_txt_leitura.s: arquivos_txt_leitura.c.s
+.PHONY : arquivos_txt_leitura.s
+
+# target to generate assembly for a file
+arquivos_txt_leitura.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_leitura.dir\build.make CMakeFiles/arquivos_txt_leitura.dir/arquivos_txt_leitura.c.s
+.PHONY : arquivos_txt_leitura.c.s
+
+comparacao_ponteiros.obj: comparacao_ponteiros.c.obj
+.PHONY : comparacao_ponteiros.obj
+
+# target to build an object file
+comparacao_ponteiros.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/comparacao_ponteiros.c.obj
+.PHONY : comparacao_ponteiros.c.obj
+
+comparacao_ponteiros.i: comparacao_ponteiros.c.i
+.PHONY : comparacao_ponteiros.i
+
+# target to preprocess a source file
+comparacao_ponteiros.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/comparacao_ponteiros.c.i
+.PHONY : comparacao_ponteiros.c.i
+
+comparacao_ponteiros.s: comparacao_ponteiros.c.s
+.PHONY : comparacao_ponteiros.s
+
+# target to generate assembly for a file
+comparacao_ponteiros.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/comparacao_ponteiros.c.s
+.PHONY : comparacao_ponteiros.c.s
+
 condicionais.obj: condicionais.c.obj
 .PHONY : condicionais.obj
 
@@ -316,6 +579,30 @@ condicionais.s: condicionais.c.s
 condicionais.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/condicionais.c.s
 .PHONY : condicionais.c.s
+
+erro_memoria.obj: erro_memoria.c.obj
+.PHONY : erro_memoria.obj
+
+# target to build an object file
+erro_memoria.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\erro_memoria.dir\build.make CMakeFiles/erro_memoria.dir/erro_memoria.c.obj
+.PHONY : erro_memoria.c.obj
+
+erro_memoria.i: erro_memoria.c.i
+.PHONY : erro_memoria.i
+
+# target to preprocess a source file
+erro_memoria.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\erro_memoria.dir\build.make CMakeFiles/erro_memoria.dir/erro_memoria.c.i
+.PHONY : erro_memoria.c.i
+
+erro_memoria.s: erro_memoria.c.s
+.PHONY : erro_memoria.s
+
+# target to generate assembly for a file
+erro_memoria.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\erro_memoria.dir\build.make CMakeFiles/erro_memoria.dir/erro_memoria.c.s
+.PHONY : erro_memoria.c.s
 
 exemplo01.obj: exemplo01.c.obj
 .PHONY : exemplo01.obj
@@ -389,6 +676,54 @@ exemplo02.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo02.dir\build.make CMakeFiles/exemplo02.dir/exemplo02.c.s
 .PHONY : exemplo02.c.s
 
+exponencial_implementacao.obj: exponencial_implementacao.c.obj
+.PHONY : exponencial_implementacao.obj
+
+# target to build an object file
+exponencial_implementacao.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/exponencial_implementacao.c.obj
+.PHONY : exponencial_implementacao.c.obj
+
+exponencial_implementacao.i: exponencial_implementacao.c.i
+.PHONY : exponencial_implementacao.i
+
+# target to preprocess a source file
+exponencial_implementacao.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/exponencial_implementacao.c.i
+.PHONY : exponencial_implementacao.c.i
+
+exponencial_implementacao.s: exponencial_implementacao.c.s
+.PHONY : exponencial_implementacao.s
+
+# target to generate assembly for a file
+exponencial_implementacao.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/exponencial_implementacao.c.s
+.PHONY : exponencial_implementacao.c.s
+
+exponencial_teste.obj: exponencial_teste.c.obj
+.PHONY : exponencial_teste.obj
+
+# target to build an object file
+exponencial_teste.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/exponencial_teste.c.obj
+.PHONY : exponencial_teste.c.obj
+
+exponencial_teste.i: exponencial_teste.c.i
+.PHONY : exponencial_teste.i
+
+# target to preprocess a source file
+exponencial_teste.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/exponencial_teste.c.i
+.PHONY : exponencial_teste.c.i
+
+exponencial_teste.s: exponencial_teste.c.s
+.PHONY : exponencial_teste.s
+
+# target to generate assembly for a file
+exponencial_teste.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/exponencial_teste.c.s
+.PHONY : exponencial_teste.c.s
+
 funcoes.obj: funcoes.c.obj
 .PHONY : funcoes.obj
 
@@ -413,6 +748,54 @@ funcoes.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\funcoes.dir\build.make CMakeFiles/funcoes.dir/funcoes.c.s
 .PHONY : funcoes.c.s
 
+manipulacao_arrays.obj: manipulacao_arrays.c.obj
+.PHONY : manipulacao_arrays.obj
+
+# target to build an object file
+manipulacao_arrays.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_arrays.dir\build.make CMakeFiles/manipulacao_arrays.dir/manipulacao_arrays.c.obj
+.PHONY : manipulacao_arrays.c.obj
+
+manipulacao_arrays.i: manipulacao_arrays.c.i
+.PHONY : manipulacao_arrays.i
+
+# target to preprocess a source file
+manipulacao_arrays.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_arrays.dir\build.make CMakeFiles/manipulacao_arrays.dir/manipulacao_arrays.c.i
+.PHONY : manipulacao_arrays.c.i
+
+manipulacao_arrays.s: manipulacao_arrays.c.s
+.PHONY : manipulacao_arrays.s
+
+# target to generate assembly for a file
+manipulacao_arrays.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_arrays.dir\build.make CMakeFiles/manipulacao_arrays.dir/manipulacao_arrays.c.s
+.PHONY : manipulacao_arrays.c.s
+
+manipulacao_strings.obj: manipulacao_strings.c.obj
+.PHONY : manipulacao_strings.obj
+
+# target to build an object file
+manipulacao_strings.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/manipulacao_strings.c.obj
+.PHONY : manipulacao_strings.c.obj
+
+manipulacao_strings.i: manipulacao_strings.c.i
+.PHONY : manipulacao_strings.i
+
+# target to preprocess a source file
+manipulacao_strings.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/manipulacao_strings.c.i
+.PHONY : manipulacao_strings.c.i
+
+manipulacao_strings.s: manipulacao_strings.c.s
+.PHONY : manipulacao_strings.s
+
+# target to generate assembly for a file
+manipulacao_strings.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/manipulacao_strings.c.s
+.PHONY : manipulacao_strings.c.s
+
 operador_atribuicao.obj: operador_atribuicao.c.obj
 .PHONY : operador_atribuicao.obj
 
@@ -436,6 +819,30 @@ operador_atribuicao.s: operador_atribuicao.c.s
 operador_atribuicao.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.s
 .PHONY : operador_atribuicao.c.s
+
+operadores_ponteiros.obj: operadores_ponteiros.c.obj
+.PHONY : operadores_ponteiros.obj
+
+# target to build an object file
+operadores_ponteiros.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.obj
+.PHONY : operadores_ponteiros.c.obj
+
+operadores_ponteiros.i: operadores_ponteiros.c.i
+.PHONY : operadores_ponteiros.i
+
+# target to preprocess a source file
+operadores_ponteiros.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.i
+.PHONY : operadores_ponteiros.c.i
+
+operadores_ponteiros.s: operadores_ponteiros.c.s
+.PHONY : operadores_ponteiros.s
+
+# target to generate assembly for a file
+operadores_ponteiros.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.s
+.PHONY : operadores_ponteiros.c.s
 
 recursao.obj: recursao.c.obj
 .PHONY : recursao.obj
@@ -485,6 +892,54 @@ scanf_printf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\scanf_printf.dir\build.make CMakeFiles/scanf_printf.dir/scanf_printf.c.s
 .PHONY : scanf_printf.c.s
 
+strings.obj: strings.c.obj
+.PHONY : strings.obj
+
+# target to build an object file
+strings.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/strings.c.obj
+.PHONY : strings.c.obj
+
+strings.i: strings.c.i
+.PHONY : strings.i
+
+# target to preprocess a source file
+strings.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/strings.c.i
+.PHONY : strings.c.i
+
+strings.s: strings.c.s
+.PHONY : strings.s
+
+# target to generate assembly for a file
+strings.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/strings.c.s
+.PHONY : strings.c.s
+
+structs.obj: structs.c.obj
+.PHONY : structs.obj
+
+# target to build an object file
+structs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/structs.c.obj
+.PHONY : structs.c.obj
+
+structs.i: structs.c.i
+.PHONY : structs.i
+
+# target to preprocess a source file
+structs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/structs.c.i
+.PHONY : structs.c.i
+
+structs.s: structs.c.s
+.PHONY : structs.s
+
+# target to generate assembly for a file
+structs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/structs.c.s
+.PHONY : structs.c.s
+
 tipos_variaveis.obj: tipos_variaveis.c.obj
 .PHONY : tipos_variaveis.obj
 
@@ -519,13 +974,24 @@ help:
 	@echo ... rebuild_cache
 	@echo ... arg_linha_comando
 	@echo ... arg_referencia
+	@echo ... aritmetica_ponteiros
+	@echo ... arquivos_binarios
+	@echo ... arquivos_txt_escrita
+	@echo ... arquivos_txt_leitura
+	@echo ... comparacao_ponteiros
 	@echo ... condicionais
+	@echo ... erro_memoria
 	@echo ... exemplo01
 	@echo ... exemplo02
+	@echo ... exponencial
 	@echo ... funcoes
+	@echo ... manipulacao_arrays
+	@echo ... manipulacao_strings
 	@echo ... operador_atribuicao
 	@echo ... recursao
 	@echo ... scanf_printf
+	@echo ... strings
+	@echo ... structs
 	@echo ... tipos_variaveis
 	@echo ... arg_referencia.obj
 	@echo ... arg_referencia.i
@@ -533,9 +999,27 @@ help:
 	@echo ... argumentos_linha_comando.obj
 	@echo ... argumentos_linha_comando.i
 	@echo ... argumentos_linha_comando.s
+	@echo ... aritmetica_ponteiros.obj
+	@echo ... aritmetica_ponteiros.i
+	@echo ... aritmetica_ponteiros.s
+	@echo ... arquivos_binarios.obj
+	@echo ... arquivos_binarios.i
+	@echo ... arquivos_binarios.s
+	@echo ... arquivos_txt_escrita.obj
+	@echo ... arquivos_txt_escrita.i
+	@echo ... arquivos_txt_escrita.s
+	@echo ... arquivos_txt_leitura.obj
+	@echo ... arquivos_txt_leitura.i
+	@echo ... arquivos_txt_leitura.s
+	@echo ... comparacao_ponteiros.obj
+	@echo ... comparacao_ponteiros.i
+	@echo ... comparacao_ponteiros.s
 	@echo ... condicionais.obj
 	@echo ... condicionais.i
 	@echo ... condicionais.s
+	@echo ... erro_memoria.obj
+	@echo ... erro_memoria.i
+	@echo ... erro_memoria.s
 	@echo ... exemplo01.obj
 	@echo ... exemplo01.i
 	@echo ... exemplo01.s
@@ -545,18 +1029,39 @@ help:
 	@echo ... exemplo02.obj
 	@echo ... exemplo02.i
 	@echo ... exemplo02.s
+	@echo ... exponencial_implementacao.obj
+	@echo ... exponencial_implementacao.i
+	@echo ... exponencial_implementacao.s
+	@echo ... exponencial_teste.obj
+	@echo ... exponencial_teste.i
+	@echo ... exponencial_teste.s
 	@echo ... funcoes.obj
 	@echo ... funcoes.i
 	@echo ... funcoes.s
+	@echo ... manipulacao_arrays.obj
+	@echo ... manipulacao_arrays.i
+	@echo ... manipulacao_arrays.s
+	@echo ... manipulacao_strings.obj
+	@echo ... manipulacao_strings.i
+	@echo ... manipulacao_strings.s
 	@echo ... operador_atribuicao.obj
 	@echo ... operador_atribuicao.i
 	@echo ... operador_atribuicao.s
+	@echo ... operadores_ponteiros.obj
+	@echo ... operadores_ponteiros.i
+	@echo ... operadores_ponteiros.s
 	@echo ... recursao.obj
 	@echo ... recursao.i
 	@echo ... recursao.s
 	@echo ... scanf_printf.obj
 	@echo ... scanf_printf.i
 	@echo ... scanf_printf.s
+	@echo ... strings.obj
+	@echo ... strings.i
+	@echo ... strings.s
+	@echo ... structs.obj
+	@echo ... structs.i
+	@echo ... structs.s
 	@echo ... tipos_variaveis.obj
 	@echo ... tipos_variaveis.i
 	@echo ... tipos_variaveis.s
