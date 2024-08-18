@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024
+CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/aritmetica_ponteiros.dir/depend.make
@@ -69,18 +69,18 @@ include CMakeFiles/aritmetica_ponteiros.dir/progress.make
 include CMakeFiles/aritmetica_ponteiros.dir/flags.make
 
 CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.obj: CMakeFiles/aritmetica_ponteiros.dir/flags.make
-CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.obj: C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/aritmetica_ponteiros.c
+CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso\ de\ Introdução\ a\ C/seq_2024/aritmetica_ponteiros.c
 CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.obj: CMakeFiles/aritmetica_ponteiros.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.obj -MF CMakeFiles\aritmetica_ponteiros.dir\aritmetica_ponteiros.c.obj.d -o CMakeFiles\aritmetica_ponteiros.dir\aritmetica_ponteiros.c.obj -c C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\aritmetica_ponteiros.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.obj -MF CMakeFiles\aritmetica_ponteiros.dir\aritmetica_ponteiros.c.obj.d -o CMakeFiles\aritmetica_ponteiros.dir\aritmetica_ponteiros.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\aritmetica_ponteiros.c"
 
 CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\aritmetica_ponteiros.c > CMakeFiles\aritmetica_ponteiros.dir\aritmetica_ponteiros.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\aritmetica_ponteiros.c" > CMakeFiles\aritmetica_ponteiros.dir\aritmetica_ponteiros.c.i
 
 CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\aritmetica_ponteiros.c -o CMakeFiles\aritmetica_ponteiros.dir\aritmetica_ponteiros.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\aritmetica_ponteiros.c" -o CMakeFiles\aritmetica_ponteiros.dir\aritmetica_ponteiros.c.s
 
 # Object files for target aritmetica_ponteiros
 aritmetica_ponteiros_OBJECTS = \
@@ -94,7 +94,7 @@ aritmetica_ponteiros.exe: CMakeFiles/aritmetica_ponteiros.dir/build.make
 aritmetica_ponteiros.exe: CMakeFiles/aritmetica_ponteiros.dir/linkLibs.rsp
 aritmetica_ponteiros.exe: CMakeFiles/aritmetica_ponteiros.dir/objects1.rsp
 aritmetica_ponteiros.exe: CMakeFiles/aritmetica_ponteiros.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable aritmetica_ponteiros.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable aritmetica_ponteiros.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\aritmetica_ponteiros.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +106,6 @@ CMakeFiles/aritmetica_ponteiros.dir/clean:
 .PHONY : CMakeFiles/aritmetica_ponteiros.dir/clean
 
 CMakeFiles/aritmetica_ponteiros.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles\aritmetica_ponteiros.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles\aritmetica_ponteiros.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/aritmetica_ponteiros.dir/depend
 
