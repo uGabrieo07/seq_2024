@@ -5,7 +5,7 @@
 * Ministrantes: João Vitor dos Santos Oliveira e Gabriel Souza de Paula Oliveira.
 * Monitora: Anna Gabriela Brum.
 * Data: 21/08/2024.
-* Tópico: Ponteiros.
+* Tópico: Ponteiros - Aritmética de Ponteiros.
 */
 
 #include <stdio.h>

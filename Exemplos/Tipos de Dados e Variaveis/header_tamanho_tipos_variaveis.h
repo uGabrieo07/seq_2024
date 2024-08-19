@@ -1,4 +1,12 @@
-
+/*
+* SEQ 2024.
+* Liga Acadêmica: for_code.
+* Mini curso: Introdução a C.
+* Ministrantes: João Vitor dos Santos Oliveira e Gabriel Souza de Paula Oliveira.
+* Monitora: Anna Gabriela Brum.
+* Data: 21/08/2024.
+* Tópico: Tipos de Dados e Variáveis.
+*/
 
 /* Caso a macro "AULA0101" nao tenha sido definida anterioirmente, as seguintes etapas sao ocorridas. */
 #ifndef EXEMPLO01

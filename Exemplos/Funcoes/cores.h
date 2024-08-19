@@ -1,23 +1,11 @@
-
-/*******************************************************************************
- *
- * Universidade Federal do Rio de Janeiro
- * Escola Politecnica
- * Departamento de Eletronica e de Computacao
- * EEL270 - Computacao II - Turma 2024/1
- * Prof. Marcelo Luiz Drumond Lanza
- *
- * Autor: Prof. Marcelo Luiz Drumond Lanza
- * Descricao:
- *   Definicao das sequencias de escape (codigos ANSI) correspondentes as oito
- * cores basicas para caracteres e fundo (foreground e background) e suas
- * variacoes.
- *
- * $Author$
- * $Date$
- * $Log$
- *
- ******************************************************************************/
+/*
+* SEQ 2024.
+* Liga Acadêmica: for_code.
+* Mini curso: Introdução a C.
+* Ministrantes: João Vitor dos Santos Oliveira e Gabriel Souza de Paula Oliveira.
+* Monitora: Anna Gabriela Brum.
+* Data: 21/08/2024.
+*/
 
 #ifndef	CORES_ANSI
 #define CORES_ANSI														"cores.h $Revision$"

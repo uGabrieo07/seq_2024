@@ -5,7 +5,7 @@
 * Ministrantes: João Vitor dos Santos Oliveira e Gabriel Souza de Paula Oliveira.
 * Monitora: Anna Gabriela Brum.
 * Data: 21/08/2024.
-* Tópico: Operador de Atribuição.
+* Tópico: Operadores e Expressões - Operador de Atribuição.
 */
 
 /*Diz ao compilador que ele deve incluir o arquivo-cabeçalho "stdio.h",

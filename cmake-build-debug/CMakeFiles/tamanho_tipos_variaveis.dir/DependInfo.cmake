@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Tipos de dados e variaveis/tamanho_tipos_variaveis.c" "CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.obj" "gcc" "CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.obj.d"
-  "C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Tipos de dados e variaveis/teste_tamanho_tipos_variaveis.c" "CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.obj" "gcc" "CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.obj.d"
+  "C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Tipos de dados e variaveis/tamanho_tipos_variaveis.c" "CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.obj" "gcc" "CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.obj.d"
+  "C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Tipos de dados e variaveis/teste_tamanho_tipos_variaveis.c" "CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.obj" "gcc" "CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
