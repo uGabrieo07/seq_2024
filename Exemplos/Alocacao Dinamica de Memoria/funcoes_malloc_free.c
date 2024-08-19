@@ -30,7 +30,8 @@ main ()
     printf("Digite o numero de elementos da matriz: ");
     scanf("%llu", &numeroElementosInserido);
 
-    /* Aloca memória para "numeroElementosInserido" inteiros utilizando a função "malloc()".*/
+    /* Aloca memória para "numeroElementosInserido" inteiros do tipo
+     * unsigned long long, utilizando a função "malloc()".*/
     matriz = (llu *) malloc(numeroElementosInserido * sizeof(llu));
 
     /*Verifica se a alocação de memória foi bem-sucedida.
