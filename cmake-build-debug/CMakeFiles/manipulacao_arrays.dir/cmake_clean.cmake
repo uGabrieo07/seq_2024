@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/manipulacao_arrays.dir/manipulacao_arrays.c.obj"
-  "CMakeFiles/manipulacao_arrays.dir/manipulacao_arrays.c.obj.d"
+  "CMakeFiles/manipulacao_arrays.dir/Exemplos/Arrays_e_Strings/manipulacao_arrays.c.obj"
+  "CMakeFiles/manipulacao_arrays.dir/Exemplos/Arrays_e_Strings/manipulacao_arrays.c.obj.d"
   "libmanipulacao_arrays.dll.a"
   "manipulacao_arrays.exe"
   "manipulacao_arrays.exe.manifest"

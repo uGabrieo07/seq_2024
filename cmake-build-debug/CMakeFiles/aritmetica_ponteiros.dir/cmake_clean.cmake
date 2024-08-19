@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.obj"
-  "CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.obj.d"
+  "CMakeFiles/aritmetica_ponteiros.dir/Exemplos/Ponteiros/aritmetica_ponteiros.c.obj"
+  "CMakeFiles/aritmetica_ponteiros.dir/Exemplos/Ponteiros/aritmetica_ponteiros.c.obj.d"
   "aritmetica_ponteiros.exe"
   "aritmetica_ponteiros.exe.manifest"
   "aritmetica_ponteiros.pdb"

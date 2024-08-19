@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024"
+CMAKE_SOURCE_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named exemplo01
+# Target rules for targets named tamanho_tipos_variaveis
 
 # Build rule for target.
-exemplo01: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exemplo01
-.PHONY : exemplo01
+tamanho_tipos_variaveis: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tamanho_tipos_variaveis
+.PHONY : tamanho_tipos_variaveis
 
 # fast build rule for target.
-exemplo01/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo01.dir\build.make CMakeFiles/exemplo01.dir/build
-.PHONY : exemplo01/fast
+tamanho_tipos_variaveis/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/build
+.PHONY : tamanho_tipos_variaveis/fast
 
 #=============================================================================
 # Target rules for targets named tipos_variaveis
@@ -166,19 +166,6 @@ scanf_printf: cmake_check_build_system
 scanf_printf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\scanf_printf.dir\build.make CMakeFiles/scanf_printf.dir/build
 .PHONY : scanf_printf/fast
-
-#=============================================================================
-# Target rules for targets named exemplo02
-
-# Build rule for target.
-exemplo02: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exemplo02
-.PHONY : exemplo02
-
-# fast build rule for target.
-exemplo02/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo02.dir\build.make CMakeFiles/exemplo02.dir/build
-.PHONY : exemplo02/fast
 
 #=============================================================================
 # Target rules for targets named operador_atribuicao
@@ -388,581 +375,557 @@ arquivos_binarios/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/build
 .PHONY : arquivos_binarios/fast
 
-arg_referencia.obj: arg_referencia.c.obj
-.PHONY : arg_referencia.obj
+Exemplos/Arrays_e_Strings/erro_memoria.obj: Exemplos/Arrays_e_Strings/erro_memoria.c.obj
+.PHONY : Exemplos/Arrays_e_Strings/erro_memoria.obj
 
 # target to build an object file
-arg_referencia.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_referencia.dir\build.make CMakeFiles/arg_referencia.dir/arg_referencia.c.obj
-.PHONY : arg_referencia.c.obj
+Exemplos/Arrays_e_Strings/erro_memoria.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\erro_memoria.dir\build.make CMakeFiles/erro_memoria.dir/Exemplos/Arrays_e_Strings/erro_memoria.c.obj
+.PHONY : Exemplos/Arrays_e_Strings/erro_memoria.c.obj
 
-arg_referencia.i: arg_referencia.c.i
-.PHONY : arg_referencia.i
+Exemplos/Arrays_e_Strings/erro_memoria.i: Exemplos/Arrays_e_Strings/erro_memoria.c.i
+.PHONY : Exemplos/Arrays_e_Strings/erro_memoria.i
 
 # target to preprocess a source file
-arg_referencia.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_referencia.dir\build.make CMakeFiles/arg_referencia.dir/arg_referencia.c.i
-.PHONY : arg_referencia.c.i
+Exemplos/Arrays_e_Strings/erro_memoria.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\erro_memoria.dir\build.make CMakeFiles/erro_memoria.dir/Exemplos/Arrays_e_Strings/erro_memoria.c.i
+.PHONY : Exemplos/Arrays_e_Strings/erro_memoria.c.i
 
-arg_referencia.s: arg_referencia.c.s
-.PHONY : arg_referencia.s
+Exemplos/Arrays_e_Strings/erro_memoria.s: Exemplos/Arrays_e_Strings/erro_memoria.c.s
+.PHONY : Exemplos/Arrays_e_Strings/erro_memoria.s
 
 # target to generate assembly for a file
-arg_referencia.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_referencia.dir\build.make CMakeFiles/arg_referencia.dir/arg_referencia.c.s
-.PHONY : arg_referencia.c.s
+Exemplos/Arrays_e_Strings/erro_memoria.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\erro_memoria.dir\build.make CMakeFiles/erro_memoria.dir/Exemplos/Arrays_e_Strings/erro_memoria.c.s
+.PHONY : Exemplos/Arrays_e_Strings/erro_memoria.c.s
 
-argumentos_linha_comando.obj: argumentos_linha_comando.c.obj
-.PHONY : argumentos_linha_comando.obj
+Exemplos/Arrays_e_Strings/manipulacao_arrays.obj: Exemplos/Arrays_e_Strings/manipulacao_arrays.c.obj
+.PHONY : Exemplos/Arrays_e_Strings/manipulacao_arrays.obj
 
 # target to build an object file
-argumentos_linha_comando.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.obj
-.PHONY : argumentos_linha_comando.c.obj
+Exemplos/Arrays_e_Strings/manipulacao_arrays.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_arrays.dir\build.make CMakeFiles/manipulacao_arrays.dir/Exemplos/Arrays_e_Strings/manipulacao_arrays.c.obj
+.PHONY : Exemplos/Arrays_e_Strings/manipulacao_arrays.c.obj
 
-argumentos_linha_comando.i: argumentos_linha_comando.c.i
-.PHONY : argumentos_linha_comando.i
+Exemplos/Arrays_e_Strings/manipulacao_arrays.i: Exemplos/Arrays_e_Strings/manipulacao_arrays.c.i
+.PHONY : Exemplos/Arrays_e_Strings/manipulacao_arrays.i
 
 # target to preprocess a source file
-argumentos_linha_comando.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.i
-.PHONY : argumentos_linha_comando.c.i
+Exemplos/Arrays_e_Strings/manipulacao_arrays.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_arrays.dir\build.make CMakeFiles/manipulacao_arrays.dir/Exemplos/Arrays_e_Strings/manipulacao_arrays.c.i
+.PHONY : Exemplos/Arrays_e_Strings/manipulacao_arrays.c.i
 
-argumentos_linha_comando.s: argumentos_linha_comando.c.s
-.PHONY : argumentos_linha_comando.s
+Exemplos/Arrays_e_Strings/manipulacao_arrays.s: Exemplos/Arrays_e_Strings/manipulacao_arrays.c.s
+.PHONY : Exemplos/Arrays_e_Strings/manipulacao_arrays.s
 
 # target to generate assembly for a file
-argumentos_linha_comando.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.s
-.PHONY : argumentos_linha_comando.c.s
+Exemplos/Arrays_e_Strings/manipulacao_arrays.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_arrays.dir\build.make CMakeFiles/manipulacao_arrays.dir/Exemplos/Arrays_e_Strings/manipulacao_arrays.c.s
+.PHONY : Exemplos/Arrays_e_Strings/manipulacao_arrays.c.s
 
-aritmetica_ponteiros.obj: aritmetica_ponteiros.c.obj
-.PHONY : aritmetica_ponteiros.obj
+Exemplos/Arrays_e_Strings/manipulacao_strings.obj: Exemplos/Arrays_e_Strings/manipulacao_strings.c.obj
+.PHONY : Exemplos/Arrays_e_Strings/manipulacao_strings.obj
 
 # target to build an object file
-aritmetica_ponteiros.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.obj
-.PHONY : aritmetica_ponteiros.c.obj
+Exemplos/Arrays_e_Strings/manipulacao_strings.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/Exemplos/Arrays_e_Strings/manipulacao_strings.c.obj
+.PHONY : Exemplos/Arrays_e_Strings/manipulacao_strings.c.obj
 
-aritmetica_ponteiros.i: aritmetica_ponteiros.c.i
-.PHONY : aritmetica_ponteiros.i
+Exemplos/Arrays_e_Strings/manipulacao_strings.i: Exemplos/Arrays_e_Strings/manipulacao_strings.c.i
+.PHONY : Exemplos/Arrays_e_Strings/manipulacao_strings.i
 
 # target to preprocess a source file
-aritmetica_ponteiros.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.i
-.PHONY : aritmetica_ponteiros.c.i
+Exemplos/Arrays_e_Strings/manipulacao_strings.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/Exemplos/Arrays_e_Strings/manipulacao_strings.c.i
+.PHONY : Exemplos/Arrays_e_Strings/manipulacao_strings.c.i
 
-aritmetica_ponteiros.s: aritmetica_ponteiros.c.s
-.PHONY : aritmetica_ponteiros.s
+Exemplos/Arrays_e_Strings/manipulacao_strings.s: Exemplos/Arrays_e_Strings/manipulacao_strings.c.s
+.PHONY : Exemplos/Arrays_e_Strings/manipulacao_strings.s
 
 # target to generate assembly for a file
-aritmetica_ponteiros.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/aritmetica_ponteiros.c.s
-.PHONY : aritmetica_ponteiros.c.s
+Exemplos/Arrays_e_Strings/manipulacao_strings.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/Exemplos/Arrays_e_Strings/manipulacao_strings.c.s
+.PHONY : Exemplos/Arrays_e_Strings/manipulacao_strings.c.s
 
-arquivos_binarios.obj: arquivos_binarios.c.obj
-.PHONY : arquivos_binarios.obj
+Exemplos/Arrays_e_Strings/strings.obj: Exemplos/Arrays_e_Strings/strings.c.obj
+.PHONY : Exemplos/Arrays_e_Strings/strings.obj
 
 # target to build an object file
-arquivos_binarios.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/arquivos_binarios.c.obj
-.PHONY : arquivos_binarios.c.obj
+Exemplos/Arrays_e_Strings/strings.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/Exemplos/Arrays_e_Strings/strings.c.obj
+.PHONY : Exemplos/Arrays_e_Strings/strings.c.obj
 
-arquivos_binarios.i: arquivos_binarios.c.i
-.PHONY : arquivos_binarios.i
+Exemplos/Arrays_e_Strings/strings.i: Exemplos/Arrays_e_Strings/strings.c.i
+.PHONY : Exemplos/Arrays_e_Strings/strings.i
 
 # target to preprocess a source file
-arquivos_binarios.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/arquivos_binarios.c.i
-.PHONY : arquivos_binarios.c.i
+Exemplos/Arrays_e_Strings/strings.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/Exemplos/Arrays_e_Strings/strings.c.i
+.PHONY : Exemplos/Arrays_e_Strings/strings.c.i
 
-arquivos_binarios.s: arquivos_binarios.c.s
-.PHONY : arquivos_binarios.s
+Exemplos/Arrays_e_Strings/strings.s: Exemplos/Arrays_e_Strings/strings.c.s
+.PHONY : Exemplos/Arrays_e_Strings/strings.s
 
 # target to generate assembly for a file
-arquivos_binarios.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/arquivos_binarios.c.s
-.PHONY : arquivos_binarios.c.s
+Exemplos/Arrays_e_Strings/strings.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/Exemplos/Arrays_e_Strings/strings.c.s
+.PHONY : Exemplos/Arrays_e_Strings/strings.c.s
 
-arquivos_txt_escrita.obj: arquivos_txt_escrita.c.obj
-.PHONY : arquivos_txt_escrita.obj
+Exemplos/Estrutura_Basica_de_Programas/scanf_printf.obj: Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.obj
+.PHONY : Exemplos/Estrutura_Basica_de_Programas/scanf_printf.obj
 
 # target to build an object file
-arquivos_txt_escrita.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_escrita.dir\build.make CMakeFiles/arquivos_txt_escrita.dir/arquivos_txt_escrita.c.obj
-.PHONY : arquivos_txt_escrita.c.obj
+Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scanf_printf.dir\build.make CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.obj
+.PHONY : Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.obj
 
-arquivos_txt_escrita.i: arquivos_txt_escrita.c.i
-.PHONY : arquivos_txt_escrita.i
+Exemplos/Estrutura_Basica_de_Programas/scanf_printf.i: Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.i
+.PHONY : Exemplos/Estrutura_Basica_de_Programas/scanf_printf.i
 
 # target to preprocess a source file
-arquivos_txt_escrita.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_escrita.dir\build.make CMakeFiles/arquivos_txt_escrita.dir/arquivos_txt_escrita.c.i
-.PHONY : arquivos_txt_escrita.c.i
+Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scanf_printf.dir\build.make CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.i
+.PHONY : Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.i
 
-arquivos_txt_escrita.s: arquivos_txt_escrita.c.s
-.PHONY : arquivos_txt_escrita.s
+Exemplos/Estrutura_Basica_de_Programas/scanf_printf.s: Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.s
+.PHONY : Exemplos/Estrutura_Basica_de_Programas/scanf_printf.s
 
 # target to generate assembly for a file
-arquivos_txt_escrita.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_escrita.dir\build.make CMakeFiles/arquivos_txt_escrita.dir/arquivos_txt_escrita.c.s
-.PHONY : arquivos_txt_escrita.c.s
+Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scanf_printf.dir\build.make CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.s
+.PHONY : Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.s
 
-arquivos_txt_leitura.obj: arquivos_txt_leitura.c.obj
-.PHONY : arquivos_txt_leitura.obj
+Exemplos/Estruturas/structs.obj: Exemplos/Estruturas/structs.c.obj
+.PHONY : Exemplos/Estruturas/structs.obj
 
 # target to build an object file
-arquivos_txt_leitura.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_leitura.dir\build.make CMakeFiles/arquivos_txt_leitura.dir/arquivos_txt_leitura.c.obj
-.PHONY : arquivos_txt_leitura.c.obj
+Exemplos/Estruturas/structs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/Exemplos/Estruturas/structs.c.obj
+.PHONY : Exemplos/Estruturas/structs.c.obj
 
-arquivos_txt_leitura.i: arquivos_txt_leitura.c.i
-.PHONY : arquivos_txt_leitura.i
+Exemplos/Estruturas/structs.i: Exemplos/Estruturas/structs.c.i
+.PHONY : Exemplos/Estruturas/structs.i
 
 # target to preprocess a source file
-arquivos_txt_leitura.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_leitura.dir\build.make CMakeFiles/arquivos_txt_leitura.dir/arquivos_txt_leitura.c.i
-.PHONY : arquivos_txt_leitura.c.i
+Exemplos/Estruturas/structs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/Exemplos/Estruturas/structs.c.i
+.PHONY : Exemplos/Estruturas/structs.c.i
 
-arquivos_txt_leitura.s: arquivos_txt_leitura.c.s
-.PHONY : arquivos_txt_leitura.s
+Exemplos/Estruturas/structs.s: Exemplos/Estruturas/structs.c.s
+.PHONY : Exemplos/Estruturas/structs.s
 
 # target to generate assembly for a file
-arquivos_txt_leitura.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_leitura.dir\build.make CMakeFiles/arquivos_txt_leitura.dir/arquivos_txt_leitura.c.s
-.PHONY : arquivos_txt_leitura.c.s
+Exemplos/Estruturas/structs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/Exemplos/Estruturas/structs.c.s
+.PHONY : Exemplos/Estruturas/structs.c.s
 
-comparacao_ponteiros.obj: comparacao_ponteiros.c.obj
-.PHONY : comparacao_ponteiros.obj
+Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.obj: Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.obj
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.obj
 
 # target to build an object file
-comparacao_ponteiros.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/comparacao_ponteiros.c.obj
-.PHONY : comparacao_ponteiros.c.obj
+Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.obj
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.obj
 
-comparacao_ponteiros.i: comparacao_ponteiros.c.i
-.PHONY : comparacao_ponteiros.i
+Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.i: Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.i
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.i
 
 # target to preprocess a source file
-comparacao_ponteiros.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/comparacao_ponteiros.c.i
-.PHONY : comparacao_ponteiros.c.i
+Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.i
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.i
 
-comparacao_ponteiros.s: comparacao_ponteiros.c.s
-.PHONY : comparacao_ponteiros.s
+Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.s: Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.s
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.s
 
 # target to generate assembly for a file
-comparacao_ponteiros.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/comparacao_ponteiros.c.s
-.PHONY : comparacao_ponteiros.c.s
+Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.s
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.s
 
-condicionais.obj: condicionais.c.obj
-.PHONY : condicionais.obj
+Exemplos/Funcoes/arg_referencia.obj: Exemplos/Funcoes/arg_referencia.c.obj
+.PHONY : Exemplos/Funcoes/arg_referencia.obj
 
 # target to build an object file
-condicionais.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/condicionais.c.obj
-.PHONY : condicionais.c.obj
+Exemplos/Funcoes/arg_referencia.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_referencia.dir\build.make CMakeFiles/arg_referencia.dir/Exemplos/Funcoes/arg_referencia.c.obj
+.PHONY : Exemplos/Funcoes/arg_referencia.c.obj
 
-condicionais.i: condicionais.c.i
-.PHONY : condicionais.i
+Exemplos/Funcoes/arg_referencia.i: Exemplos/Funcoes/arg_referencia.c.i
+.PHONY : Exemplos/Funcoes/arg_referencia.i
 
 # target to preprocess a source file
-condicionais.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/condicionais.c.i
-.PHONY : condicionais.c.i
+Exemplos/Funcoes/arg_referencia.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_referencia.dir\build.make CMakeFiles/arg_referencia.dir/Exemplos/Funcoes/arg_referencia.c.i
+.PHONY : Exemplos/Funcoes/arg_referencia.c.i
 
-condicionais.s: condicionais.c.s
-.PHONY : condicionais.s
+Exemplos/Funcoes/arg_referencia.s: Exemplos/Funcoes/arg_referencia.c.s
+.PHONY : Exemplos/Funcoes/arg_referencia.s
 
 # target to generate assembly for a file
-condicionais.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/condicionais.c.s
-.PHONY : condicionais.c.s
+Exemplos/Funcoes/arg_referencia.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_referencia.dir\build.make CMakeFiles/arg_referencia.dir/Exemplos/Funcoes/arg_referencia.c.s
+.PHONY : Exemplos/Funcoes/arg_referencia.c.s
 
-erro_memoria.obj: erro_memoria.c.obj
-.PHONY : erro_memoria.obj
+Exemplos/Funcoes/argumentos_linha_comando.obj: Exemplos/Funcoes/argumentos_linha_comando.c.obj
+.PHONY : Exemplos/Funcoes/argumentos_linha_comando.obj
 
 # target to build an object file
-erro_memoria.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\erro_memoria.dir\build.make CMakeFiles/erro_memoria.dir/erro_memoria.c.obj
-.PHONY : erro_memoria.c.obj
+Exemplos/Funcoes/argumentos_linha_comando.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/Exemplos/Funcoes/argumentos_linha_comando.c.obj
+.PHONY : Exemplos/Funcoes/argumentos_linha_comando.c.obj
 
-erro_memoria.i: erro_memoria.c.i
-.PHONY : erro_memoria.i
+Exemplos/Funcoes/argumentos_linha_comando.i: Exemplos/Funcoes/argumentos_linha_comando.c.i
+.PHONY : Exemplos/Funcoes/argumentos_linha_comando.i
 
 # target to preprocess a source file
-erro_memoria.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\erro_memoria.dir\build.make CMakeFiles/erro_memoria.dir/erro_memoria.c.i
-.PHONY : erro_memoria.c.i
+Exemplos/Funcoes/argumentos_linha_comando.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/Exemplos/Funcoes/argumentos_linha_comando.c.i
+.PHONY : Exemplos/Funcoes/argumentos_linha_comando.c.i
 
-erro_memoria.s: erro_memoria.c.s
-.PHONY : erro_memoria.s
+Exemplos/Funcoes/argumentos_linha_comando.s: Exemplos/Funcoes/argumentos_linha_comando.c.s
+.PHONY : Exemplos/Funcoes/argumentos_linha_comando.s
 
 # target to generate assembly for a file
-erro_memoria.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\erro_memoria.dir\build.make CMakeFiles/erro_memoria.dir/erro_memoria.c.s
-.PHONY : erro_memoria.c.s
+Exemplos/Funcoes/argumentos_linha_comando.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/Exemplos/Funcoes/argumentos_linha_comando.c.s
+.PHONY : Exemplos/Funcoes/argumentos_linha_comando.c.s
 
-exemplo01.obj: exemplo01.c.obj
-.PHONY : exemplo01.obj
+Exemplos/Funcoes/exponencial_implementacao.obj: Exemplos/Funcoes/exponencial_implementacao.c.obj
+.PHONY : Exemplos/Funcoes/exponencial_implementacao.obj
 
 # target to build an object file
-exemplo01.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo01.dir\build.make CMakeFiles/exemplo01.dir/exemplo01.c.obj
-.PHONY : exemplo01.c.obj
+Exemplos/Funcoes/exponencial_implementacao.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.obj
+.PHONY : Exemplos/Funcoes/exponencial_implementacao.c.obj
 
-exemplo01.i: exemplo01.c.i
-.PHONY : exemplo01.i
+Exemplos/Funcoes/exponencial_implementacao.i: Exemplos/Funcoes/exponencial_implementacao.c.i
+.PHONY : Exemplos/Funcoes/exponencial_implementacao.i
 
 # target to preprocess a source file
-exemplo01.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo01.dir\build.make CMakeFiles/exemplo01.dir/exemplo01.c.i
-.PHONY : exemplo01.c.i
+Exemplos/Funcoes/exponencial_implementacao.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.i
+.PHONY : Exemplos/Funcoes/exponencial_implementacao.c.i
 
-exemplo01.s: exemplo01.c.s
-.PHONY : exemplo01.s
+Exemplos/Funcoes/exponencial_implementacao.s: Exemplos/Funcoes/exponencial_implementacao.c.s
+.PHONY : Exemplos/Funcoes/exponencial_implementacao.s
 
 # target to generate assembly for a file
-exemplo01.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo01.dir\build.make CMakeFiles/exemplo01.dir/exemplo01.c.s
-.PHONY : exemplo01.c.s
+Exemplos/Funcoes/exponencial_implementacao.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.s
+.PHONY : Exemplos/Funcoes/exponencial_implementacao.c.s
 
-exemplo01_test.obj: exemplo01_test.c.obj
-.PHONY : exemplo01_test.obj
+Exemplos/Funcoes/exponencial_teste.obj: Exemplos/Funcoes/exponencial_teste.c.obj
+.PHONY : Exemplos/Funcoes/exponencial_teste.obj
 
 # target to build an object file
-exemplo01_test.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo01.dir\build.make CMakeFiles/exemplo01.dir/exemplo01_test.c.obj
-.PHONY : exemplo01_test.c.obj
+Exemplos/Funcoes/exponencial_teste.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.obj
+.PHONY : Exemplos/Funcoes/exponencial_teste.c.obj
 
-exemplo01_test.i: exemplo01_test.c.i
-.PHONY : exemplo01_test.i
+Exemplos/Funcoes/exponencial_teste.i: Exemplos/Funcoes/exponencial_teste.c.i
+.PHONY : Exemplos/Funcoes/exponencial_teste.i
 
 # target to preprocess a source file
-exemplo01_test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo01.dir\build.make CMakeFiles/exemplo01.dir/exemplo01_test.c.i
-.PHONY : exemplo01_test.c.i
+Exemplos/Funcoes/exponencial_teste.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.i
+.PHONY : Exemplos/Funcoes/exponencial_teste.c.i
 
-exemplo01_test.s: exemplo01_test.c.s
-.PHONY : exemplo01_test.s
+Exemplos/Funcoes/exponencial_teste.s: Exemplos/Funcoes/exponencial_teste.c.s
+.PHONY : Exemplos/Funcoes/exponencial_teste.s
 
 # target to generate assembly for a file
-exemplo01_test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo01.dir\build.make CMakeFiles/exemplo01.dir/exemplo01_test.c.s
-.PHONY : exemplo01_test.c.s
+Exemplos/Funcoes/exponencial_teste.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.s
+.PHONY : Exemplos/Funcoes/exponencial_teste.c.s
 
-exemplo02.obj: exemplo02.c.obj
-.PHONY : exemplo02.obj
+Exemplos/Funcoes/funcoes.obj: Exemplos/Funcoes/funcoes.c.obj
+.PHONY : Exemplos/Funcoes/funcoes.obj
 
 # target to build an object file
-exemplo02.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo02.dir\build.make CMakeFiles/exemplo02.dir/exemplo02.c.obj
-.PHONY : exemplo02.c.obj
+Exemplos/Funcoes/funcoes.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\funcoes.dir\build.make CMakeFiles/funcoes.dir/Exemplos/Funcoes/funcoes.c.obj
+.PHONY : Exemplos/Funcoes/funcoes.c.obj
 
-exemplo02.i: exemplo02.c.i
-.PHONY : exemplo02.i
+Exemplos/Funcoes/funcoes.i: Exemplos/Funcoes/funcoes.c.i
+.PHONY : Exemplos/Funcoes/funcoes.i
 
 # target to preprocess a source file
-exemplo02.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo02.dir\build.make CMakeFiles/exemplo02.dir/exemplo02.c.i
-.PHONY : exemplo02.c.i
+Exemplos/Funcoes/funcoes.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\funcoes.dir\build.make CMakeFiles/funcoes.dir/Exemplos/Funcoes/funcoes.c.i
+.PHONY : Exemplos/Funcoes/funcoes.c.i
 
-exemplo02.s: exemplo02.c.s
-.PHONY : exemplo02.s
+Exemplos/Funcoes/funcoes.s: Exemplos/Funcoes/funcoes.c.s
+.PHONY : Exemplos/Funcoes/funcoes.s
 
 # target to generate assembly for a file
-exemplo02.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exemplo02.dir\build.make CMakeFiles/exemplo02.dir/exemplo02.c.s
-.PHONY : exemplo02.c.s
+Exemplos/Funcoes/funcoes.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\funcoes.dir\build.make CMakeFiles/funcoes.dir/Exemplos/Funcoes/funcoes.c.s
+.PHONY : Exemplos/Funcoes/funcoes.c.s
 
-exponencial_implementacao.obj: exponencial_implementacao.c.obj
-.PHONY : exponencial_implementacao.obj
+Exemplos/Funcoes/recursao.obj: Exemplos/Funcoes/recursao.c.obj
+.PHONY : Exemplos/Funcoes/recursao.obj
 
 # target to build an object file
-exponencial_implementacao.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/exponencial_implementacao.c.obj
-.PHONY : exponencial_implementacao.c.obj
+Exemplos/Funcoes/recursao.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\recursao.dir\build.make CMakeFiles/recursao.dir/Exemplos/Funcoes/recursao.c.obj
+.PHONY : Exemplos/Funcoes/recursao.c.obj
 
-exponencial_implementacao.i: exponencial_implementacao.c.i
-.PHONY : exponencial_implementacao.i
+Exemplos/Funcoes/recursao.i: Exemplos/Funcoes/recursao.c.i
+.PHONY : Exemplos/Funcoes/recursao.i
 
 # target to preprocess a source file
-exponencial_implementacao.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/exponencial_implementacao.c.i
-.PHONY : exponencial_implementacao.c.i
+Exemplos/Funcoes/recursao.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\recursao.dir\build.make CMakeFiles/recursao.dir/Exemplos/Funcoes/recursao.c.i
+.PHONY : Exemplos/Funcoes/recursao.c.i
 
-exponencial_implementacao.s: exponencial_implementacao.c.s
-.PHONY : exponencial_implementacao.s
+Exemplos/Funcoes/recursao.s: Exemplos/Funcoes/recursao.c.s
+.PHONY : Exemplos/Funcoes/recursao.s
 
 # target to generate assembly for a file
-exponencial_implementacao.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/exponencial_implementacao.c.s
-.PHONY : exponencial_implementacao.c.s
+Exemplos/Funcoes/recursao.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\recursao.dir\build.make CMakeFiles/recursao.dir/Exemplos/Funcoes/recursao.c.s
+.PHONY : Exemplos/Funcoes/recursao.c.s
 
-exponencial_teste.obj: exponencial_teste.c.obj
-.PHONY : exponencial_teste.obj
+Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.obj: Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.c.obj
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.obj
 
 # target to build an object file
-exponencial_teste.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/exponencial_teste.c.obj
-.PHONY : exponencial_teste.c.obj
+Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.c.obj
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.c.obj
 
-exponencial_teste.i: exponencial_teste.c.i
-.PHONY : exponencial_teste.i
+Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.i: Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.c.i
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.i
 
 # target to preprocess a source file
-exponencial_teste.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/exponencial_teste.c.i
-.PHONY : exponencial_teste.c.i
+Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.c.i
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.c.i
 
-exponencial_teste.s: exponencial_teste.c.s
-.PHONY : exponencial_teste.s
+Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.s: Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.c.s
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.s
 
 # target to generate assembly for a file
-exponencial_teste.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/exponencial_teste.c.s
-.PHONY : exponencial_teste.c.s
+Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.c.s
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.c.s
 
-funcoes.obj: funcoes.c.obj
-.PHONY : funcoes.obj
+Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.obj: Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.obj
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.obj
 
 # target to build an object file
-funcoes.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\funcoes.dir\build.make CMakeFiles/funcoes.dir/funcoes.c.obj
-.PHONY : funcoes.c.obj
+Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_escrita.dir\build.make CMakeFiles/arquivos_txt_escrita.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.obj
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.obj
 
-funcoes.i: funcoes.c.i
-.PHONY : funcoes.i
+Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.i: Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.i
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.i
 
 # target to preprocess a source file
-funcoes.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\funcoes.dir\build.make CMakeFiles/funcoes.dir/funcoes.c.i
-.PHONY : funcoes.c.i
+Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_escrita.dir\build.make CMakeFiles/arquivos_txt_escrita.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.i
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.i
 
-funcoes.s: funcoes.c.s
-.PHONY : funcoes.s
+Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.s: Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.s
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.s
 
 # target to generate assembly for a file
-funcoes.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\funcoes.dir\build.make CMakeFiles/funcoes.dir/funcoes.c.s
-.PHONY : funcoes.c.s
+Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_escrita.dir\build.make CMakeFiles/arquivos_txt_escrita.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.s
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.s
 
-manipulacao_arrays.obj: manipulacao_arrays.c.obj
-.PHONY : manipulacao_arrays.obj
+Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.obj: Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.c.obj
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.obj
 
 # target to build an object file
-manipulacao_arrays.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_arrays.dir\build.make CMakeFiles/manipulacao_arrays.dir/manipulacao_arrays.c.obj
-.PHONY : manipulacao_arrays.c.obj
+Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_leitura.dir\build.make CMakeFiles/arquivos_txt_leitura.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.c.obj
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.c.obj
 
-manipulacao_arrays.i: manipulacao_arrays.c.i
-.PHONY : manipulacao_arrays.i
+Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.i: Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.c.i
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.i
 
 # target to preprocess a source file
-manipulacao_arrays.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_arrays.dir\build.make CMakeFiles/manipulacao_arrays.dir/manipulacao_arrays.c.i
-.PHONY : manipulacao_arrays.c.i
+Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_leitura.dir\build.make CMakeFiles/arquivos_txt_leitura.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.c.i
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.c.i
 
-manipulacao_arrays.s: manipulacao_arrays.c.s
-.PHONY : manipulacao_arrays.s
+Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.s: Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.c.s
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.s
 
 # target to generate assembly for a file
-manipulacao_arrays.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_arrays.dir\build.make CMakeFiles/manipulacao_arrays.dir/manipulacao_arrays.c.s
-.PHONY : manipulacao_arrays.c.s
+Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_leitura.dir\build.make CMakeFiles/arquivos_txt_leitura.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.c.s
+.PHONY : Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.c.s
 
-manipulacao_strings.obj: manipulacao_strings.c.obj
-.PHONY : manipulacao_strings.obj
+Exemplos/Operadores_e_Expressoes/operador_atribuicao.obj: Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.obj
+.PHONY : Exemplos/Operadores_e_Expressoes/operador_atribuicao.obj
 
 # target to build an object file
-manipulacao_strings.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/manipulacao_strings.c.obj
-.PHONY : manipulacao_strings.c.obj
+Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.obj
+.PHONY : Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.obj
 
-manipulacao_strings.i: manipulacao_strings.c.i
-.PHONY : manipulacao_strings.i
+Exemplos/Operadores_e_Expressoes/operador_atribuicao.i: Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.i
+.PHONY : Exemplos/Operadores_e_Expressoes/operador_atribuicao.i
 
 # target to preprocess a source file
-manipulacao_strings.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/manipulacao_strings.c.i
-.PHONY : manipulacao_strings.c.i
+Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.i
+.PHONY : Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.i
 
-manipulacao_strings.s: manipulacao_strings.c.s
-.PHONY : manipulacao_strings.s
+Exemplos/Operadores_e_Expressoes/operador_atribuicao.s: Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.s
+.PHONY : Exemplos/Operadores_e_Expressoes/operador_atribuicao.s
 
 # target to generate assembly for a file
-manipulacao_strings.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/manipulacao_strings.c.s
-.PHONY : manipulacao_strings.c.s
+Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.s
+.PHONY : Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.s
 
-operador_atribuicao.obj: operador_atribuicao.c.obj
-.PHONY : operador_atribuicao.obj
+Exemplos/Operadores_e_Expressoes/operadores_ponteiros.obj: Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.obj
+.PHONY : Exemplos/Operadores_e_Expressoes/operadores_ponteiros.obj
 
 # target to build an object file
-operador_atribuicao.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj
-.PHONY : operador_atribuicao.c.obj
+Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.obj
+.PHONY : Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.obj
 
-operador_atribuicao.i: operador_atribuicao.c.i
-.PHONY : operador_atribuicao.i
+Exemplos/Operadores_e_Expressoes/operadores_ponteiros.i: Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.i
+.PHONY : Exemplos/Operadores_e_Expressoes/operadores_ponteiros.i
 
 # target to preprocess a source file
-operador_atribuicao.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.i
-.PHONY : operador_atribuicao.c.i
+Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.i
+.PHONY : Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.i
 
-operador_atribuicao.s: operador_atribuicao.c.s
-.PHONY : operador_atribuicao.s
+Exemplos/Operadores_e_Expressoes/operadores_ponteiros.s: Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.s
+.PHONY : Exemplos/Operadores_e_Expressoes/operadores_ponteiros.s
 
 # target to generate assembly for a file
-operador_atribuicao.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.s
-.PHONY : operador_atribuicao.c.s
+Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.s
+.PHONY : Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.s
 
-operadores_ponteiros.obj: operadores_ponteiros.c.obj
-.PHONY : operadores_ponteiros.obj
+Exemplos/Ponteiros/aritmetica_ponteiros.obj: Exemplos/Ponteiros/aritmetica_ponteiros.c.obj
+.PHONY : Exemplos/Ponteiros/aritmetica_ponteiros.obj
 
 # target to build an object file
-operadores_ponteiros.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.obj
-.PHONY : operadores_ponteiros.c.obj
+Exemplos/Ponteiros/aritmetica_ponteiros.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/Exemplos/Ponteiros/aritmetica_ponteiros.c.obj
+.PHONY : Exemplos/Ponteiros/aritmetica_ponteiros.c.obj
 
-operadores_ponteiros.i: operadores_ponteiros.c.i
-.PHONY : operadores_ponteiros.i
+Exemplos/Ponteiros/aritmetica_ponteiros.i: Exemplos/Ponteiros/aritmetica_ponteiros.c.i
+.PHONY : Exemplos/Ponteiros/aritmetica_ponteiros.i
 
 # target to preprocess a source file
-operadores_ponteiros.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.i
-.PHONY : operadores_ponteiros.c.i
+Exemplos/Ponteiros/aritmetica_ponteiros.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/Exemplos/Ponteiros/aritmetica_ponteiros.c.i
+.PHONY : Exemplos/Ponteiros/aritmetica_ponteiros.c.i
 
-operadores_ponteiros.s: operadores_ponteiros.c.s
-.PHONY : operadores_ponteiros.s
+Exemplos/Ponteiros/aritmetica_ponteiros.s: Exemplos/Ponteiros/aritmetica_ponteiros.c.s
+.PHONY : Exemplos/Ponteiros/aritmetica_ponteiros.s
 
 # target to generate assembly for a file
-operadores_ponteiros.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.s
-.PHONY : operadores_ponteiros.c.s
+Exemplos/Ponteiros/aritmetica_ponteiros.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/Exemplos/Ponteiros/aritmetica_ponteiros.c.s
+.PHONY : Exemplos/Ponteiros/aritmetica_ponteiros.c.s
 
-recursao.obj: recursao.c.obj
-.PHONY : recursao.obj
+Exemplos/Ponteiros/comparacao_ponteiros.obj: Exemplos/Ponteiros/comparacao_ponteiros.c.obj
+.PHONY : Exemplos/Ponteiros/comparacao_ponteiros.obj
 
 # target to build an object file
-recursao.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\recursao.dir\build.make CMakeFiles/recursao.dir/recursao.c.obj
-.PHONY : recursao.c.obj
+Exemplos/Ponteiros/comparacao_ponteiros.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.obj
+.PHONY : Exemplos/Ponteiros/comparacao_ponteiros.c.obj
 
-recursao.i: recursao.c.i
-.PHONY : recursao.i
+Exemplos/Ponteiros/comparacao_ponteiros.i: Exemplos/Ponteiros/comparacao_ponteiros.c.i
+.PHONY : Exemplos/Ponteiros/comparacao_ponteiros.i
 
 # target to preprocess a source file
-recursao.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\recursao.dir\build.make CMakeFiles/recursao.dir/recursao.c.i
-.PHONY : recursao.c.i
+Exemplos/Ponteiros/comparacao_ponteiros.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.i
+.PHONY : Exemplos/Ponteiros/comparacao_ponteiros.c.i
 
-recursao.s: recursao.c.s
-.PHONY : recursao.s
+Exemplos/Ponteiros/comparacao_ponteiros.s: Exemplos/Ponteiros/comparacao_ponteiros.c.s
+.PHONY : Exemplos/Ponteiros/comparacao_ponteiros.s
 
 # target to generate assembly for a file
-recursao.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\recursao.dir\build.make CMakeFiles/recursao.dir/recursao.c.s
-.PHONY : recursao.c.s
+Exemplos/Ponteiros/comparacao_ponteiros.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.s
+.PHONY : Exemplos/Ponteiros/comparacao_ponteiros.c.s
 
-scanf_printf.obj: scanf_printf.c.obj
-.PHONY : scanf_printf.obj
+Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.obj: Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.obj
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.obj
 
 # target to build an object file
-scanf_printf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\scanf_printf.dir\build.make CMakeFiles/scanf_printf.dir/scanf_printf.c.obj
-.PHONY : scanf_printf.c.obj
+Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.obj
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.obj
 
-scanf_printf.i: scanf_printf.c.i
-.PHONY : scanf_printf.i
+Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.i: Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.i
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.i
 
 # target to preprocess a source file
-scanf_printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\scanf_printf.dir\build.make CMakeFiles/scanf_printf.dir/scanf_printf.c.i
-.PHONY : scanf_printf.c.i
+Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.i
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.i
 
-scanf_printf.s: scanf_printf.c.s
-.PHONY : scanf_printf.s
+Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.s: Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.s
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.s
 
 # target to generate assembly for a file
-scanf_printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\scanf_printf.dir\build.make CMakeFiles/scanf_printf.dir/scanf_printf.c.s
-.PHONY : scanf_printf.c.s
+Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.s
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.s
 
-strings.obj: strings.c.obj
-.PHONY : strings.obj
+Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.obj: Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.obj
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.obj
 
 # target to build an object file
-strings.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/strings.c.obj
-.PHONY : strings.c.obj
+Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.obj
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.obj
 
-strings.i: strings.c.i
-.PHONY : strings.i
+Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.i: Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.i
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.i
 
 # target to preprocess a source file
-strings.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/strings.c.i
-.PHONY : strings.c.i
+Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.i
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.i
 
-strings.s: strings.c.s
-.PHONY : strings.s
+Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.s: Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.s
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.s
 
 # target to generate assembly for a file
-strings.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/strings.c.s
-.PHONY : strings.c.s
+Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.s
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.s
 
-structs.obj: structs.c.obj
-.PHONY : structs.obj
+Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.obj: Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.obj
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.obj
 
 # target to build an object file
-structs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/structs.c.obj
-.PHONY : structs.c.obj
+Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.obj
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.obj
 
-structs.i: structs.c.i
-.PHONY : structs.i
-
-# target to preprocess a source file
-structs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/structs.c.i
-.PHONY : structs.c.i
-
-structs.s: structs.c.s
-.PHONY : structs.s
-
-# target to generate assembly for a file
-structs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/structs.c.s
-.PHONY : structs.c.s
-
-tipos_variaveis.obj: tipos_variaveis.c.obj
-.PHONY : tipos_variaveis.obj
-
-# target to build an object file
-tipos_variaveis.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.obj
-.PHONY : tipos_variaveis.c.obj
-
-tipos_variaveis.i: tipos_variaveis.c.i
-.PHONY : tipos_variaveis.i
+Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.i: Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.i
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.i
 
 # target to preprocess a source file
-tipos_variaveis.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.i
-.PHONY : tipos_variaveis.c.i
+Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.i
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.i
 
-tipos_variaveis.s: tipos_variaveis.c.s
-.PHONY : tipos_variaveis.s
+Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.s: Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.s
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.s
 
 # target to generate assembly for a file
-tipos_variaveis.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/tipos_variaveis.c.s
-.PHONY : tipos_variaveis.c.s
+Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.s
+.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.s
 
 # Help Target
 help:
@@ -981,8 +944,6 @@ help:
 	@echo ... comparacao_ponteiros
 	@echo ... condicionais
 	@echo ... erro_memoria
-	@echo ... exemplo01
-	@echo ... exemplo02
 	@echo ... exponencial
 	@echo ... funcoes
 	@echo ... manipulacao_arrays
@@ -992,79 +953,77 @@ help:
 	@echo ... scanf_printf
 	@echo ... strings
 	@echo ... structs
+	@echo ... tamanho_tipos_variaveis
 	@echo ... tipos_variaveis
-	@echo ... arg_referencia.obj
-	@echo ... arg_referencia.i
-	@echo ... arg_referencia.s
-	@echo ... argumentos_linha_comando.obj
-	@echo ... argumentos_linha_comando.i
-	@echo ... argumentos_linha_comando.s
-	@echo ... aritmetica_ponteiros.obj
-	@echo ... aritmetica_ponteiros.i
-	@echo ... aritmetica_ponteiros.s
-	@echo ... arquivos_binarios.obj
-	@echo ... arquivos_binarios.i
-	@echo ... arquivos_binarios.s
-	@echo ... arquivos_txt_escrita.obj
-	@echo ... arquivos_txt_escrita.i
-	@echo ... arquivos_txt_escrita.s
-	@echo ... arquivos_txt_leitura.obj
-	@echo ... arquivos_txt_leitura.i
-	@echo ... arquivos_txt_leitura.s
-	@echo ... comparacao_ponteiros.obj
-	@echo ... comparacao_ponteiros.i
-	@echo ... comparacao_ponteiros.s
-	@echo ... condicionais.obj
-	@echo ... condicionais.i
-	@echo ... condicionais.s
-	@echo ... erro_memoria.obj
-	@echo ... erro_memoria.i
-	@echo ... erro_memoria.s
-	@echo ... exemplo01.obj
-	@echo ... exemplo01.i
-	@echo ... exemplo01.s
-	@echo ... exemplo01_test.obj
-	@echo ... exemplo01_test.i
-	@echo ... exemplo01_test.s
-	@echo ... exemplo02.obj
-	@echo ... exemplo02.i
-	@echo ... exemplo02.s
-	@echo ... exponencial_implementacao.obj
-	@echo ... exponencial_implementacao.i
-	@echo ... exponencial_implementacao.s
-	@echo ... exponencial_teste.obj
-	@echo ... exponencial_teste.i
-	@echo ... exponencial_teste.s
-	@echo ... funcoes.obj
-	@echo ... funcoes.i
-	@echo ... funcoes.s
-	@echo ... manipulacao_arrays.obj
-	@echo ... manipulacao_arrays.i
-	@echo ... manipulacao_arrays.s
-	@echo ... manipulacao_strings.obj
-	@echo ... manipulacao_strings.i
-	@echo ... manipulacao_strings.s
-	@echo ... operador_atribuicao.obj
-	@echo ... operador_atribuicao.i
-	@echo ... operador_atribuicao.s
-	@echo ... operadores_ponteiros.obj
-	@echo ... operadores_ponteiros.i
-	@echo ... operadores_ponteiros.s
-	@echo ... recursao.obj
-	@echo ... recursao.i
-	@echo ... recursao.s
-	@echo ... scanf_printf.obj
-	@echo ... scanf_printf.i
-	@echo ... scanf_printf.s
-	@echo ... strings.obj
-	@echo ... strings.i
-	@echo ... strings.s
-	@echo ... structs.obj
-	@echo ... structs.i
-	@echo ... structs.s
-	@echo ... tipos_variaveis.obj
-	@echo ... tipos_variaveis.i
-	@echo ... tipos_variaveis.s
+	@echo ... Exemplos/Arrays_e_Strings/erro_memoria.obj
+	@echo ... Exemplos/Arrays_e_Strings/erro_memoria.i
+	@echo ... Exemplos/Arrays_e_Strings/erro_memoria.s
+	@echo ... Exemplos/Arrays_e_Strings/manipulacao_arrays.obj
+	@echo ... Exemplos/Arrays_e_Strings/manipulacao_arrays.i
+	@echo ... Exemplos/Arrays_e_Strings/manipulacao_arrays.s
+	@echo ... Exemplos/Arrays_e_Strings/manipulacao_strings.obj
+	@echo ... Exemplos/Arrays_e_Strings/manipulacao_strings.i
+	@echo ... Exemplos/Arrays_e_Strings/manipulacao_strings.s
+	@echo ... Exemplos/Arrays_e_Strings/strings.obj
+	@echo ... Exemplos/Arrays_e_Strings/strings.i
+	@echo ... Exemplos/Arrays_e_Strings/strings.s
+	@echo ... Exemplos/Estrutura_Basica_de_Programas/scanf_printf.obj
+	@echo ... Exemplos/Estrutura_Basica_de_Programas/scanf_printf.i
+	@echo ... Exemplos/Estrutura_Basica_de_Programas/scanf_printf.s
+	@echo ... Exemplos/Estruturas/structs.obj
+	@echo ... Exemplos/Estruturas/structs.i
+	@echo ... Exemplos/Estruturas/structs.s
+	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.obj
+	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.i
+	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.s
+	@echo ... Exemplos/Funcoes/arg_referencia.obj
+	@echo ... Exemplos/Funcoes/arg_referencia.i
+	@echo ... Exemplos/Funcoes/arg_referencia.s
+	@echo ... Exemplos/Funcoes/argumentos_linha_comando.obj
+	@echo ... Exemplos/Funcoes/argumentos_linha_comando.i
+	@echo ... Exemplos/Funcoes/argumentos_linha_comando.s
+	@echo ... Exemplos/Funcoes/exponencial_implementacao.obj
+	@echo ... Exemplos/Funcoes/exponencial_implementacao.i
+	@echo ... Exemplos/Funcoes/exponencial_implementacao.s
+	@echo ... Exemplos/Funcoes/exponencial_teste.obj
+	@echo ... Exemplos/Funcoes/exponencial_teste.i
+	@echo ... Exemplos/Funcoes/exponencial_teste.s
+	@echo ... Exemplos/Funcoes/funcoes.obj
+	@echo ... Exemplos/Funcoes/funcoes.i
+	@echo ... Exemplos/Funcoes/funcoes.s
+	@echo ... Exemplos/Funcoes/recursao.obj
+	@echo ... Exemplos/Funcoes/recursao.i
+	@echo ... Exemplos/Funcoes/recursao.s
+	@echo ... Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.obj
+	@echo ... Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.i
+	@echo ... Exemplos/Manipulacao_de_Arquivos/arquivos_binarios.s
+	@echo ... Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.obj
+	@echo ... Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.i
+	@echo ... Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.s
+	@echo ... Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.obj
+	@echo ... Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.i
+	@echo ... Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.s
+	@echo ... Exemplos/Operadores_e_Expressoes/operador_atribuicao.obj
+	@echo ... Exemplos/Operadores_e_Expressoes/operador_atribuicao.i
+	@echo ... Exemplos/Operadores_e_Expressoes/operador_atribuicao.s
+	@echo ... Exemplos/Operadores_e_Expressoes/operadores_ponteiros.obj
+	@echo ... Exemplos/Operadores_e_Expressoes/operadores_ponteiros.i
+	@echo ... Exemplos/Operadores_e_Expressoes/operadores_ponteiros.s
+	@echo ... Exemplos/Ponteiros/aritmetica_ponteiros.obj
+	@echo ... Exemplos/Ponteiros/aritmetica_ponteiros.i
+	@echo ... Exemplos/Ponteiros/aritmetica_ponteiros.s
+	@echo ... Exemplos/Ponteiros/comparacao_ponteiros.obj
+	@echo ... Exemplos/Ponteiros/comparacao_ponteiros.i
+	@echo ... Exemplos/Ponteiros/comparacao_ponteiros.s
+	@echo ... Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.obj
+	@echo ... Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.i
+	@echo ... Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.s
+	@echo ... Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.obj
+	@echo ... Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.i
+	@echo ... Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.s
+	@echo ... Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.obj
+	@echo ... Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.i
+	@echo ... Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.s
 .PHONY : help
 
 

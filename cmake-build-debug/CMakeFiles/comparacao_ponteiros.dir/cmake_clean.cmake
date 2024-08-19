@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/comparacao_ponteiros.dir/comparacao_ponteiros.c.obj"
-  "CMakeFiles/comparacao_ponteiros.dir/comparacao_ponteiros.c.obj.d"
+  "CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.obj"
+  "CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.obj.d"
   "comparacao_ponteiros.exe"
   "comparacao_ponteiros.exe.manifest"
   "comparacao_ponteiros.pdb"

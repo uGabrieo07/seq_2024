@@ -3,70 +3,71 @@ project(seq_2024 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(exemplo01
-        exemplo01.c
-        exemplo01_test.c)
+# Define o caminho base para os exemplos
+set(EXEMPLOS_DIR "${CMAKE_SOURCE_DIR}/Exemplos")
 
+# Adiciona os executáveis com os respectivos arquivos .c
+
+add_executable(tamanho_tipos_variaveis
+        "${EXEMPLOS_DIR}/Tipos de dados e variaveis/tamanho_tipos_variaveis.c"
+        "${EXEMPLOS_DIR}/Tipos de dados e variaveis/teste_tamanho_tipos_variaveis.c")
 
 add_executable(tipos_variaveis
-        tipos_variaveis.c)
+        "${EXEMPLOS_DIR}/Tipos de dados e variaveis/tipos_variaveis.c")
 
 add_executable(condicionais
-        condicionais.c)
+        "${EXEMPLOS_DIR}/Estruturas de Iteracao e Controle/condicionais.c")
 
 add_executable(scanf_printf
-        scanf_printf.c)
+        "${EXEMPLOS_DIR}/Estrutura Basica de Programas/scanf_printf.c")
 
-add_executable(exemplo02
-        exemplo02.c)
 
 add_executable(operador_atribuicao
-        "Operadores e Expressões/operador_atribuicao.c")
+        "${EXEMPLOS_DIR}/Operadores e Expressoes/operador_atribuicao.c")
 
 add_executable(arg_linha_comando
-        argumentos_linha_comando.c
-        "Operadores e Expressões/operadores_ponteiros.c")
+        "${EXEMPLOS_DIR}/Funcoes/argumentos_linha_comando.c"
+        "${EXEMPLOS_DIR}/Operadores e Expressoes/operadores_ponteiros.c")
 
 add_executable(funcoes
-        funcoes.c)
+        "${EXEMPLOS_DIR}/Funcoes/funcoes.c")
 
 add_executable(arg_referencia
-        arg_referencia.c)
+        "${EXEMPLOS_DIR}/Funcoes/arg_referencia.c")
 
 add_executable(recursao
-        recursao.c)
+        "${EXEMPLOS_DIR}/Funcoes/recursao.c")
 
 add_executable(exponencial
-        exponencial_implementacao.c
-        exponencial_teste.c)
+        "${EXEMPLOS_DIR}/Funcoes/exponencial_implementacao.c"
+        "${EXEMPLOS_DIR}/Funcoes/exponencial_teste.c")
 
 add_executable(erro_memoria
-        erro_memoria.c)
+        "${EXEMPLOS_DIR}/Arrays e Strings/erro_memoria.c")
 
 add_executable(manipulacao_arrays
-        manipulacao_arrays.c)
+        "${EXEMPLOS_DIR}/Arrays e Strings/manipulacao_arrays.c")
 
 add_executable(strings
-        strings.c)
+        "${EXEMPLOS_DIR}/Arrays e Strings/strings.c")
 
 add_executable(manipulacao_strings
-        manipulacao_strings.c)
+        "${EXEMPLOS_DIR}/Arrays e Strings/manipulacao_strings.c")
 
 add_executable(aritmetica_ponteiros
-        aritmetica_ponteiros.c)
+        "${EXEMPLOS_DIR}/Ponteiros/aritmetica_ponteiros.c")
 
 add_executable(comparacao_ponteiros
-        comparacao_ponteiros.c)
+        "${EXEMPLOS_DIR}/Ponteiros/comparacao_ponteiros.c")
 
 add_executable(structs
-        structs.c)
+        "${EXEMPLOS_DIR}/Estruturas/structs.c")
 
 add_executable(arquivos_txt_leitura
-        arquivos_txt_leitura.c)
+        "${EXEMPLOS_DIR}/Manipulacao de Arquivos/arquivos_txt_leitura.c")
 
 add_executable(arquivos_txt_escrita
-        arquivos_txt_escrita.c)
+        "${EXEMPLOS_DIR}/Manipulacao de Arquivos/arquivos_txt_escrita.c")
 
 add_executable(arquivos_binarios
-        arquivos_binarios.c)
-
+        "${EXEMPLOS_DIR}/Manipulacao de Arquivos/arquivos_binarios.c")

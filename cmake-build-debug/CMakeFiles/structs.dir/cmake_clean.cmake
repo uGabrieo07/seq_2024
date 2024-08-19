@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/structs.dir/structs.c.obj"
-  "CMakeFiles/structs.dir/structs.c.obj.d"
+  "CMakeFiles/structs.dir/Exemplos/Estruturas/structs.c.obj"
+  "CMakeFiles/structs.dir/Exemplos/Estruturas/structs.c.obj.d"
   "libstructs.dll.a"
   "structs.exe"
   "structs.exe.manifest"

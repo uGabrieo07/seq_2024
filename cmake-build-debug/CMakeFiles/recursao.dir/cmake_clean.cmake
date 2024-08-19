@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/recursao.dir/recursao.c.obj"
-  "CMakeFiles/recursao.dir/recursao.c.obj.d"
+  "CMakeFiles/recursao.dir/Exemplos/Funcoes/recursao.c.obj"
+  "CMakeFiles/recursao.dir/Exemplos/Funcoes/recursao.c.obj.d"
   "librecursao.dll.a"
   "recursao.exe"
   "recursao.exe.manifest"

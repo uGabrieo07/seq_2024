@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/condicionais.dir/condicionais.c.obj"
-  "CMakeFiles/condicionais.dir/condicionais.c.obj.d"
+  "CMakeFiles/condicionais.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.obj"
+  "CMakeFiles/condicionais.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.obj.d"
   "condicionais.exe"
   "condicionais.exe.manifest"
   "condicionais.pdb"

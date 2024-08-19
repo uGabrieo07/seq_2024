@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/manipulacao_strings.dir/manipulacao_strings.c.obj"
-  "CMakeFiles/manipulacao_strings.dir/manipulacao_strings.c.obj.d"
+  "CMakeFiles/manipulacao_strings.dir/Exemplos/Arrays_e_Strings/manipulacao_strings.c.obj"
+  "CMakeFiles/manipulacao_strings.dir/Exemplos/Arrays_e_Strings/manipulacao_strings.c.obj.d"
   "libmanipulacao_strings.dll.a"
   "manipulacao_strings.exe"
   "manipulacao_strings.exe.manifest"

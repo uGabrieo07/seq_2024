@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/argumentos_linha_comando.c" "CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.obj" "gcc" "CMakeFiles/arg_linha_comando.dir/argumentos_linha_comando.c.obj.d"
-  "C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/operadores_ponteiros.c" "CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.obj" "gcc" "CMakeFiles/arg_linha_comando.dir/operadores_ponteiros.c.obj.d"
+  "C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Funcoes/argumentos_linha_comando.c" "CMakeFiles/arg_linha_comando.dir/Exemplos/Funcoes/argumentos_linha_comando.c.obj" "gcc" "CMakeFiles/arg_linha_comando.dir/Exemplos/Funcoes/argumentos_linha_comando.c.obj.d"
+  "C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Operadores e Expressoes/operadores_ponteiros.c" "CMakeFiles/arg_linha_comando.dir/Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.obj" "gcc" "CMakeFiles/arg_linha_comando.dir/Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

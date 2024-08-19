@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/funcoes.dir/funcoes.c.obj"
-  "CMakeFiles/funcoes.dir/funcoes.c.obj.d"
+  "CMakeFiles/funcoes.dir/Exemplos/Funcoes/funcoes.c.obj"
+  "CMakeFiles/funcoes.dir/Exemplos/Funcoes/funcoes.c.obj.d"
   "funcoes.exe"
   "funcoes.exe.manifest"
   "funcoes.pdb"

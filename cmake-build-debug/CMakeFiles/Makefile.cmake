@@ -28,7 +28,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake"
   "C:/Program Files/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/ProcessorCount.cmake"
-  "C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/CMakeLists.txt"
+  "C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/CMakeLists.txt"
   "CMakeFiles/3.28.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeSystem.cmake"
@@ -47,11 +47,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/exemplo01.dir/DependInfo.cmake"
+  "CMakeFiles/tamanho_tipos_variaveis.dir/DependInfo.cmake"
   "CMakeFiles/tipos_variaveis.dir/DependInfo.cmake"
   "CMakeFiles/condicionais.dir/DependInfo.cmake"
   "CMakeFiles/scanf_printf.dir/DependInfo.cmake"
-  "CMakeFiles/exemplo02.dir/DependInfo.cmake"
   "CMakeFiles/operador_atribuicao.dir/DependInfo.cmake"
   "CMakeFiles/arg_linha_comando.dir/DependInfo.cmake"
   "CMakeFiles/funcoes.dir/DependInfo.cmake"

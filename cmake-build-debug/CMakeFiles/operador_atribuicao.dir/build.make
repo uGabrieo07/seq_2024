@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024"
+CMAKE_SOURCE_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/operador_atribuicao.dir/depend.make
@@ -68,33 +68,33 @@ include CMakeFiles/operador_atribuicao.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/operador_atribuicao.dir/flags.make
 
-CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj: CMakeFiles/operador_atribuicao.dir/flags.make
-CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso\ de\ Introdução\ a\ C/seq_2024/operador_atribuicao.c
-CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj: CMakeFiles/operador_atribuicao.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj -MF CMakeFiles\operador_atribuicao.dir\operador_atribuicao.c.obj.d -o CMakeFiles\operador_atribuicao.dir\operador_atribuicao.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\operador_atribuicao.c"
+CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.obj: CMakeFiles/operador_atribuicao.dir/flags.make
+CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.obj: C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Operadores\ e\ Expressoes/operador_atribuicao.c
+CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.obj: CMakeFiles/operador_atribuicao.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.obj -MF CMakeFiles\operador_atribuicao.dir\Exemplos\Operadores_e_Expressoes\operador_atribuicao.c.obj.d -o CMakeFiles\operador_atribuicao.dir\Exemplos\Operadores_e_Expressoes\operador_atribuicao.c.obj -c "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Operadores e Expressoes\operador_atribuicao.c"
 
-CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\operador_atribuicao.c" > CMakeFiles\operador_atribuicao.dir\operador_atribuicao.c.i
+CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Operadores e Expressoes\operador_atribuicao.c" > CMakeFiles\operador_atribuicao.dir\Exemplos\Operadores_e_Expressoes\operador_atribuicao.c.i
 
-CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\operador_atribuicao.c" -o CMakeFiles\operador_atribuicao.dir\operador_atribuicao.c.s
+CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Operadores e Expressoes\operador_atribuicao.c" -o CMakeFiles\operador_atribuicao.dir\Exemplos\Operadores_e_Expressoes\operador_atribuicao.c.s
 
 # Object files for target operador_atribuicao
 operador_atribuicao_OBJECTS = \
-"CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj"
+"CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.obj"
 
 # External object files for target operador_atribuicao
 operador_atribuicao_EXTERNAL_OBJECTS =
 
-operador_atribuicao.exe: CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj
+operador_atribuicao.exe: CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.obj
 operador_atribuicao.exe: CMakeFiles/operador_atribuicao.dir/build.make
 operador_atribuicao.exe: CMakeFiles/operador_atribuicao.dir/linkLibs.rsp
 operador_atribuicao.exe: CMakeFiles/operador_atribuicao.dir/objects1.rsp
 operador_atribuicao.exe: CMakeFiles/operador_atribuicao.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable operador_atribuicao.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable operador_atribuicao.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\operador_atribuicao.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +106,6 @@ CMakeFiles/operador_atribuicao.dir/clean:
 .PHONY : CMakeFiles/operador_atribuicao.dir/clean
 
 CMakeFiles/operador_atribuicao.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles\operador_atribuicao.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles\operador_atribuicao.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/operador_atribuicao.dir/depend
 

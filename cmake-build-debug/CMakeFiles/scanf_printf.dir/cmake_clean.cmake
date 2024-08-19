@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/scanf_printf.dir/scanf_printf.c.obj"
-  "CMakeFiles/scanf_printf.dir/scanf_printf.c.obj.d"
+  "CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.obj"
+  "CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.obj.d"
   "libscanf_printf.dll.a"
   "scanf_printf.exe"
   "scanf_printf.exe.manifest"

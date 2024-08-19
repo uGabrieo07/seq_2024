@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/arquivos_txt_leitura.dir/arquivos_txt_leitura.c.obj"
-  "CMakeFiles/arquivos_txt_leitura.dir/arquivos_txt_leitura.c.obj.d"
+  "CMakeFiles/arquivos_txt_leitura.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.c.obj"
+  "CMakeFiles/arquivos_txt_leitura.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_leitura.c.obj.d"
   "arquivos_txt_leitura.exe"
   "arquivos_txt_leitura.exe.manifest"
   "arquivos_txt_leitura.pdb"

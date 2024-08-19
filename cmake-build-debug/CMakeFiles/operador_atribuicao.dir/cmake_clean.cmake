@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj"
-  "CMakeFiles/operador_atribuicao.dir/operador_atribuicao.c.obj.d"
+  "CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.obj"
+  "CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.obj.d"
   "liboperador_atribuicao.dll.a"
   "operador_atribuicao.exe"
   "operador_atribuicao.exe.manifest"

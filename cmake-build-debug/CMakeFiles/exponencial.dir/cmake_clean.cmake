@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/exponencial.dir/exponencial_implementacao.c.obj"
-  "CMakeFiles/exponencial.dir/exponencial_implementacao.c.obj.d"
-  "CMakeFiles/exponencial.dir/exponencial_teste.c.obj"
-  "CMakeFiles/exponencial.dir/exponencial_teste.c.obj.d"
+  "CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.obj"
+  "CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.obj.d"
+  "CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.obj"
+  "CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.obj.d"
   "exponencial.exe"
   "exponencial.exe.manifest"
   "exponencial.pdb"

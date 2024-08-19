@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/arg_referencia.dir/arg_referencia.c.obj"
-  "CMakeFiles/arg_referencia.dir/arg_referencia.c.obj.d"
+  "CMakeFiles/arg_referencia.dir/Exemplos/Funcoes/arg_referencia.c.obj"
+  "CMakeFiles/arg_referencia.dir/Exemplos/Funcoes/arg_referencia.c.obj.d"
   "arg_referencia.exe"
   "arg_referencia.exe.manifest"
   "arg_referencia.pdb"

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/recursao.c" "CMakeFiles/recursao.dir/recursao.c.obj" "gcc" "CMakeFiles/recursao.dir/recursao.c.obj.d"
+  "C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Funcoes/recursao.c" "CMakeFiles/recursao.dir/Exemplos/Funcoes/recursao.c.obj" "gcc" "CMakeFiles/recursao.dir/Exemplos/Funcoes/recursao.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
