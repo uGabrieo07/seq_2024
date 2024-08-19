@@ -21,11 +21,11 @@ add_executable(exemplo02
         exemplo02.c)
 
 add_executable(operador_atribuicao
-        operador_atribuicao.c)
+        "Operadores e Expressões/operador_atribuicao.c")
 
 add_executable(arg_linha_comando
         argumentos_linha_comando.c
-        operadores_ponteiros.c)
+        "Operadores e Expressões/operadores_ponteiros.c")
 
 add_executable(funcoes
         funcoes.c)
