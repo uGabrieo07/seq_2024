@@ -6,6 +6,7 @@
 * Data: 21/08/2024.
 * Tópico: Operadores Ternário "?", Vírgula e Sizeof.
 */
+
 /*Diz ao compilador que ele deve incluir o arquivo-cabeçalho "stdio.h",
  *na qual possui declarações de funções úteis para entrada e saída de dados .*/
 #include <stdio.h>
