@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "cores.h"
-#include "exemplo01.h"
+#include "header_tamanho_tipos_variaveis.h"
 
 /*Definicao das Macros.*/
 #define SUCESSO				0
