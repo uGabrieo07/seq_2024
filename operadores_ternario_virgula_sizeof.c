@@ -3,6 +3,7 @@
 * Liga Acadêmica: for_code.
 * Mini curso: Introdução a C.
 * Ministrantes: João Vitor dos Santos Oliveira e Gabriel Souza de Paula Oliveira.
+* Monitora: Anna Gabriela Brum.
 * Data: 21/08/2024.
 * Tópico: Operadores Ternário "?", Vírgula e Sizeof.
 */

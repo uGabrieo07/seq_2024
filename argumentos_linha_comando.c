@@ -1,3 +1,13 @@
+/*
+* SEQ 2024.
+* Liga Acadêmica: for_code.
+* Mini curso: Introdução a C.
+* Ministrantes: João Vitor dos Santos Oliveira e Gabriel Souza de Paula Oliveira.
+* Monitora: Anna Gabriela Brum.
+* Data: 21/08/2024.
+* Tópico: Funções - "argc" e "argv" para passar argumentos para "main()".
+*/
+
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {

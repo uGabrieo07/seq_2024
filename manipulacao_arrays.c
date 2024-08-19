@@ -1,5 +1,14 @@
-#include <stdio.h>
+/*
+* SEQ 2024.
+* Liga Acadêmica: for_code.
+* Mini curso: Introdução a C.
+* Ministrantes: João Vitor dos Santos Oliveira e Gabriel Souza de Paula Oliveira.
+* Monitora: Anna Gabriela Brum.
+* Data: 21/08/2024.
+* Tópico: Manipulação de Arrays.
+*/
 
+#include <stdio.h>
 #include <stdio.h>
 
 int RemoverElemento(int *array, int index_para_remover, int tamanho) {

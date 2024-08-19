@@ -3,7 +3,7 @@
 * Liga Acadêmica: for_code.
 * Mini curso: Introdução a C.
 * Ministrantes: João Vitor dos Santos Oliveira e Gabriel Souza de Paula Oliveira.
-* Monitora: Anna Gabriela.
+* Monitora: Anna Gabriela Brum.
 * Data: 21/08/2024.
 * Tópico: Casts.
 */
@@ -28,11 +28,11 @@ main ()
     unsigned castUnsigned = (unsigned) (numeroInteiro + numeroLongLong);
 
     /*Impressão dos resultados dos Casts.*/
-    printf ("\n\t\t-----Casts-----\n\n");
+    printf ("\n\t\t-----CASTS-----\n\n");
     printf ("Resultado com Cast para o tipo Float: %.1f\n", castFloat);
     printf ("Resultado com Cast para o tipo Int: %d\n", castInt);
     printf ("Resultado com Cast para o tipo Long Long: %llu\n", castLongLong);
-    printf ("Resultado com Cast para o tipo Unsigned Int: %u\n", castUnsigned);
+    printf ("Resultado com Cast para o tipo Unsigned Int: %u\n\n", castUnsigned);
 
     return SUCESSO;
 }
