@@ -388,6 +388,19 @@ repeticao/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\repeticao.dir\build.make CMakeFiles/repeticao.dir/build
 .PHONY : repeticao/fast
 
+#=============================================================================
+# Target rules for targets named controle_fluxo
+
+# Build rule for target.
+controle_fluxo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 controle_fluxo
+.PHONY : controle_fluxo
+
+# fast build rule for target.
+controle_fluxo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\controle_fluxo.dir\build.make CMakeFiles/controle_fluxo.dir/build
+.PHONY : controle_fluxo/fast
+
 Exemplos/Arrays_e_Strings/erro_memoria.obj: Exemplos/Arrays_e_Strings/erro_memoria.c.obj
 .PHONY : Exemplos/Arrays_e_Strings/erro_memoria.obj
 
@@ -555,6 +568,30 @@ Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.s: Exemplos/Estruturas_d
 Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.s
 .PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.s
+
+Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.obj: Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.obj
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.obj
+
+# target to build an object file
+Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\controle_fluxo.dir\build.make CMakeFiles/controle_fluxo.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.obj
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.obj
+
+Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.i: Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.i
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.i
+
+# target to preprocess a source file
+Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\controle_fluxo.dir\build.make CMakeFiles/controle_fluxo.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.i
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.i
+
+Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.s: Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.s
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.s
+
+# target to generate assembly for a file
+Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\controle_fluxo.dir\build.make CMakeFiles/controle_fluxo.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.s
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.s
 
 Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.obj: Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.obj
 .PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.obj
@@ -980,6 +1017,7 @@ help:
 	@echo ... arquivos_txt_leitura
 	@echo ... comparacao_ponteiros
 	@echo ... condicionais
+	@echo ... controle_fluxo
 	@echo ... erro_memoria
 	@echo ... exponencial
 	@echo ... funcoes
@@ -1014,6 +1052,9 @@ help:
 	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.obj
 	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.i
 	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.s
+	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.obj
+	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.i
+	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.s
 	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.obj
 	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.i
 	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.s

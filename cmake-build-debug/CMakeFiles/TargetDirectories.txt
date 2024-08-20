@@ -19,5 +19,6 @@ C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/arquivos_txt_escrita.dir
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/arquivos_binarios.dir
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/repeticao.dir
+C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/controle_fluxo.dir
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/CMakeFiles/rebuild_cache.dir

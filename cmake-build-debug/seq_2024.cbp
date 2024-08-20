@@ -857,6 +857,46 @@
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="controle_fluxo">
+				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/controle_fluxo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 controle_fluxo"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="controle_fluxo/fast">
+				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/controle_fluxo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 controle_fluxo/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
 				<Option type="4"/>
@@ -895,6 +935,9 @@
 		</Unit>
 		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Estruturas de Iteracao e Controle/condicionais.c">
 			<Option target="condicionais"/>
+		</Unit>
+		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Estruturas de Iteracao e Controle/controle_fluxo.c">
+			<Option target="controle_fluxo"/>
 		</Unit>
 		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Estruturas de Iteracao e Controle/estruturas_repeticao.c">
 			<Option target="repeticao"/>
