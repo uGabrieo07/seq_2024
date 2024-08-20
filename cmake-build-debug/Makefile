@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024"
+CMAKE_SOURCE_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -375,6 +375,19 @@ arquivos_binarios/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/build
 .PHONY : arquivos_binarios/fast
 
+#=============================================================================
+# Target rules for targets named repeticao
+
+# Build rule for target.
+repeticao: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 repeticao
+.PHONY : repeticao
+
+# fast build rule for target.
+repeticao/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\repeticao.dir\build.make CMakeFiles/repeticao.dir/build
+.PHONY : repeticao/fast
+
 Exemplos/Arrays_e_Strings/erro_memoria.obj: Exemplos/Arrays_e_Strings/erro_memoria.c.obj
 .PHONY : Exemplos/Arrays_e_Strings/erro_memoria.obj
 
@@ -542,6 +555,30 @@ Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.s: Exemplos/Estruturas_d
 Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.s
 .PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.c.s
+
+Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.obj: Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.obj
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.obj
+
+# target to build an object file
+Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\repeticao.dir\build.make CMakeFiles/repeticao.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.obj
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.obj
+
+Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.i: Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.i
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.i
+
+# target to preprocess a source file
+Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\repeticao.dir\build.make CMakeFiles/repeticao.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.i
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.i
+
+Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.s: Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.s
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.s
+
+# target to generate assembly for a file
+Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\repeticao.dir\build.make CMakeFiles/repeticao.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.s
+.PHONY : Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.s
 
 Exemplos/Funcoes/arg_referencia.obj: Exemplos/Funcoes/arg_referencia.c.obj
 .PHONY : Exemplos/Funcoes/arg_referencia.obj
@@ -855,77 +892,77 @@ Exemplos/Ponteiros/comparacao_ponteiros.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.s
 .PHONY : Exemplos/Ponteiros/comparacao_ponteiros.c.s
 
-Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.obj: Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.obj
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.obj
+Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.obj: Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.obj
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.obj
 
 # target to build an object file
-Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.obj
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.obj
+Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.obj
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.obj
 
-Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.i: Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.i
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.i
+Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.i: Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.i
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.i
 
 # target to preprocess a source file
-Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.i
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.i
+Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.i
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.i
 
-Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.s: Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.s
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.s
+Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.s: Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.s
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.s
 
 # target to generate assembly for a file
-Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.s
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.c.s
+Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.s
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.s
 
-Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.obj: Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.obj
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.obj
+Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.obj: Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.obj
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.obj
 
 # target to build an object file
-Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.obj
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.obj
+Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.obj
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.obj
 
-Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.i: Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.i
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.i
+Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.i: Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.i
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.i
 
 # target to preprocess a source file
-Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.i
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.i
+Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.i
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.i
 
-Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.s: Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.s
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.s
+Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.s: Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.s
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.s
 
 # target to generate assembly for a file
-Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.s
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.c.s
+Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.s
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.s
 
-Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.obj: Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.obj
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.obj
+Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.obj: Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.c.obj
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.obj
 
 # target to build an object file
-Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.obj
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.obj
+Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.c.obj
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.c.obj
 
-Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.i: Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.i
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.i
+Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.i: Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.c.i
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.i
 
 # target to preprocess a source file
-Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.i
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.i
+Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.c.i
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.c.i
 
-Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.s: Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.s
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.s
+Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.s: Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.c.s
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.s
 
 # target to generate assembly for a file
-Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.s
-.PHONY : Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.c.s
+Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.c.s
+.PHONY : Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.c.s
 
 # Help Target
 help:
@@ -950,6 +987,7 @@ help:
 	@echo ... manipulacao_strings
 	@echo ... operador_atribuicao
 	@echo ... recursao
+	@echo ... repeticao
 	@echo ... scanf_printf
 	@echo ... strings
 	@echo ... structs
@@ -976,6 +1014,9 @@ help:
 	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.obj
 	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.i
 	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/condicionais.s
+	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.obj
+	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.i
+	@echo ... Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.s
 	@echo ... Exemplos/Funcoes/arg_referencia.obj
 	@echo ... Exemplos/Funcoes/arg_referencia.i
 	@echo ... Exemplos/Funcoes/arg_referencia.s
@@ -1015,15 +1056,15 @@ help:
 	@echo ... Exemplos/Ponteiros/comparacao_ponteiros.obj
 	@echo ... Exemplos/Ponteiros/comparacao_ponteiros.i
 	@echo ... Exemplos/Ponteiros/comparacao_ponteiros.s
-	@echo ... Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.obj
-	@echo ... Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.i
-	@echo ... Exemplos/Tipos_de_dados_e_variaveis/tamanho_tipos_variaveis.s
-	@echo ... Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.obj
-	@echo ... Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.i
-	@echo ... Exemplos/Tipos_de_dados_e_variaveis/teste_tamanho_tipos_variaveis.s
-	@echo ... Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.obj
-	@echo ... Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.i
-	@echo ... Exemplos/Tipos_de_dados_e_variaveis/tipos_variaveis.s
+	@echo ... Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.obj
+	@echo ... Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.i
+	@echo ... Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.s
+	@echo ... Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.obj
+	@echo ... Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.i
+	@echo ... Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.s
+	@echo ... Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.obj
+	@echo ... Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.i
+	@echo ... Exemplos/Tipos_de_Dados_e_Variaveis/tipos_variaveis.s
 .PHONY : help
 
 
