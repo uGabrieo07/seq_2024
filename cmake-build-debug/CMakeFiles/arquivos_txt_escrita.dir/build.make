@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024"
+CMAKE_SOURCE_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/arquivos_txt_escrita.dir/depend.make
@@ -69,18 +69,18 @@ include CMakeFiles/arquivos_txt_escrita.dir/progress.make
 include CMakeFiles/arquivos_txt_escrita.dir/flags.make
 
 CMakeFiles/arquivos_txt_escrita.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.obj: CMakeFiles/arquivos_txt_escrita.dir/flags.make
-CMakeFiles/arquivos_txt_escrita.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso\ de\ Introdução\ a\ C/seq_2024/Exemplos/Manipulacao\ de\ Arquivos/arquivos_txt_escrita.c
+CMakeFiles/arquivos_txt_escrita.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.obj: C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Manipulacao\ de\ Arquivos/arquivos_txt_escrita.c
 CMakeFiles/arquivos_txt_escrita.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.obj: CMakeFiles/arquivos_txt_escrita.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/arquivos_txt_escrita.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/arquivos_txt_escrita.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.obj -MF CMakeFiles\arquivos_txt_escrita.dir\Exemplos\Manipulacao_de_Arquivos\arquivos_txt_escrita.c.obj.d -o CMakeFiles\arquivos_txt_escrita.dir\Exemplos\Manipulacao_de_Arquivos\arquivos_txt_escrita.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Manipulacao de Arquivos\arquivos_txt_escrita.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/arquivos_txt_escrita.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/arquivos_txt_escrita.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.obj -MF CMakeFiles\arquivos_txt_escrita.dir\Exemplos\Manipulacao_de_Arquivos\arquivos_txt_escrita.c.obj.d -o CMakeFiles\arquivos_txt_escrita.dir\Exemplos\Manipulacao_de_Arquivos\arquivos_txt_escrita.c.obj -c "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Manipulacao de Arquivos\arquivos_txt_escrita.c"
 
 CMakeFiles/arquivos_txt_escrita.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/arquivos_txt_escrita.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Manipulacao de Arquivos\arquivos_txt_escrita.c" > CMakeFiles\arquivos_txt_escrita.dir\Exemplos\Manipulacao_de_Arquivos\arquivos_txt_escrita.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Manipulacao de Arquivos\arquivos_txt_escrita.c" > CMakeFiles\arquivos_txt_escrita.dir\Exemplos\Manipulacao_de_Arquivos\arquivos_txt_escrita.c.i
 
 CMakeFiles/arquivos_txt_escrita.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/arquivos_txt_escrita.dir/Exemplos/Manipulacao_de_Arquivos/arquivos_txt_escrita.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Manipulacao de Arquivos\arquivos_txt_escrita.c" -o CMakeFiles\arquivos_txt_escrita.dir\Exemplos\Manipulacao_de_Arquivos\arquivos_txt_escrita.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Manipulacao de Arquivos\arquivos_txt_escrita.c" -o CMakeFiles\arquivos_txt_escrita.dir\Exemplos\Manipulacao_de_Arquivos\arquivos_txt_escrita.c.s
 
 # Object files for target arquivos_txt_escrita
 arquivos_txt_escrita_OBJECTS = \
@@ -94,7 +94,7 @@ arquivos_txt_escrita.exe: CMakeFiles/arquivos_txt_escrita.dir/build.make
 arquivos_txt_escrita.exe: CMakeFiles/arquivos_txt_escrita.dir/linkLibs.rsp
 arquivos_txt_escrita.exe: CMakeFiles/arquivos_txt_escrita.dir/objects1.rsp
 arquivos_txt_escrita.exe: CMakeFiles/arquivos_txt_escrita.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable arquivos_txt_escrita.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable arquivos_txt_escrita.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\arquivos_txt_escrita.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +106,6 @@ CMakeFiles/arquivos_txt_escrita.dir/clean:
 .PHONY : CMakeFiles/arquivos_txt_escrita.dir/clean
 
 CMakeFiles/arquivos_txt_escrita.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles\arquivos_txt_escrita.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles\arquivos_txt_escrita.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/arquivos_txt_escrita.dir/depend
 

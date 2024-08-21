@@ -53,10 +53,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024"
+CMAKE_SOURCE_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -122,14 +122,14 @@ clean: CMakeFiles/controle_fluxo.dir/clean
 CMakeFiles/tamanho_tipos_variaveis.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tamanho_tipos_variaveis.dir\build.make CMakeFiles/tamanho_tipos_variaveis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=43,44,45 "Built target tamanho_tipos_variaveis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=42,43,44 "Built target tamanho_tipos_variaveis"
 .PHONY : CMakeFiles/tamanho_tipos_variaveis.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tamanho_tipos_variaveis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/tamanho_tipos_variaveis.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/tamanho_tipos_variaveis.dir/rule
 
 # Convenience name for target.
@@ -148,14 +148,14 @@ CMakeFiles/tamanho_tipos_variaveis.dir/clean:
 CMakeFiles/tipos_variaveis.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tipos_variaveis.dir\build.make CMakeFiles/tipos_variaveis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=46,47 "Built target tipos_variaveis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target tipos_variaveis"
 .PHONY : CMakeFiles/tipos_variaveis.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tipos_variaveis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/tipos_variaveis.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/tipos_variaveis.dir/rule
 
 # Convenience name for target.
@@ -174,14 +174,14 @@ CMakeFiles/tipos_variaveis.dir/clean:
 CMakeFiles/condicionais.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\condicionais.dir\build.make CMakeFiles/condicionais.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=16,17 "Built target condicionais"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target condicionais"
 .PHONY : CMakeFiles/condicionais.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/condicionais.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/condicionais.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/condicionais.dir/rule
 
 # Convenience name for target.
@@ -200,14 +200,14 @@ CMakeFiles/condicionais.dir/clean:
 CMakeFiles/scanf_printf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\scanf_printf.dir\build.make CMakeFiles/scanf_printf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\scanf_printf.dir\build.make CMakeFiles/scanf_printf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=37,38 "Built target scanf_printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=36,37 "Built target scanf_printf"
 .PHONY : CMakeFiles/scanf_printf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/scanf_printf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/scanf_printf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/scanf_printf.dir/rule
 
 # Convenience name for target.
@@ -226,14 +226,14 @@ CMakeFiles/scanf_printf.dir/clean:
 CMakeFiles/operador_atribuicao.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=31,32 "Built target operador_atribuicao"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=30,31 "Built target operador_atribuicao"
 .PHONY : CMakeFiles/operador_atribuicao.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/operador_atribuicao.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/operador_atribuicao.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/operador_atribuicao.dir/rule
 
 # Convenience name for target.
@@ -252,14 +252,14 @@ CMakeFiles/operador_atribuicao.dir/clean:
 CMakeFiles/arg_linha_comando.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=1,2,3 "Built target arg_linha_comando"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target arg_linha_comando"
 .PHONY : CMakeFiles/arg_linha_comando.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/arg_linha_comando.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/arg_linha_comando.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/arg_linha_comando.dir/rule
 
 # Convenience name for target.
@@ -278,14 +278,14 @@ CMakeFiles/arg_linha_comando.dir/clean:
 CMakeFiles/funcoes.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\funcoes.dir\build.make CMakeFiles/funcoes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\funcoes.dir\build.make CMakeFiles/funcoes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=25,26 "Built target funcoes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=24,25 "Built target funcoes"
 .PHONY : CMakeFiles/funcoes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/funcoes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/funcoes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/funcoes.dir/rule
 
 # Convenience name for target.
@@ -304,14 +304,14 @@ CMakeFiles/funcoes.dir/clean:
 CMakeFiles/arg_referencia.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_referencia.dir\build.make CMakeFiles/arg_referencia.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_referencia.dir\build.make CMakeFiles/arg_referencia.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=4,5 "Built target arg_referencia"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target arg_referencia"
 .PHONY : CMakeFiles/arg_referencia.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/arg_referencia.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/arg_referencia.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/arg_referencia.dir/rule
 
 # Convenience name for target.
@@ -330,14 +330,14 @@ CMakeFiles/arg_referencia.dir/clean:
 CMakeFiles/recursao.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\recursao.dir\build.make CMakeFiles/recursao.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\recursao.dir\build.make CMakeFiles/recursao.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=33,34 "Built target recursao"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=32,33 "Built target recursao"
 .PHONY : CMakeFiles/recursao.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/recursao.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/recursao.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/recursao.dir/rule
 
 # Convenience name for target.
@@ -356,14 +356,14 @@ CMakeFiles/recursao.dir/clean:
 CMakeFiles/exponencial.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exponencial.dir\build.make CMakeFiles/exponencial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=22,23,24 "Built target exponencial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=21,22,23 "Built target exponencial"
 .PHONY : CMakeFiles/exponencial.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exponencial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/exponencial.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exponencial.dir/rule
 
 # Convenience name for target.
@@ -382,14 +382,14 @@ CMakeFiles/exponencial.dir/clean:
 CMakeFiles/erro_memoria.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\erro_memoria.dir\build.make CMakeFiles/erro_memoria.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\erro_memoria.dir\build.make CMakeFiles/erro_memoria.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=20,21 "Built target erro_memoria"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target erro_memoria"
 .PHONY : CMakeFiles/erro_memoria.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/erro_memoria.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/erro_memoria.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/erro_memoria.dir/rule
 
 # Convenience name for target.
@@ -408,14 +408,14 @@ CMakeFiles/erro_memoria.dir/clean:
 CMakeFiles/manipulacao_arrays.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_arrays.dir\build.make CMakeFiles/manipulacao_arrays.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_arrays.dir\build.make CMakeFiles/manipulacao_arrays.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=27,28 "Built target manipulacao_arrays"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=26,27 "Built target manipulacao_arrays"
 .PHONY : CMakeFiles/manipulacao_arrays.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/manipulacao_arrays.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/manipulacao_arrays.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/manipulacao_arrays.dir/rule
 
 # Convenience name for target.
@@ -434,14 +434,14 @@ CMakeFiles/manipulacao_arrays.dir/clean:
 CMakeFiles/strings.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strings.dir\build.make CMakeFiles/strings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=39,40 "Built target strings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=38,39 "Built target strings"
 .PHONY : CMakeFiles/strings.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/strings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/strings.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/strings.dir/rule
 
 # Convenience name for target.
@@ -460,14 +460,14 @@ CMakeFiles/strings.dir/clean:
 CMakeFiles/manipulacao_strings.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\manipulacao_strings.dir\build.make CMakeFiles/manipulacao_strings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=29,30 "Built target manipulacao_strings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target manipulacao_strings"
 .PHONY : CMakeFiles/manipulacao_strings.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/manipulacao_strings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/manipulacao_strings.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/manipulacao_strings.dir/rule
 
 # Convenience name for target.
@@ -486,14 +486,14 @@ CMakeFiles/manipulacao_strings.dir/clean:
 CMakeFiles/aritmetica_ponteiros.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\aritmetica_ponteiros.dir\build.make CMakeFiles/aritmetica_ponteiros.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=6,7 "Built target aritmetica_ponteiros"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target aritmetica_ponteiros"
 .PHONY : CMakeFiles/aritmetica_ponteiros.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/aritmetica_ponteiros.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/aritmetica_ponteiros.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/aritmetica_ponteiros.dir/rule
 
 # Convenience name for target.
@@ -512,14 +512,14 @@ CMakeFiles/aritmetica_ponteiros.dir/clean:
 CMakeFiles/comparacao_ponteiros.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\comparacao_ponteiros.dir\build.make CMakeFiles/comparacao_ponteiros.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=14,15 "Built target comparacao_ponteiros"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target comparacao_ponteiros"
 .PHONY : CMakeFiles/comparacao_ponteiros.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/comparacao_ponteiros.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/comparacao_ponteiros.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/comparacao_ponteiros.dir/rule
 
 # Convenience name for target.
@@ -538,14 +538,14 @@ CMakeFiles/comparacao_ponteiros.dir/clean:
 CMakeFiles/structs.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\structs.dir\build.make CMakeFiles/structs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=41,42 "Built target structs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=40,41 "Built target structs"
 .PHONY : CMakeFiles/structs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/structs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/structs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/structs.dir/rule
 
 # Convenience name for target.
@@ -564,14 +564,14 @@ CMakeFiles/structs.dir/clean:
 CMakeFiles/arquivos_txt_leitura.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_leitura.dir\build.make CMakeFiles/arquivos_txt_leitura.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_leitura.dir\build.make CMakeFiles/arquivos_txt_leitura.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=12,13 "Built target arquivos_txt_leitura"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target arquivos_txt_leitura"
 .PHONY : CMakeFiles/arquivos_txt_leitura.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/arquivos_txt_leitura.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/arquivos_txt_leitura.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/arquivos_txt_leitura.dir/rule
 
 # Convenience name for target.
@@ -590,14 +590,14 @@ CMakeFiles/arquivos_txt_leitura.dir/clean:
 CMakeFiles/arquivos_txt_escrita.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_escrita.dir\build.make CMakeFiles/arquivos_txt_escrita.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_txt_escrita.dir\build.make CMakeFiles/arquivos_txt_escrita.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=10,11 "Built target arquivos_txt_escrita"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target arquivos_txt_escrita"
 .PHONY : CMakeFiles/arquivos_txt_escrita.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/arquivos_txt_escrita.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/arquivos_txt_escrita.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/arquivos_txt_escrita.dir/rule
 
 # Convenience name for target.
@@ -616,14 +616,14 @@ CMakeFiles/arquivos_txt_escrita.dir/clean:
 CMakeFiles/arquivos_binarios.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\arquivos_binarios.dir\build.make CMakeFiles/arquivos_binarios.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=8,9 "Built target arquivos_binarios"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target arquivos_binarios"
 .PHONY : CMakeFiles/arquivos_binarios.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/arquivos_binarios.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/arquivos_binarios.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/arquivos_binarios.dir/rule
 
 # Convenience name for target.
@@ -642,14 +642,14 @@ CMakeFiles/arquivos_binarios.dir/clean:
 CMakeFiles/repeticao.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\repeticao.dir\build.make CMakeFiles/repeticao.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\repeticao.dir\build.make CMakeFiles/repeticao.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=35,36 "Built target repeticao"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=34,35 "Built target repeticao"
 .PHONY : CMakeFiles/repeticao.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/repeticao.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/repeticao.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/repeticao.dir/rule
 
 # Convenience name for target.
@@ -668,14 +668,14 @@ CMakeFiles/repeticao.dir/clean:
 CMakeFiles/controle_fluxo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\controle_fluxo.dir\build.make CMakeFiles/controle_fluxo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\controle_fluxo.dir\build.make CMakeFiles/controle_fluxo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=18,19 "Built target controle_fluxo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target controle_fluxo"
 .PHONY : CMakeFiles/controle_fluxo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/controle_fluxo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/controle_fluxo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/controle_fluxo.dir/rule
 
 # Convenience name for target.

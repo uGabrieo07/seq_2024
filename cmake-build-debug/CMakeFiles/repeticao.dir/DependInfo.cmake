@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Estruturas de Iteracao e Controle/estruturas_repeticao.c" "CMakeFiles/repeticao.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.obj" "gcc" "CMakeFiles/repeticao.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.obj.d"
+  "C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Estruturas de Iteracao e Controle/estruturas_repeticao.c" "CMakeFiles/repeticao.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.obj" "gcc" "CMakeFiles/repeticao.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/estruturas_repeticao.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

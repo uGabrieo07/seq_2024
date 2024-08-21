@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024"
+CMAKE_SOURCE_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/scanf_printf.dir/depend.make
@@ -69,18 +69,18 @@ include CMakeFiles/scanf_printf.dir/progress.make
 include CMakeFiles/scanf_printf.dir/flags.make
 
 CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.obj: CMakeFiles/scanf_printf.dir/flags.make
-CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso\ de\ Introdução\ a\ C/seq_2024/Exemplos/Estrutura\ Basica\ de\ Programas/scanf_printf.c
+CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.obj: C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Estrutura\ Basica\ de\ Programas/scanf_printf.c
 CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.obj: CMakeFiles/scanf_printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.obj -MF CMakeFiles\scanf_printf.dir\Exemplos\Estrutura_Basica_de_Programas\scanf_printf.c.obj.d -o CMakeFiles\scanf_printf.dir\Exemplos\Estrutura_Basica_de_Programas\scanf_printf.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Estrutura Basica de Programas\scanf_printf.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.obj -MF CMakeFiles\scanf_printf.dir\Exemplos\Estrutura_Basica_de_Programas\scanf_printf.c.obj.d -o CMakeFiles\scanf_printf.dir\Exemplos\Estrutura_Basica_de_Programas\scanf_printf.c.obj -c "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Estrutura Basica de Programas\scanf_printf.c"
 
 CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Estrutura Basica de Programas\scanf_printf.c" > CMakeFiles\scanf_printf.dir\Exemplos\Estrutura_Basica_de_Programas\scanf_printf.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Estrutura Basica de Programas\scanf_printf.c" > CMakeFiles\scanf_printf.dir\Exemplos\Estrutura_Basica_de_Programas\scanf_printf.c.i
 
 CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scanf_printf.dir/Exemplos/Estrutura_Basica_de_Programas/scanf_printf.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Estrutura Basica de Programas\scanf_printf.c" -o CMakeFiles\scanf_printf.dir\Exemplos\Estrutura_Basica_de_Programas\scanf_printf.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Estrutura Basica de Programas\scanf_printf.c" -o CMakeFiles\scanf_printf.dir\Exemplos\Estrutura_Basica_de_Programas\scanf_printf.c.s
 
 # Object files for target scanf_printf
 scanf_printf_OBJECTS = \
@@ -94,7 +94,7 @@ scanf_printf.exe: CMakeFiles/scanf_printf.dir/build.make
 scanf_printf.exe: CMakeFiles/scanf_printf.dir/linkLibs.rsp
 scanf_printf.exe: CMakeFiles/scanf_printf.dir/objects1.rsp
 scanf_printf.exe: CMakeFiles/scanf_printf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable scanf_printf.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable scanf_printf.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\scanf_printf.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +106,6 @@ CMakeFiles/scanf_printf.dir/clean:
 .PHONY : CMakeFiles/scanf_printf.dir/clean
 
 CMakeFiles/scanf_printf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles\scanf_printf.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles\scanf_printf.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/scanf_printf.dir/depend
 

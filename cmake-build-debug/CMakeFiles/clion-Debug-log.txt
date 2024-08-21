@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" -B "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
+"C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 -B C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug
 CMake Deprecation Warning:
   Support for "Extra Generators" like
 
@@ -14,6 +14,6 @@ CMake Deprecation Warning:
 -- Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/gcc.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Configuring done (3.0s)
--- Generating done (0.4s)
--- Build files have been written to: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug
+-- Configuring done (2.6s)
+-- Generating done (0.2s)
+-- Build files have been written to: C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug
