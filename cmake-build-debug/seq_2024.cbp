@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tamanho_tipos_variaveis">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/tamanho_tipos_variaveis.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/tamanho_tipos_variaveis.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -28,18 +28,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 tamanho_tipos_variaveis"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 tamanho_tipos_variaveis"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tamanho_tipos_variaveis/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/tamanho_tipos_variaveis.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/tamanho_tipos_variaveis.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -48,18 +47,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 tamanho_tipos_variaveis/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 tamanho_tipos_variaveis/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tipos_variaveis">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/tipos_variaveis.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/tipos_variaveis.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -68,18 +66,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 tipos_variaveis"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 tipos_variaveis"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tipos_variaveis/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/tipos_variaveis.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/tipos_variaveis.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -88,18 +85,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 tipos_variaveis/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 tipos_variaveis/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="condicionais">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/condicionais.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/condicionais.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -108,18 +104,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 condicionais"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 condicionais"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="condicionais/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/condicionais.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/condicionais.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -128,18 +123,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 condicionais/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 condicionais/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="scanf_printf">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/scanf_printf.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/scanf_printf.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -148,18 +142,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 scanf_printf"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 scanf_printf"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="scanf_printf/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/scanf_printf.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/scanf_printf.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -168,18 +161,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 scanf_printf/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 scanf_printf/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="operador_atribuicao">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/operador_atribuicao.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/operador_atribuicao.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -188,18 +180,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 operador_atribuicao"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 operador_atribuicao"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="operador_atribuicao/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/operador_atribuicao.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/operador_atribuicao.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -208,18 +199,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 operador_atribuicao/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 operador_atribuicao/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="arg_linha_comando">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/arg_linha_comando.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/arg_linha_comando.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -228,18 +218,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arg_linha_comando"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arg_linha_comando"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="arg_linha_comando/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/arg_linha_comando.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/arg_linha_comando.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -248,18 +237,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arg_linha_comando/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arg_linha_comando/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="funcoes">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/funcoes.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/funcoes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -268,18 +256,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 funcoes"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 funcoes"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="funcoes/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/funcoes.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/funcoes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -288,18 +275,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 funcoes/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 funcoes/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="arg_referencia">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/arg_referencia.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/arg_referencia.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -308,18 +294,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arg_referencia"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arg_referencia"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="arg_referencia/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/arg_referencia.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/arg_referencia.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -328,18 +313,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arg_referencia/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arg_referencia/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="recursao">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/recursao.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/recursao.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -348,18 +332,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 recursao"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 recursao"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="recursao/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/recursao.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/recursao.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -368,18 +351,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 recursao/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 recursao/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="exponencial">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/exponencial.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/exponencial.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -388,18 +370,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 exponencial"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 exponencial"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="exponencial/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/exponencial.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/exponencial.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -408,18 +389,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 exponencial/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 exponencial/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="erro_memoria">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/erro_memoria.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/erro_memoria.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -428,18 +408,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 erro_memoria"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 erro_memoria"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="erro_memoria/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/erro_memoria.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/erro_memoria.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -448,18 +427,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 erro_memoria/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 erro_memoria/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="manipulacao_arrays">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/manipulacao_arrays.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/manipulacao_arrays.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -468,18 +446,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 manipulacao_arrays"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 manipulacao_arrays"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="manipulacao_arrays/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/manipulacao_arrays.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/manipulacao_arrays.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -488,18 +465,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 manipulacao_arrays/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 manipulacao_arrays/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="strings">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/strings.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/strings.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -508,18 +484,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 strings"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 strings"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="strings/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/strings.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/strings.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -528,18 +503,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 strings/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 strings/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="manipulacao_strings">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/manipulacao_strings.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/manipulacao_strings.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -548,18 +522,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 manipulacao_strings"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 manipulacao_strings"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="manipulacao_strings/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/manipulacao_strings.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/manipulacao_strings.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -568,18 +541,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 manipulacao_strings/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 manipulacao_strings/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="aritmetica_ponteiros">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/aritmetica_ponteiros.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/aritmetica_ponteiros.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -588,18 +560,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 aritmetica_ponteiros"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 aritmetica_ponteiros"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="aritmetica_ponteiros/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/aritmetica_ponteiros.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/aritmetica_ponteiros.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -608,18 +579,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 aritmetica_ponteiros/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 aritmetica_ponteiros/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="comparacao_ponteiros">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/comparacao_ponteiros.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/comparacao_ponteiros.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -628,18 +598,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 comparacao_ponteiros"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 comparacao_ponteiros"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="comparacao_ponteiros/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/comparacao_ponteiros.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/comparacao_ponteiros.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -648,18 +617,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 comparacao_ponteiros/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 comparacao_ponteiros/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="structs">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/structs.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/structs.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -668,18 +636,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 structs"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 structs"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="structs/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/structs.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/structs.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -688,18 +655,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 structs/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 structs/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="arquivos_txt_leitura">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/arquivos_txt_leitura.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/arquivos_txt_leitura.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -708,18 +674,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_txt_leitura"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_txt_leitura"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="arquivos_txt_leitura/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/arquivos_txt_leitura.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/arquivos_txt_leitura.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -728,18 +693,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_txt_leitura/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_txt_leitura/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="arquivos_txt_escrita">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/arquivos_txt_escrita.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/arquivos_txt_escrita.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -748,18 +712,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_txt_escrita"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_txt_escrita"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="arquivos_txt_escrita/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/arquivos_txt_escrita.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/arquivos_txt_escrita.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -768,18 +731,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_txt_escrita/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_txt_escrita/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="arquivos_binarios">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/arquivos_binarios.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/arquivos_binarios.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -788,18 +750,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_binarios"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_binarios"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="arquivos_binarios/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/arquivos_binarios.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/arquivos_binarios.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -808,18 +769,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_binarios/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 arquivos_binarios/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="repeticao">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/repeticao.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/repeticao.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -828,18 +788,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 repeticao"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 repeticao"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="repeticao/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/repeticao.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/repeticao.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -848,18 +807,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 repeticao/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 repeticao/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="controle_fluxo">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/controle_fluxo.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/controle_fluxo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -868,18 +826,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 controle_fluxo"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 controle_fluxo"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="controle_fluxo/fast">
-				<Option output="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/controle_fluxo.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option output="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/controle_fluxo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -888,112 +845,111 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 controle_fluxo/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 controle_fluxo/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Arrays e Strings/erro_memoria.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Arrays e Strings/erro_memoria.c">
 			<Option target="erro_memoria"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Arrays e Strings/manipulacao_arrays.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Arrays e Strings/manipulacao_arrays.c">
 			<Option target="manipulacao_arrays"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Arrays e Strings/manipulacao_strings.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Arrays e Strings/manipulacao_strings.c">
 			<Option target="manipulacao_strings"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Arrays e Strings/strings.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Arrays e Strings/strings.c">
 			<Option target="strings"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Estrutura Basica de Programas/scanf_printf.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Estrutura Basica de Programas/scanf_printf.c">
 			<Option target="scanf_printf"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Estruturas de Iteracao e Controle/condicionais.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Estruturas de Iteracao e Controle/condicionais.c">
 			<Option target="condicionais"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Estruturas de Iteracao e Controle/controle_fluxo.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Estruturas de Iteracao e Controle/controle_fluxo.c">
 			<Option target="controle_fluxo"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Estruturas de Iteracao e Controle/estruturas_repeticao.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Estruturas de Iteracao e Controle/estruturas_repeticao.c">
 			<Option target="repeticao"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Estruturas/structs.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Estruturas/structs.c">
 			<Option target="structs"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Funcoes/arg_referencia.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Funcoes/arg_referencia.c">
 			<Option target="arg_referencia"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Funcoes/argumentos_linha_comando.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Funcoes/argumentos_linha_comando.c">
 			<Option target="arg_linha_comando"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Funcoes/exponencial_implementacao.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Funcoes/exponencial_implementacao.c">
 			<Option target="exponencial"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Funcoes/exponencial_teste.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Funcoes/exponencial_teste.c">
 			<Option target="exponencial"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Funcoes/funcoes.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Funcoes/funcoes.c">
 			<Option target="funcoes"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Funcoes/recursao.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Funcoes/recursao.c">
 			<Option target="recursao"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Manipulacao de Arquivos/arquivos_binarios.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Manipulacao de Arquivos/arquivos_binarios.c">
 			<Option target="arquivos_binarios"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Manipulacao de Arquivos/arquivos_txt_escrita.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Manipulacao de Arquivos/arquivos_txt_escrita.c">
 			<Option target="arquivos_txt_escrita"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Manipulacao de Arquivos/arquivos_txt_leitura.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Manipulacao de Arquivos/arquivos_txt_leitura.c">
 			<Option target="arquivos_txt_leitura"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Operadores e Expressoes/operador_atribuicao.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Operadores e Expressoes/operador_atribuicao.c">
 			<Option target="operador_atribuicao"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Operadores e Expressoes/operadores_ponteiros.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Operadores e Expressoes/operadores_ponteiros.c">
 			<Option target="arg_linha_comando"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Ponteiros/aritmetica_ponteiros.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Ponteiros/aritmetica_ponteiros.c">
 			<Option target="aritmetica_ponteiros"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Ponteiros/comparacao_ponteiros.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Ponteiros/comparacao_ponteiros.c">
 			<Option target="comparacao_ponteiros"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Tipos de Dados e Variaveis/tamanho_tipos_variaveis.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Tipos de Dados e Variaveis/tamanho_tipos_variaveis.c">
 			<Option target="tamanho_tipos_variaveis"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Tipos de Dados e Variaveis/teste_tamanho_tipos_variaveis.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Tipos de Dados e Variaveis/teste_tamanho_tipos_variaveis.c">
 			<Option target="tamanho_tipos_variaveis"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Tipos de Dados e Variaveis/tipos_variaveis.c">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/Exemplos/Tipos de Dados e Variaveis/tipos_variaveis.c">
 			<Option target="tipos_variaveis"/>
 		</Unit>
-		<Unit filename="C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/CMakeLists.txt">
+		<Unit filename="C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso de Introdução a C/seq_2024/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
