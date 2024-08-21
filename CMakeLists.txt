@@ -71,3 +71,9 @@ add_executable(arquivos_txt_escrita
 
 add_executable(arquivos_binarios
         "${EXEMPLOS_DIR}/Manipulacao de Arquivos/arquivos_binarios.c")
+
+add_executable(repeticao
+        "${EXEMPLOS_DIR}/Estruturas de Iteracao e Controle/estruturas_repeticao.c")
+
+add_executable(controle_fluxo
+        "${EXEMPLOS_DIR}/Estruturas de Iteracao e Controle/controle_fluxo.c")

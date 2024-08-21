@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024"
+CMAKE_SOURCE_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/exponencial.dir/depend.make
@@ -69,32 +69,32 @@ include CMakeFiles/exponencial.dir/progress.make
 include CMakeFiles/exponencial.dir/flags.make
 
 CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.obj: CMakeFiles/exponencial.dir/flags.make
-CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso\ de\ Introdução\ a\ C/seq_2024/Exemplos/Funcoes/exponencial_implementacao.c
+CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.obj: C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Funcoes/exponencial_implementacao.c
 CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.obj: CMakeFiles/exponencial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.obj -MF CMakeFiles\exponencial.dir\Exemplos\Funcoes\exponencial_implementacao.c.obj.d -o CMakeFiles\exponencial.dir\Exemplos\Funcoes\exponencial_implementacao.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Funcoes\exponencial_implementacao.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.obj -MF CMakeFiles\exponencial.dir\Exemplos\Funcoes\exponencial_implementacao.c.obj.d -o CMakeFiles\exponencial.dir\Exemplos\Funcoes\exponencial_implementacao.c.obj -c C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Funcoes\exponencial_implementacao.c
 
 CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Funcoes\exponencial_implementacao.c" > CMakeFiles\exponencial.dir\Exemplos\Funcoes\exponencial_implementacao.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Funcoes\exponencial_implementacao.c > CMakeFiles\exponencial.dir\Exemplos\Funcoes\exponencial_implementacao.c.i
 
 CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_implementacao.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Funcoes\exponencial_implementacao.c" -o CMakeFiles\exponencial.dir\Exemplos\Funcoes\exponencial_implementacao.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Funcoes\exponencial_implementacao.c -o CMakeFiles\exponencial.dir\Exemplos\Funcoes\exponencial_implementacao.c.s
 
 CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.obj: CMakeFiles/exponencial.dir/flags.make
-CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso\ de\ Introdução\ a\ C/seq_2024/Exemplos/Funcoes/exponencial_teste.c
+CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.obj: C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Funcoes/exponencial_teste.c
 CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.obj: CMakeFiles/exponencial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.obj -MF CMakeFiles\exponencial.dir\Exemplos\Funcoes\exponencial_teste.c.obj.d -o CMakeFiles\exponencial.dir\Exemplos\Funcoes\exponencial_teste.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Funcoes\exponencial_teste.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.obj -MF CMakeFiles\exponencial.dir\Exemplos\Funcoes\exponencial_teste.c.obj.d -o CMakeFiles\exponencial.dir\Exemplos\Funcoes\exponencial_teste.c.obj -c C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Funcoes\exponencial_teste.c
 
 CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Funcoes\exponencial_teste.c" > CMakeFiles\exponencial.dir\Exemplos\Funcoes\exponencial_teste.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Funcoes\exponencial_teste.c > CMakeFiles\exponencial.dir\Exemplos\Funcoes\exponencial_teste.c.i
 
 CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/exponencial.dir/Exemplos/Funcoes/exponencial_teste.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Funcoes\exponencial_teste.c" -o CMakeFiles\exponencial.dir\Exemplos\Funcoes\exponencial_teste.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Funcoes\exponencial_teste.c -o CMakeFiles\exponencial.dir\Exemplos\Funcoes\exponencial_teste.c.s
 
 # Object files for target exponencial
 exponencial_OBJECTS = \
@@ -110,7 +110,7 @@ exponencial.exe: CMakeFiles/exponencial.dir/build.make
 exponencial.exe: CMakeFiles/exponencial.dir/linkLibs.rsp
 exponencial.exe: CMakeFiles/exponencial.dir/objects1.rsp
 exponencial.exe: CMakeFiles/exponencial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable exponencial.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable exponencial.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\exponencial.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +122,6 @@ CMakeFiles/exponencial.dir/clean:
 .PHONY : CMakeFiles/exponencial.dir/clean
 
 CMakeFiles/exponencial.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles\exponencial.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles\exponencial.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/exponencial.dir/depend
 
