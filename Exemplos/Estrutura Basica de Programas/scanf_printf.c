@@ -9,27 +9,39 @@
 */
 
 #include <stdio.h>
+#define SUCESSO        0
 
 int main() {
+
+    /*
+     *int (inteiro) = 20
+     *float (ponto flutuante) = 13.67343423
+     *caractere = 'j'
+     *caractere = "j"   '\0'
+     *string = "João"
+     *cara
+     */
+
+    // Declaração de Variáveis.
     int idade;
     float altura;
     char inicial;
     char nome[50];
 
     // Lendo um inteiro
-    printf("Digite sua idade: ");
+    printf("\nDigite sua idade: ");
     scanf("%d", &idade);
 
     // Lendo um float
-    printf("Digite sua altura (em metros): ");
+    printf("\nDigite sua altura (em metros): ");
     scanf("%f", &altura);
 
     // Lendo um caractere
-    printf("Digite a inicial do seu nome: ");
-    scanf(" %c", &inicial);
+    printf("\nDigite a inicial do seu nome: ");
+    scanf("%c", &inicial);
 
     // Lendo uma string
-    printf("Digite seu primeiro nome: ");
+    printf("\nDigite seu primeiro nome: ");
     scanf("%s", nome);
 
     // Exibindo os dados lidos
@@ -38,5 +50,5 @@ int main() {
     printf("Inicial do nome: %c\n", inicial);
     printf("Nome: %s\n", nome);
 
-    return 0;
+    return SUCESSO;
 }

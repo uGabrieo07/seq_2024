@@ -83,7 +83,7 @@ ExibirHifens(us numeroHifens)
 			if (linha == 1)
 			{	
 				/*Impressao da linha que contem os hifens, possuindo um fundo preto e uma fonte de texto branca.*/
-				printf ("%s%s-%s%s%s", WHITE, BLACK_BACKGROUND, WHITE, BLACK_BACKGROUND, RESET);
+				printf ("%s-%s", WHITE, RESET);
 			}
 
 			if (linha == 2)

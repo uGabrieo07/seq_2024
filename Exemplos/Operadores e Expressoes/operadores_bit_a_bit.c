@@ -23,11 +23,11 @@ main ()
  printf ("\n\t\t-----OPERADORES BIT A BIT-----\n");
  /*
  *                                   Tabelas Verdade dos Operadores Lógicos
- * * TABELA VERDADE - AND        TABELA VERDADE - OR        TABELA VERDADE - XOR       TABELA VERDADE - NOT
- *   0        0        0         0        0        0        0        0        0             0        1
- *   0        1        0         0        1        1        0        1        1             1        0
- *   1        0        0         1        0        1        1        0        1
- *   1        1        1         1        1        1        1        1        0
+ * TABELA VERDADE - AND (&)       TABELA VERDADE - OR (|)        TABELA VERDADE - XOR (^)       TABELA VERDADE - NOT (~)
+ *   0        0        0            0        0        0            0        0        0                0        1
+ *   0        1        0            0        1        1            0        1        1                1        0
+ *   1        0        0            1        0        1            1        0        1
+ *   1        1        1            1        1        1            1        1        0
  */
 
  /*                                       Regra do Complemento de Dois

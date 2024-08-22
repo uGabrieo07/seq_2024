@@ -21,7 +21,8 @@ int
 main ()
 {
     /*Declaração de variáveis do tipo inteiro.*/
-    int numero, numeroInserido;
+    int numero;
+    float numeroInserido;
 
     /*Atribui à variável "numero" com o valor 0.*/
     numero = 0;
@@ -30,14 +31,12 @@ main ()
 
     /*Pede um número ao usuário.*/
     printf ("Insira um numero:");
-    scanf ("%d", &numeroInserido);
+    scanf ("%f", &numeroInserido);
 
     /*Caso a condição da função "printf" for verdadeira, será impresso o número 1.
      *Caso contrário, será impresso o número 0.*/
-    printf ("\n%d\n", !(numeroInserido && numero));
-    printf ("\n%d\n", !(numeroInserido || numero));
-    printf ("\n%d\n", !numeroInserido || (numeroInserido && !numero));
-    printf ("\n%d\n", (numeroInserido && ((numero || !numeroInserido) && (numero || numeroInserido && !numero))) || (numeroInserido && !numero));
+    printf ("\n%d\n", !(numeroInserido && numero)); // !(  (!=0 && 0) = 1 ) = 1
+    printf ("\n%d\n", !(numeroInserido || numero)); // !(  (!=0 || 0) = 1 ) = 0
 
     /*Retorna que a função foi executada sem erros.*/
     return SUCESSO;

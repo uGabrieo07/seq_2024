@@ -9,6 +9,7 @@
 */
 
 #include <stdio.h>
+#define SUCESSO        0
 
 int main() {
     int arr[] = {10, 20, 30, 40, 50};
@@ -17,17 +18,17 @@ int main() {
 
     // Comparação de igualdade
     if (p1 == p2) {
-        printf("p1 e p2 apontam para o mesmo endereco.\n");
+        printf("\np1 e p2 apontam para o mesmo endereco.\n");
     } else {
-        printf("p1 e p2 apontam para enderecos diferentes.\n");
+        printf("\np1 e p2 apontam para enderecos diferentes.\n");
     }
 
     // Comparação relacional
     if (p1 < p2) {
-        printf("p1 aponta para um endereco antes de p2.\n");
+        printf("\np1 aponta para um endereco antes de p2.\n");
     } else if (p1 > p2) {
-        printf("p1 aponta para um endereco depois de p2.\n");
+        printf("\np1 aponta para um endereco depois de p2.\n");
     }
 
-    return 0;
+    return SUCESSO;
 }

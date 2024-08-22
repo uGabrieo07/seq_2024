@@ -29,14 +29,14 @@ main ()
  printf ("\n\t\t-----OPERADORES DE PONTEIROS-----\n\n");
 
  /*A variável "variavelPonteiro" recebe o endereço de memória da variável "numero".*/
- variavelPonteiro = &numero;
+ variavelPonteiro = &numero; // & --> Devolve o endereço de memória da variável.
 
  /*Imprime o endereço de memória de "variavelPonteiro" através do operados "&".*/
  printf ("Endereco da variavel ponteiro: %p.\n", &variavelPonteiro);
 
  /*Imprime o conteúdo/valor dentro do endereço de memória
   *de "variavelPonteiro" através do operados "*".*/
- printf ("\nConteudo da variavel ponteiro: %d.\n", *variavelPonteiro);
+ printf ("\nConteudo da variavel ponteiro: %d.\n", *variavelPonteiro); // * - Devolve o conteúdo do endereço.
 
  /*Retorna que a função foi executada sem erros.*/
  return SUCESSO;

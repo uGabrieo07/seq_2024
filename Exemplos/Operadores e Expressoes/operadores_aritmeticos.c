@@ -88,22 +88,27 @@ main ()
  printf ("\n\t\t-----FORMAS REDUZIDAS-----\n");
  printf ("\nForma Reduzida do Operador de Soma --> %d += %d: ", numeroInteiro, 3);
  numeroInteiro += 3;
+ // numeroInteiro = numeroInteiro + 3;
  printf ("%d\n", numeroInteiro);
 
  printf ("\nForma Reduzida do Operador de Subtracao --> %.3f -= %.2f: ", numeroReal, 3.45);
  numeroReal -= 3.45;
+ // numeroReal = numeroReal - 3.45;
  printf ("%.3f\n", numeroReal);
 
  printf ("\nForma Reduzida do Operador de Multiplicacao --> %d *= %d: ", numeroInteiro, 345);
  numeroInteiro *= 345;
+ // numeroInteiro = numeroInteiro * 345;
  printf ("%d\n", numeroInteiro);
 
  printf ("\nForma Reduzida do Operador de Divisao --> %.3f /= %.3f: ", numeroReal, 0.678);
  numeroReal /= 0.678;
+ // numeroReal = numeroReal / 0.678;
  printf ("%f\n", numeroReal);
 
  printf ("\nForma Reduzida do Operador de Resto de Divisao --> %d %c= %d: ", numeroInteiro, '%', 45);
  numeroInteiro %= 45;
+ // numeroInteiro = numeroInteiro % 45;
  printf ("%d\n", numeroInteiro);
 
  /*Operações Aritméticas Equivalentes.*/
@@ -136,6 +141,9 @@ main ()
  printf ("\t\t\t  %d-- = ", numeroInteiro);
  numeroInteiro--;
  printf ("%d\n", numeroInteiro);
+
+ // ++variavel ou variavel++ ----> variavel = variavel + 1 e variavel += 1
+ // --variavel ou variavel-- ----> variavel = variavel - 1 e variavel -= 1
 
  /*Retorna que a função foi executada sem erros.*/
  return SUCESSO;
