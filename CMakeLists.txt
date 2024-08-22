@@ -26,8 +26,7 @@ add_executable(operador_atribuicao
         "${EXEMPLOS_DIR}/Operadores e Expressoes/operador_atribuicao.c")
 
 add_executable(arg_linha_comando
-        "${EXEMPLOS_DIR}/Funcoes/argumentos_linha_comando.c"
-        "${EXEMPLOS_DIR}/Operadores e Expressoes/operadores_ponteiros.c")
+        "${EXEMPLOS_DIR}/Funcoes/argumentos_linha_comando.c")
 
 add_executable(funcoes
         "${EXEMPLOS_DIR}/Funcoes/funcoes.c")

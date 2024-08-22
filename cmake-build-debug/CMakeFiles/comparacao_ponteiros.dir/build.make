@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024"
+CMAKE_SOURCE_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/comparacao_ponteiros.dir/depend.make
@@ -69,18 +69,18 @@ include CMakeFiles/comparacao_ponteiros.dir/progress.make
 include CMakeFiles/comparacao_ponteiros.dir/flags.make
 
 CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.obj: CMakeFiles/comparacao_ponteiros.dir/flags.make
-CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso\ de\ Introdução\ a\ C/seq_2024/Exemplos/Ponteiros/comparacao_ponteiros.c
+CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.obj: C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Ponteiros/comparacao_ponteiros.c
 CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.obj: CMakeFiles/comparacao_ponteiros.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.obj -MF CMakeFiles\comparacao_ponteiros.dir\Exemplos\Ponteiros\comparacao_ponteiros.c.obj.d -o CMakeFiles\comparacao_ponteiros.dir\Exemplos\Ponteiros\comparacao_ponteiros.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Ponteiros\comparacao_ponteiros.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.obj -MF CMakeFiles\comparacao_ponteiros.dir\Exemplos\Ponteiros\comparacao_ponteiros.c.obj.d -o CMakeFiles\comparacao_ponteiros.dir\Exemplos\Ponteiros\comparacao_ponteiros.c.obj -c C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Ponteiros\comparacao_ponteiros.c
 
 CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Ponteiros\comparacao_ponteiros.c" > CMakeFiles\comparacao_ponteiros.dir\Exemplos\Ponteiros\comparacao_ponteiros.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Ponteiros\comparacao_ponteiros.c > CMakeFiles\comparacao_ponteiros.dir\Exemplos\Ponteiros\comparacao_ponteiros.c.i
 
 CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/comparacao_ponteiros.dir/Exemplos/Ponteiros/comparacao_ponteiros.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Ponteiros\comparacao_ponteiros.c" -o CMakeFiles\comparacao_ponteiros.dir\Exemplos\Ponteiros\comparacao_ponteiros.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Ponteiros\comparacao_ponteiros.c -o CMakeFiles\comparacao_ponteiros.dir\Exemplos\Ponteiros\comparacao_ponteiros.c.s
 
 # Object files for target comparacao_ponteiros
 comparacao_ponteiros_OBJECTS = \
@@ -94,7 +94,7 @@ comparacao_ponteiros.exe: CMakeFiles/comparacao_ponteiros.dir/build.make
 comparacao_ponteiros.exe: CMakeFiles/comparacao_ponteiros.dir/linkLibs.rsp
 comparacao_ponteiros.exe: CMakeFiles/comparacao_ponteiros.dir/objects1.rsp
 comparacao_ponteiros.exe: CMakeFiles/comparacao_ponteiros.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable comparacao_ponteiros.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable comparacao_ponteiros.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\comparacao_ponteiros.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +106,6 @@ CMakeFiles/comparacao_ponteiros.dir/clean:
 .PHONY : CMakeFiles/comparacao_ponteiros.dir/clean
 
 CMakeFiles/comparacao_ponteiros.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles\comparacao_ponteiros.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles\comparacao_ponteiros.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/comparacao_ponteiros.dir/depend
 

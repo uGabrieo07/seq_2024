@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024"
+CMAKE_SOURCE_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tamanho_tipos_variaveis.dir/depend.make
@@ -69,32 +69,32 @@ include CMakeFiles/tamanho_tipos_variaveis.dir/progress.make
 include CMakeFiles/tamanho_tipos_variaveis.dir/flags.make
 
 CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.obj: CMakeFiles/tamanho_tipos_variaveis.dir/flags.make
-CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso\ de\ Introdução\ a\ C/seq_2024/Exemplos/Tipos\ de\ Dados\ e\ Variaveis/tamanho_tipos_variaveis.c
+CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.obj: C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Tipos\ de\ Dados\ e\ Variaveis/tamanho_tipos_variaveis.c
 CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.obj: CMakeFiles/tamanho_tipos_variaveis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.obj -MF CMakeFiles\tamanho_tipos_variaveis.dir\Exemplos\Tipos_de_Dados_e_Variaveis\tamanho_tipos_variaveis.c.obj.d -o CMakeFiles\tamanho_tipos_variaveis.dir\Exemplos\Tipos_de_Dados_e_Variaveis\tamanho_tipos_variaveis.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Tipos de Dados e Variaveis\tamanho_tipos_variaveis.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.obj -MF CMakeFiles\tamanho_tipos_variaveis.dir\Exemplos\Tipos_de_Dados_e_Variaveis\tamanho_tipos_variaveis.c.obj.d -o CMakeFiles\tamanho_tipos_variaveis.dir\Exemplos\Tipos_de_Dados_e_Variaveis\tamanho_tipos_variaveis.c.obj -c "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Tipos de Dados e Variaveis\tamanho_tipos_variaveis.c"
 
 CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Tipos de Dados e Variaveis\tamanho_tipos_variaveis.c" > CMakeFiles\tamanho_tipos_variaveis.dir\Exemplos\Tipos_de_Dados_e_Variaveis\tamanho_tipos_variaveis.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Tipos de Dados e Variaveis\tamanho_tipos_variaveis.c" > CMakeFiles\tamanho_tipos_variaveis.dir\Exemplos\Tipos_de_Dados_e_Variaveis\tamanho_tipos_variaveis.c.i
 
 CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/tamanho_tipos_variaveis.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Tipos de Dados e Variaveis\tamanho_tipos_variaveis.c" -o CMakeFiles\tamanho_tipos_variaveis.dir\Exemplos\Tipos_de_Dados_e_Variaveis\tamanho_tipos_variaveis.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Tipos de Dados e Variaveis\tamanho_tipos_variaveis.c" -o CMakeFiles\tamanho_tipos_variaveis.dir\Exemplos\Tipos_de_Dados_e_Variaveis\tamanho_tipos_variaveis.c.s
 
 CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.obj: CMakeFiles/tamanho_tipos_variaveis.dir/flags.make
-CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso\ de\ Introdução\ a\ C/seq_2024/Exemplos/Tipos\ de\ Dados\ e\ Variaveis/teste_tamanho_tipos_variaveis.c
+CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.obj: C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Tipos\ de\ Dados\ e\ Variaveis/teste_tamanho_tipos_variaveis.c
 CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.obj: CMakeFiles/tamanho_tipos_variaveis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.obj -MF CMakeFiles\tamanho_tipos_variaveis.dir\Exemplos\Tipos_de_Dados_e_Variaveis\teste_tamanho_tipos_variaveis.c.obj.d -o CMakeFiles\tamanho_tipos_variaveis.dir\Exemplos\Tipos_de_Dados_e_Variaveis\teste_tamanho_tipos_variaveis.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Tipos de Dados e Variaveis\teste_tamanho_tipos_variaveis.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.obj -MF CMakeFiles\tamanho_tipos_variaveis.dir\Exemplos\Tipos_de_Dados_e_Variaveis\teste_tamanho_tipos_variaveis.c.obj.d -o CMakeFiles\tamanho_tipos_variaveis.dir\Exemplos\Tipos_de_Dados_e_Variaveis\teste_tamanho_tipos_variaveis.c.obj -c "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Tipos de Dados e Variaveis\teste_tamanho_tipos_variaveis.c"
 
 CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Tipos de Dados e Variaveis\teste_tamanho_tipos_variaveis.c" > CMakeFiles\tamanho_tipos_variaveis.dir\Exemplos\Tipos_de_Dados_e_Variaveis\teste_tamanho_tipos_variaveis.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Tipos de Dados e Variaveis\teste_tamanho_tipos_variaveis.c" > CMakeFiles\tamanho_tipos_variaveis.dir\Exemplos\Tipos_de_Dados_e_Variaveis\teste_tamanho_tipos_variaveis.c.i
 
 CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tamanho_tipos_variaveis.dir/Exemplos/Tipos_de_Dados_e_Variaveis/teste_tamanho_tipos_variaveis.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Tipos de Dados e Variaveis\teste_tamanho_tipos_variaveis.c" -o CMakeFiles\tamanho_tipos_variaveis.dir\Exemplos\Tipos_de_Dados_e_Variaveis\teste_tamanho_tipos_variaveis.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Tipos de Dados e Variaveis\teste_tamanho_tipos_variaveis.c" -o CMakeFiles\tamanho_tipos_variaveis.dir\Exemplos\Tipos_de_Dados_e_Variaveis\teste_tamanho_tipos_variaveis.c.s
 
 # Object files for target tamanho_tipos_variaveis
 tamanho_tipos_variaveis_OBJECTS = \
@@ -110,7 +110,7 @@ tamanho_tipos_variaveis.exe: CMakeFiles/tamanho_tipos_variaveis.dir/build.make
 tamanho_tipos_variaveis.exe: CMakeFiles/tamanho_tipos_variaveis.dir/linkLibs.rsp
 tamanho_tipos_variaveis.exe: CMakeFiles/tamanho_tipos_variaveis.dir/objects1.rsp
 tamanho_tipos_variaveis.exe: CMakeFiles/tamanho_tipos_variaveis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable tamanho_tipos_variaveis.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable tamanho_tipos_variaveis.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\tamanho_tipos_variaveis.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +122,6 @@ CMakeFiles/tamanho_tipos_variaveis.dir/clean:
 .PHONY : CMakeFiles/tamanho_tipos_variaveis.dir/clean
 
 CMakeFiles/tamanho_tipos_variaveis.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles\tamanho_tipos_variaveis.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles\tamanho_tipos_variaveis.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/tamanho_tipos_variaveis.dir/depend
 

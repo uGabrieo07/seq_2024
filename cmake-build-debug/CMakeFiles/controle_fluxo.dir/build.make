@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024"
+CMAKE_SOURCE_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/controle_fluxo.dir/depend.make
@@ -69,18 +69,18 @@ include CMakeFiles/controle_fluxo.dir/progress.make
 include CMakeFiles/controle_fluxo.dir/flags.make
 
 CMakeFiles/controle_fluxo.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.obj: CMakeFiles/controle_fluxo.dir/flags.make
-CMakeFiles/controle_fluxo.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.obj: C:/Users/Pichau/Documents/João/UFRJ/for_code/SEQ/Minicurso\ de\ Introdução\ a\ C/seq_2024/Exemplos/Estruturas\ de\ Iteracao\ e\ Controle/controle_fluxo.c
+CMakeFiles/controle_fluxo.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.obj: C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/Exemplos/Estruturas\ de\ Iteracao\ e\ Controle/controle_fluxo.c
 CMakeFiles/controle_fluxo.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.obj: CMakeFiles/controle_fluxo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/controle_fluxo.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/controle_fluxo.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.obj -MF CMakeFiles\controle_fluxo.dir\Exemplos\Estruturas_de_Iteracao_e_Controle\controle_fluxo.c.obj.d -o CMakeFiles\controle_fluxo.dir\Exemplos\Estruturas_de_Iteracao_e_Controle\controle_fluxo.c.obj -c "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Estruturas de Iteracao e Controle\controle_fluxo.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/controle_fluxo.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/controle_fluxo.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.obj -MF CMakeFiles\controle_fluxo.dir\Exemplos\Estruturas_de_Iteracao_e_Controle\controle_fluxo.c.obj.d -o CMakeFiles\controle_fluxo.dir\Exemplos\Estruturas_de_Iteracao_e_Controle\controle_fluxo.c.obj -c "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Estruturas de Iteracao e Controle\controle_fluxo.c"
 
 CMakeFiles/controle_fluxo.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/controle_fluxo.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Estruturas de Iteracao e Controle\controle_fluxo.c" > CMakeFiles\controle_fluxo.dir\Exemplos\Estruturas_de_Iteracao_e_Controle\controle_fluxo.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Estruturas de Iteracao e Controle\controle_fluxo.c" > CMakeFiles\controle_fluxo.dir\Exemplos\Estruturas_de_Iteracao_e_Controle\controle_fluxo.c.i
 
 CMakeFiles/controle_fluxo.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/controle_fluxo.dir/Exemplos/Estruturas_de_Iteracao_e_Controle/controle_fluxo.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\Exemplos\Estruturas de Iteracao e Controle\controle_fluxo.c" -o CMakeFiles\controle_fluxo.dir\Exemplos\Estruturas_de_Iteracao_e_Controle\controle_fluxo.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\Exemplos\Estruturas de Iteracao e Controle\controle_fluxo.c" -o CMakeFiles\controle_fluxo.dir\Exemplos\Estruturas_de_Iteracao_e_Controle\controle_fluxo.c.s
 
 # Object files for target controle_fluxo
 controle_fluxo_OBJECTS = \
@@ -94,7 +94,7 @@ controle_fluxo.exe: CMakeFiles/controle_fluxo.dir/build.make
 controle_fluxo.exe: CMakeFiles/controle_fluxo.dir/linkLibs.rsp
 controle_fluxo.exe: CMakeFiles/controle_fluxo.dir/objects1.rsp
 controle_fluxo.exe: CMakeFiles/controle_fluxo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable controle_fluxo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable controle_fluxo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\controle_fluxo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +106,6 @@ CMakeFiles/controle_fluxo.dir/clean:
 .PHONY : CMakeFiles/controle_fluxo.dir/clean
 
 CMakeFiles/controle_fluxo.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles\controle_fluxo.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024 C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles\controle_fluxo.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/controle_fluxo.dir/depend
 

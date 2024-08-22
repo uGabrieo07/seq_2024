@@ -1,0 +1,249 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "seq_2024",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arg_linha_comando::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arg_linha_comando-Debug-996c58e0ca5887e110f1.json",
+					"name" : "arg_linha_comando",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arg_referencia::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arg_referencia-Debug-3b345d9af27b01c267bd.json",
+					"name" : "arg_referencia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aritmetica_ponteiros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aritmetica_ponteiros-Debug-461a390c1ea5adde0862.json",
+					"name" : "aritmetica_ponteiros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arquivos_binarios::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arquivos_binarios-Debug-c8378b11def3bec03540.json",
+					"name" : "arquivos_binarios",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arquivos_txt_escrita::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arquivos_txt_escrita-Debug-360c72cbf52ef938c3d2.json",
+					"name" : "arquivos_txt_escrita",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arquivos_txt_leitura::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arquivos_txt_leitura-Debug-7a5bde58ca1ac0f8c1ab.json",
+					"name" : "arquivos_txt_leitura",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "comparacao_ponteiros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-comparacao_ponteiros-Debug-8ee45bebf201c8fcd896.json",
+					"name" : "comparacao_ponteiros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "condicionais::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-condicionais-Debug-11bd09728c13066b46d7.json",
+					"name" : "condicionais",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controle_fluxo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controle_fluxo-Debug-900151fbf6676cb560e5.json",
+					"name" : "controle_fluxo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "erro_memoria::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-erro_memoria-Debug-8e11c4ceec7d680fdee7.json",
+					"name" : "erro_memoria",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exponencial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exponencial-Debug-437616f61da910f1ca66.json",
+					"name" : "exponencial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "funcoes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-funcoes-Debug-557f283497eeb3da8432.json",
+					"name" : "funcoes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulacao_arrays::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulacao_arrays-Debug-80be9ba001ab041aef88.json",
+					"name" : "manipulacao_arrays",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulacao_strings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulacao_strings-Debug-2f93ad1f97c073b6bc60.json",
+					"name" : "manipulacao_strings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "operador_atribuicao::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-operador_atribuicao-Debug-e1ba24a9513a8fc91479.json",
+					"name" : "operador_atribuicao",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recursao::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recursao-Debug-ee4166b58fe43c670bea.json",
+					"name" : "recursao",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "repeticao::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-repeticao-Debug-94174ad357562b4d2fad.json",
+					"name" : "repeticao",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scanf_printf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scanf_printf-Debug-8632327709119784d952.json",
+					"name" : "scanf_printf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strings-Debug-1a309c5014c2d48736ae.json",
+					"name" : "strings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "structs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-structs-Debug-335400a02b7d135d5c6b.json",
+					"name" : "structs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tamanho_tipos_variaveis::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tamanho_tipos_variaveis-Debug-fb3c762872e48fd96440.json",
+					"name" : "tamanho_tipos_variaveis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tipos_variaveis::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tipos_variaveis-Debug-e54df9a7a0e9f2c60a1e.json",
+					"name" : "tipos_variaveis",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024/cmake-build-debug",
+		"source" : "C:/Users/gabri/OneDrive/Documentos/GitHub/seq_2024"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

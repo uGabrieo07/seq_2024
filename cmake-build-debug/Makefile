@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024"
+CMAKE_SOURCE_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Pichau\Documents\João\UFRJ\for_code\SEQ\Minicurso de Introdução a C\seq_2024\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\OneDrive\Documentos\GitHub\seq_2024\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -857,30 +857,6 @@ Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\operador_atribuicao.dir\build.make CMakeFiles/operador_atribuicao.dir/Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.s
 .PHONY : Exemplos/Operadores_e_Expressoes/operador_atribuicao.c.s
 
-Exemplos/Operadores_e_Expressoes/operadores_ponteiros.obj: Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.obj
-.PHONY : Exemplos/Operadores_e_Expressoes/operadores_ponteiros.obj
-
-# target to build an object file
-Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.obj
-.PHONY : Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.obj
-
-Exemplos/Operadores_e_Expressoes/operadores_ponteiros.i: Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.i
-.PHONY : Exemplos/Operadores_e_Expressoes/operadores_ponteiros.i
-
-# target to preprocess a source file
-Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.i
-.PHONY : Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.i
-
-Exemplos/Operadores_e_Expressoes/operadores_ponteiros.s: Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.s
-.PHONY : Exemplos/Operadores_e_Expressoes/operadores_ponteiros.s
-
-# target to generate assembly for a file
-Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\arg_linha_comando.dir\build.make CMakeFiles/arg_linha_comando.dir/Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.s
-.PHONY : Exemplos/Operadores_e_Expressoes/operadores_ponteiros.c.s
-
 Exemplos/Ponteiros/aritmetica_ponteiros.obj: Exemplos/Ponteiros/aritmetica_ponteiros.c.obj
 .PHONY : Exemplos/Ponteiros/aritmetica_ponteiros.obj
 
@@ -1088,9 +1064,6 @@ help:
 	@echo ... Exemplos/Operadores_e_Expressoes/operador_atribuicao.obj
 	@echo ... Exemplos/Operadores_e_Expressoes/operador_atribuicao.i
 	@echo ... Exemplos/Operadores_e_Expressoes/operador_atribuicao.s
-	@echo ... Exemplos/Operadores_e_Expressoes/operadores_ponteiros.obj
-	@echo ... Exemplos/Operadores_e_Expressoes/operadores_ponteiros.i
-	@echo ... Exemplos/Operadores_e_Expressoes/operadores_ponteiros.s
 	@echo ... Exemplos/Ponteiros/aritmetica_ponteiros.obj
 	@echo ... Exemplos/Ponteiros/aritmetica_ponteiros.i
 	@echo ... Exemplos/Ponteiros/aritmetica_ponteiros.s
