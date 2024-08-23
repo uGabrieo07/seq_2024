@@ -11,17 +11,8 @@
 #include <stdio.h>
 #define SUCESSO        0
 
-int main() {
-
-    /*
-     *int (inteiro) = 20
-     *float (ponto flutuante) = 13.67343423
-     *caractere = 'j'
-     *caractere = "j"   '\0'
-     *string = "João"
-     *cara
-     */
-
+int main()
+{
     // Declaração de Variáveis.
     int idade;
     float altura;
