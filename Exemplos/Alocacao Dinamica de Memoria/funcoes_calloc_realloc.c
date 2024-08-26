@@ -22,7 +22,7 @@ int
 main ()
 {
     /*Declaração das variáveis.*/
-    llu *matriz, *matrizTemporaria ;
+    llu *matriz, *matrizTemporaria;
     llu numeroElementosInserido, numeroElementosRedimensionamento, indexNumero;
 
     printf ("\n\t\t-----ALOCACAO DINAMICA DE MEMORIA - FUNCOES CALLOC() E REALLOC()-----\n\n");

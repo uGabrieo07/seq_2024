@@ -49,7 +49,7 @@ main ()
  /*Exemplos do Operador Sizeof.*/
  printf ("\n\t\t-----OPERADOR SIZEOF-----\n");
  // %llu ---> long long unsigned
- // sifeof(numero) = sifef(numeroInserido) = sifeof(int), pois todos são do tipo int.
+ // sifeof(numero) = sizeof(numeroInserido) = sifeof(int), pois todos são do tipo int.
  printf ("\nTamanho do Tipo Char: %llu %s\n", sizeof(char), sizeof(char) > 1 ? "bytes" : "byte");
  printf ("\nTamanho do Tipo Int: %llu %s\n", sizeof(numero), sizeof(numeroInserido) > 1 ? "bytes" : "byte");
  printf ("\nTamanho do Tipo Float: %llu %s\n", sizeof(float), sizeof(float) > 1 ? "bytes" : "byte");

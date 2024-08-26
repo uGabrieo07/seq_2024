@@ -21,13 +21,12 @@ int
 main ()
 {
     /*Declaração da variável "numero" do tipo "inteiro".*/
-    int numero;
+    unsigned int numero;
     signed int numeroComSinal;
     float numeroPontoFlutuante;
 
     /*Utilização do operador de atribuição "=" para atribuir o valor inteiro "100" à variável "numero".*/
     numero = 100;
-    // numero = -100;
     numeroComSinal = -1000;
     numeroPontoFlutuante = 12.34;
 
